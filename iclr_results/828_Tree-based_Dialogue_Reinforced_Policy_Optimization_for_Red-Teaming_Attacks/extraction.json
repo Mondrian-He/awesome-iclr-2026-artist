@@ -1,0 +1,94 @@
+{
+  "status": "complete",
+  "openreview_id": "El37o7iBjX",
+  "pdf_sha256": "dd25f586b4059424687eaaa57d7ef30182d146388102ddeaeaa44cdeed70e66e",
+  "images": [
+    {
+      "name": "bcdd13db87b22c7efa8b1d711ee58ee9ef29cfcee55c0d969e174ccd392814b8.jpg",
+      "sha256": "6fe185b42a70cb12c8dabced0d46c6a21140894b74cb458da38ed936b180243c"
+    },
+    {
+      "name": "a4f0af3a6a3afbf72542f2325e402c011aa6bfe465730c0ba521265d22c6c25b.jpg",
+      "sha256": "132858b088bda14f29addc007014052257cb54b4104683638ac24c4518d2deff"
+    },
+    {
+      "name": "fcda24e1f10f73b4578e81742b049b92da0f598c371aa8088b404bf8fe6bfef3.jpg",
+      "sha256": "e948ac31dfc412958c950e077da4de5667fd25a087652a35628149937046a771"
+    },
+    {
+      "name": "181df611a9bdfdd09dae47e38d369b3603a1906db8c45671ebb21fba81d555a3.jpg",
+      "sha256": "7fe783bff6ba2bc0bc126557e23435300124bc4ea7e8f840dfac63470f1f53ba"
+    },
+    {
+      "name": "e696162c1e1c8e0c00bf3ed9ae581ddb06f5e6fd3dc0cf2e0ec4213b9723a989.jpg",
+      "sha256": "be429d7b790635cd6374f5b8f147501d95c7c4ec606d31801c4e11ad2e06c615"
+    },
+    {
+      "name": "380c8278774b8c41ce4af447b5892233cbc77c966b6ab13c36a61d427b1e3e45.jpg",
+      "sha256": "3ef04dfad03b6f4ddff0faeb5ac6039674f69bce70741c3b458cdee1ba689980"
+    }
+  ],
+  "tables": [
+    {
+      "name": "63a83a550914a0832a83ba453e63d2bbaa33d6bfee7d9c1419bc39f798e3b81f.jpg",
+      "sha256": "4e657d96e660e5bfeb9243ca248ba3e8d30d4718521141f3305b8b6f22641525"
+    },
+    {
+      "name": "8047176a5f8aec0dd510adc3345d33e39f425691948a32590a164e30f728bc21.jpg",
+      "sha256": "c2871ff077e5362a46848c98471e02230c2665c0c4108135b2bc3d88f97d2b3a"
+    },
+    {
+      "name": "252dca87ba1ca413c4410f44b159b114c75e8e41abea7ef8dd10a59fbcdb89a1.jpg",
+      "sha256": "4bab3b3b3e8aa8f7a0077600752fd0bf015a0a1cdc2c137819df1fb73e4fabb3"
+    },
+    {
+      "name": "60a8a7248e003be2a97a8b1ac5ef2ec8378300b825b146a598b11d2547cb0c33.jpg",
+      "sha256": "97ff8e67a1d7e0b77aaaa4a0a47e869a77d258079ed499e11a556b44813ce741"
+    },
+    {
+      "name": "373071185ada17dc9dd6fefa1c77aae44cf82ddd7c365d827256d49ab4e29900.jpg",
+      "sha256": "9b35cd8dc1c3ec033179250ef1d65d3f4d05f7e8665ec1bc6e0cea37573fefe1"
+    },
+    {
+      "name": "4474c6dceeadccb93aef24e7f6124de7a37fe045b2e0470e43cd69e922fcb355.jpg",
+      "sha256": "d83bc015c16eb3c0c9880528534c3a8a33d3875e2ea4f487d64c05e3f6f9c330"
+    },
+    {
+      "name": "724e6480a327e43cd6eca7f77cc09e27b180bd612b08a99687dc69be31842952.jpg",
+      "sha256": "538ad1d4ac52ecf1f739f19bc0999bdb1e74a563cf4cfdacc9ea89b9aed8f86d"
+    },
+    {
+      "name": "d2e57584f15c28ec3ecf9653f9ea3298208ca727506a0f171d3decb0145f7d7d.jpg",
+      "sha256": "c3214febf32c30f485bc9c2683e307237645052f923c770765e0ea379c240755"
+    },
+    {
+      "name": "22cf179043da8de7c052718e82c44e8f4c17e2cde3a7c1ffe7d899ba7bb8fde7.jpg",
+      "sha256": "a26a23b2d70340b7564b4ebe0098817d94fa0d9c9f97851086a9ac272c4f50c2"
+    },
+    {
+      "name": "0da6b6280bbe54de86d819dd9694ccd56db0300103ca95a7a90b355ff3eca804.jpg",
+      "sha256": "15ee3e911332cbe76de44c0040019f44d650b2959fcb6efa24502a3a8ba19c03"
+    },
+    {
+      "name": "8d4abe570146f04d9f017e69f4bd7c1adf5a127d0231174c4b19e93d52ec14bc.jpg",
+      "sha256": "859341da451147c3eed6e03b5119213d3bacc73f67ea8480dd711efd6a5f49c7"
+    },
+    {
+      "name": "651d5dbdbb7c7f71b9b6d69e1e482c24d1873ae84ff926b411a5a80c685846d2.jpg",
+      "sha256": "7a999d1cb64660856b150c165f1338e4526f83d7200b618f14d04b27c5e0c358"
+    },
+    {
+      "name": "c26b55e2000b0d93ef8932b6437be135d0bf2886f304b0bea212a8aa543adbf4.jpg",
+      "sha256": "9ee205d34db26e0d268eb8d0fd81ba128771dc3caa49a600c2319bc71f025868"
+    },
+    {
+      "name": "43e6aac9698ee7dc3280711f50237c733b523b18edd9f388bcc29760039c4bb6.jpg",
+      "sha256": "ad656ec54353ae06846d2cdf47928d93b8a03a5c54ed20ce270b46ffb001c63d"
+    },
+    {
+      "name": "84bf81a33f31b7e37a5e284f50d8597b7da40a425bec24819be9c07122cebb2e.jpg",
+      "sha256": "804ca2d4cb68991fabad77878ca684babe9e1c042da40130b31301182ca05f8b"
+    }
+  ],
+  "equations_filtered": 5
+}
