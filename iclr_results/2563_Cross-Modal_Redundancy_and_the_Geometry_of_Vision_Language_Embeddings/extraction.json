@@ -1,0 +1,42 @@
+{
+  "status": "complete",
+  "openreview_id": "VYQuICALXj",
+  "pdf_sha256": "27eb62da89abf8b1aaa4a50d507e16d5ddd01e6b96cbeb488c57b836e6ddf407",
+  "images": [
+    {
+      "name": "e987a03ef75befd29391041b761adc7f58be11edbec25976e50fbac332cab6e5.jpg",
+      "sha256": "6acc7359d7539d592348cff2c099b8cfdb838cc7c675883dc81141839555439a"
+    },
+    {
+      "name": "21576713f103127096eaced33c0d0061c2ebb9c327f62402b887435234104c31.jpg",
+      "sha256": "b2072eb40d9ad4f2dd322e2b17515f48c196db647747d1c3db342bc2915596b1"
+    },
+    {
+      "name": "c2dcb4d499588041d9eee25ec1bb4d216d711da3c119ddb69704e331324ac56a.jpg",
+      "sha256": "aa5d1e25fd78ac2422a2312506fe5cb62bd6b45a52534e4e18b23d2595c2bded"
+    },
+    {
+      "name": "ce43e62c1c44ccbadb5c922955c37450ce665391f9420ec5437b468e13fcf2ab.jpg",
+      "sha256": "9374a0258ee60752509c4a91791087530fcae13a826d3ac87308cd075bbe4847"
+    },
+    {
+      "name": "5f3d280f060eb48d6c634195593d7a7c03a2a566ebb098e0128b707d7f5ce3fc.jpg",
+      "sha256": "719db5829ab636cbeead94c8673ce48f31cffd949890eea3e397c2db6abd05f4"
+    },
+    {
+      "name": "df3e7e267287c0358101f5c6fee626f18188a61be011809c5607155fa2c3907b.jpg",
+      "sha256": "94e156c10bb062c39ace33dffacc239bd01083a9a16716473200c91f02ed852f"
+    }
+  ],
+  "tables": [
+    {
+      "name": "0f707bb1eb4720e4c63f83f6a7f004dcea97f5f5c8ea81291ddb68ec9f39927d.jpg",
+      "sha256": "62f331318a262e715ffe9846979548c709461332f9e6acbadaf94670a098321e"
+    },
+    {
+      "name": "ae67ccbbdc0ed75be49471c9b1aa4030a936b197649d454cee17556c83b8a0ab.jpg",
+      "sha256": "c2e15b07de58645182195d453ad286fce4e431fa36b9b9db17d5de61e521cebf"
+    }
+  ],
+  "equations_filtered": 4
+}
