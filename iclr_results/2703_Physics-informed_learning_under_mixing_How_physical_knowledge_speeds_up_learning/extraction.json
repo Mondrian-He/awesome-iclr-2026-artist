@@ -1,0 +1,22 @@
+{
+  "status": "complete",
+  "openreview_id": "IvLVPbeoRx",
+  "pdf_sha256": "816d137d88d3032492c1e18c38d9520f94b0c80143eb34515e909f743ba9c92e",
+  "images": [
+    {
+      "name": "550f4632cc0bc19b2946874025d0cf6f36d4aef2ef2cfa7478751e5543fd0879.jpg",
+      "sha256": "70f4f7792f289ddedfd9a225a24ff0be4a907cc5819a2d66b6b4a319fe914d62"
+    },
+    {
+      "name": "bf35d495d8288556d49a3a43ecedf863be5ab261831c54eef05eadd577247c31.jpg",
+      "sha256": "cc3c732b6b74b576e3ac10257672525a752b37bec99f32f9d6238406c2342bbe"
+    }
+  ],
+  "tables": [
+    {
+      "name": "c363a0fa79a196c89fed0be754dbce3be658abaa65386fc2e5aa30b1c7c671f7.jpg",
+      "sha256": "b49642eaff2f526de9088870f58c3de7519f42291b9d418c06d65c3e8e0c452c"
+    }
+  ],
+  "equations_filtered": 28
+}
