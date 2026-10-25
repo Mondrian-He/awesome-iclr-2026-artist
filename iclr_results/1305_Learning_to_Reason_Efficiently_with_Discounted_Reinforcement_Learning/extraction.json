@@ -1,0 +1,26 @@
+{
+  "status": "complete",
+  "openreview_id": "R4GPttoDyn",
+  "pdf_sha256": "d3711e55f93b677f9bb0f898bdaf7b608286acda84068b7590d45c21101cdc11",
+  "images": [
+    {
+      "name": "8a45ac0cc57466c9e039aa64a36e0111646dddbb4d389926065415c55eeae6fe.jpg",
+      "sha256": "1ac0caa8c9bf1a28622dc4187b589514c1233b1b22471e416175bae99178b97a"
+    },
+    {
+      "name": "4b10ef61e096c7ded8c56ee5676a371b9d06b3731025b6caf7bbc2b10d44159c.jpg",
+      "sha256": "896c560317ae47785459c085be98203ffb370e2a9bce10f01fa10d3b460b8ecf"
+    }
+  ],
+  "tables": [
+    {
+      "name": "7e63d1ea8c8fa05aed3fc604579b838e923a91c374ac24d95b079985e5601422.jpg",
+      "sha256": "2657c820d32f97fd7ffd028c0c1740d01f2632e444ddd5f49c96a204c3412ddf"
+    },
+    {
+      "name": "34c554b67389ba75548a90361692a0cba304a6385890ad70d392737495a2f565.jpg",
+      "sha256": "b547ccfde043e685002c26f6f2265c336c7f576203e282f58c5130776e94012c"
+    }
+  ],
+  "equations_filtered": 60
+}
