@@ -1,0 +1,13 @@
+{
+  "status": "complete",
+  "openreview_id": "248ysaRatx",
+  "pdf_sha256": "9933982fcba94a0c2532a83315885cd79b9c230a5667cc38d3d8317d84276039",
+  "images": [
+    {
+      "name": "04e0e54fa51b4aaa8e2fa4cbd8c67f00f64fa9e23fc0c7466f474a61dfacb054.jpg",
+      "sha256": "8f8a2021f47275328147734c5e6864369742247beb2e8974cec43c9776623fb7"
+    }
+  ],
+  "tables": [],
+  "equations_filtered": 96
+}
