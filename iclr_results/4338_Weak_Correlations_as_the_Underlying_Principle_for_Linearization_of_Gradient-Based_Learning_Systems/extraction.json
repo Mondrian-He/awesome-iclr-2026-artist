@@ -1,0 +1,25 @@
+{
+  "status": "complete",
+  "openreview_id": "vokk8t1gnp",
+  "pdf_sha256": "8f7a767dcc37bb7ebb4179f718bc66014897bb753006d3450135fde291b52699",
+  "images": [
+    {
+      "name": "8736b575aff91d64d3e5f8439562a76252855ab83f9b309b0eead61b5337ed11.jpg",
+      "sha256": "ff1497dce485c903120655657c32b244ca00667e06da18a89465d5a58c5f4b08"
+    },
+    {
+      "name": "3f0b19175976c2ae88a6a20edca79ed4924cd809b626364a989647437f3f5d2f.jpg",
+      "sha256": "08707b4f350f028d36f24498342a20db1960dad43a8e29dd19be6257bf8d7cae"
+    },
+    {
+      "name": "caaee63f8cb2eb1bd8d74beccc424c451b1f5349529e4284d831bfaf44d843a3.jpg",
+      "sha256": "2dd2dd445ed45528b979473a003eaa4023e3c2ecad856b10f48144ad91eedda1"
+    },
+    {
+      "name": "da445f9aedcdfb2b2a9c128c4847b2e88f7f540ed7d8c700cff85a8f97d28dd1.jpg",
+      "sha256": "cf7a91c5c3e84c9c580ffbca782edd06e7e49b1af05f52de05ce297d99ad0fc4"
+    }
+  ],
+  "tables": [],
+  "equations_filtered": 199
+}

@@ -1,0 +1,25 @@
+{
+  "status": "complete",
+  "openreview_id": "y8N45EEW05",
+  "pdf_sha256": "7d53df418b018a1010f5f93e7ba9756e25745a7603712532823bb3791abde281",
+  "images": [
+    {
+      "name": "57fe68a025f6417be44fbfca3fdcca86a050114ed3d05d691d588606768c77c9.jpg",
+      "sha256": "db70718a45c6224e6c61ad6708bbb072286a5daec112bb242f8aa22eb4d00120"
+    },
+    {
+      "name": "368887cc2fddbdefd38fc61e9e1a5f3e744286120d2934e4df0a74c968658a37.jpg",
+      "sha256": "89c762590be8db674a629382bb220a2b6d249e982eacbff5ef8a3ea469bcd044"
+    },
+    {
+      "name": "d8357a01b639722a66af2384f7f997e1c8fdef3395c436f4f1447810facac700.jpg",
+      "sha256": "5711027cd8f6f90042553bf27628156726e0771fdee799d9b436039f25125eed"
+    },
+    {
+      "name": "047b90b21bec10ee8c33aaa5ed2925f27183b14e8b48e57f51fd45295f368506.jpg",
+      "sha256": "9eb4f5ec9e2a5c47426416b0ad22a4d3a25ab5f4b34edfa97db5d29c045687d4"
+    }
+  ],
+  "tables": [],
+  "equations_filtered": 6
+}
