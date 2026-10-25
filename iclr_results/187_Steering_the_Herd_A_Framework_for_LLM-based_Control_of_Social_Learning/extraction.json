@@ -1,0 +1,34 @@
+{
+  "status": "complete",
+  "openreview_id": "RtS4UqSmNt",
+  "pdf_sha256": "3806cccffc0e7a978c95201c205b441ca0c3c1d4ba2cf9ad09d659211e6af101",
+  "images": [
+    {
+      "name": "0ec4c675dc6363ef647728460c35d76db7378ec92eaaf863c089e70a64d8feac.jpg",
+      "sha256": "9609466724ef6d7ef6d869b4b7eada40c2538b782d8b8027d45c1cea06c8a5b0"
+    },
+    {
+      "name": "1e8b0d40d0c21ffc48ed22ee5de210cc2a2a1f108851094cfbe781f2e66e4ae4.jpg",
+      "sha256": "f218616fcd3a928f66b679339a415dbf15b5ccb60a9cb4d3db9a385e3dcecce8"
+    },
+    {
+      "name": "5bac97f49227dbfae3fd26ee02eae9297485b1e97a2bf418e3f22faacf173c36.jpg",
+      "sha256": "b0ba90a51316c472e6f1b501217f44fc1866f83c6ba2517f271156f0614694fe"
+    },
+    {
+      "name": "68ca86a18680c238e9681aa696886bb48fc0b0b2d7b61db16f1ca1e22b9fea1b.jpg",
+      "sha256": "09a5272a85db4f551f65f9bb474ed04ac5357874c66bdc8dee137da5de610e95"
+    },
+    {
+      "name": "5076244488d9a48cd7612f4cfafc753894a7a4ce99bb3b72a1f9dba9076edf18.jpg",
+      "sha256": "72243aad8bcdae222eda5b313eeec13d4262c2f506f987ee14c9161856d006da"
+    }
+  ],
+  "tables": [
+    {
+      "name": "72e1b34cd2e94ee3bd41fb3b68bf4858ac90a890ff1bd890406b8d7e12709516.jpg",
+      "sha256": "f2e05299c1f94b653acab2ad096c0a1372452f8b692db85184281a03254c4837"
+    }
+  ],
+  "equations_filtered": 92
+}
