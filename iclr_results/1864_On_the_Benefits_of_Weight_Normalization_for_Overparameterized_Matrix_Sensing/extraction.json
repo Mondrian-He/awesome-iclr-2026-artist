@@ -1,0 +1,42 @@
+{
+  "status": "complete",
+  "openreview_id": "JIMM5YLShy",
+  "pdf_sha256": "31e0189c63969c9ba5fb2cc8abb8ee1e9b14e79bcf805a238017db9376de4ab8",
+  "images": [
+    {
+      "name": "224465ba884b3e324e1a5d3f0bd5da99f2ebf38bba031a3266b44523a62c304d.jpg",
+      "sha256": "8d9237f8ab6c11dcb1a6e10f326c4e8ea7d6865b7ca552f8bd5d0c17697077d7"
+    },
+    {
+      "name": "5562e7690d9e7648199ff71c64d9c6c6d36fd9595e68bae40b3c5b4382482944.jpg",
+      "sha256": "40e3853e088b6570e54c7c2176e125bf635f0d350d02a11012a283e74e0a4668"
+    },
+    {
+      "name": "e2d935c6a3252f9eb3e7cf0a59b3ab1344953ff7f7fa42b0c5cf28890b4dc810.jpg",
+      "sha256": "69d6506ccfdab6c0fdbbb0a97807a3c70818937119c739f094e44ffbd4717671"
+    },
+    {
+      "name": "ff18c45c8be2fd4304cb7a5292ca234c84e4e197be4d285e979a08eac605e139.jpg",
+      "sha256": "42b9069f56dd9a6283bf0aaca87896b6183270271b301c123ca7f387620037ac"
+    },
+    {
+      "name": "45d6538f10867a39bc983d43e1b85f54d639aee7be4bd4f231fe7fcaff598b70.jpg",
+      "sha256": "1eb1fdadaff413b9b9e286a3418afe9c6a030d2952c0ec37084b5202bdb53f1b"
+    },
+    {
+      "name": "d20f02ef13bf72c1ff1ceb6524405b0f703796c8fb863ea5324fe7c964209b6e.jpg",
+      "sha256": "d7e4d2b85db7d2106c756f3cd5ba9ef795d014e0e9e888c3e898ae2855b903e2"
+    },
+    {
+      "name": "4dd65fdc5a0f825866e3b8326b42f8d159500e10b3de99d1bcf17010d63199eb.jpg",
+      "sha256": "d117d4fbe6e9b462ffcfe538a52fc5bf8a7b83705af89f29f2f067ebff0cffb0"
+    }
+  ],
+  "tables": [
+    {
+      "name": "a515ff730f5d88a0ef59b0e7aa293213f58557241e245a8cfd7d96d21c2c9ff6.jpg",
+      "sha256": "3d257a2879b1458de8164fe0b8be47246f9ffd3c74a24ff88e989bf6c9ccd311"
+    }
+  ],
+  "equations_filtered": 185
+}
