@@ -1,0 +1,42 @@
+{
+  "status": "complete",
+  "openreview_id": "TMLiG9Rk2J",
+  "pdf_sha256": "887b2172a9f131df6659df22b942dd4cfc080094e27681076dba054fe69b4f80",
+  "images": [
+    {
+      "name": "e9ee935a61795550553645d5cc5d014e71702c845797e839a2134416a64c15f7.jpg",
+      "sha256": "808f0ba9739e5daec8be2bdef007718313f69591b83c14ac741e35f31c729322"
+    },
+    {
+      "name": "493ef25aaf9e289ded512cffc1d8a1666c11f1ef305635ac3c079aa085749cde.jpg",
+      "sha256": "5870dfb4ca415fdcc5556354e604031e23788d0dea71178801665bdcc7d350b0"
+    },
+    {
+      "name": "8fe8060693dd395ff67dd7813fd7981c923c0193f784ea50ee5e32e0766869a8.jpg",
+      "sha256": "b2c6d31262a74d072adaf67cebde5afd85026e8661350628b693699595e0081f"
+    }
+  ],
+  "tables": [
+    {
+      "name": "e0a5d90d378a2d2af07d4c4c5d763ffa96168648bcab63dc2681aacabb17ee76.jpg",
+      "sha256": "b286fda90e9923737c314ea886d1258ca69f8ec9feb1ce5b5a08bab4721978a5"
+    },
+    {
+      "name": "8e53c525f412a694c9cbaf6e21305373d8a9034f799c3a2a3397c64a59ccc0a4.jpg",
+      "sha256": "adaf531936a6b885789f60dc53d8facefc750a6126f482d84ce7aad2866c3be4"
+    },
+    {
+      "name": "494a404876e96ed0aa2aa8af4a4eb7d841992f4b0eb03c753586de981879437f.jpg",
+      "sha256": "15eff2c2cf3827b9c66fbfff76760d2ee0b1c6a3b5a36f820b042b369213df62"
+    },
+    {
+      "name": "f36dbc23ef6a9b62e961e3d288cce70d5bbbc6099215156da8e6415164cc5bcd.jpg",
+      "sha256": "5bec8cc213ef0ec227aea9dbd7a750aa8c852d3d844a2a3e97aa68cb91d12085"
+    },
+    {
+      "name": "4e8dfbccebd0b05aa7b523ce7ea4a40bfb31a443a432bb44c8e29eadac804f90.jpg",
+      "sha256": "e1e70248d14836ee043aefa93745a24c69f67fbb95b1f3aff18fb5db786eb96c"
+    }
+  ],
+  "equations_filtered": 16
+}

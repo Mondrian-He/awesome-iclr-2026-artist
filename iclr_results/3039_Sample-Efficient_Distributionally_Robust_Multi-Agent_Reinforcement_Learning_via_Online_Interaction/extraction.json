@@ -1,0 +1,34 @@
+{
+  "status": "complete",
+  "openreview_id": "hIBMCDOwMI",
+  "pdf_sha256": "f2ecc24bc282a3523011e6ebccededc9b0bca63fb8c1148efc7ff3f0977e5738",
+  "images": [
+    {
+      "name": "3a0072f42e77918a35e26cd0a02a38adf533a9b78f654e0c357e3ae73b7d1b01.jpg",
+      "sha256": "363623aa563487dcf16b4574eb34bee8ca2e31e64f9d3afbe2a9ec8a6be5ba9b"
+    },
+    {
+      "name": "03befd96ad6cd4d641138f1bc4859e9076869f2c35345c10dc493177c0a5fb28.jpg",
+      "sha256": "88a3abd103487623a5816c41cf1c7bb9be71aae1e0fb4d8327268710baf6df5f"
+    },
+    {
+      "name": "03f33c1bd8f02c7ab823db7f33c80252de4099a092c59ad3e39f4d5178f09998.jpg",
+      "sha256": "de915e8dd446c16726e388bab3f02a6f3e33a51a18121662b3095c2f8c2b2c5a"
+    },
+    {
+      "name": "f6bdbb6e5b5bf17a284fa9ba88d2c3a01ce44d1de4495eeae61ef62fb2b052fa.jpg",
+      "sha256": "542de59c0f92c27a464e5584d3496ab934c0b48ea6abeb2674181b3f67a101fb"
+    }
+  ],
+  "tables": [
+    {
+      "name": "210e445933d38c273a1983d025ba058331687c71f9504c489d2a5d77135fe372.jpg",
+      "sha256": "80d10421caeb00d6d2d39866fd993d9bedaea0eada062addd12936b459b69559"
+    },
+    {
+      "name": "5f9eaaeaa3ae3eaa5ca4a80fbb354cca5e25013054df0bcb3bccc454538c2c88.jpg",
+      "sha256": "ce17ac899e4f39adc60243dc7197017225b9f96b1b57aee88e4c2528e6476ebd"
+    }
+  ],
+  "equations_filtered": 237
+}
