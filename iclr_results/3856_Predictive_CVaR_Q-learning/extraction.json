@@ -1,0 +1,29 @@
+{
+  "status": "complete",
+  "openreview_id": "B4SCegRJOA",
+  "pdf_sha256": "871622480bee176ac0c4fe399ecbdbd05ecc45718ba5d6af17f193d50e45ba41",
+  "images": [
+    {
+      "name": "9c61f5f880249056b72d7d8672cc627474affb016e77198496c631ae89633e02.jpg",
+      "sha256": "61a7451fdca61e4f57a00be3f7c789944fd51ee3306f37e2b4574e1d5e6ea065"
+    },
+    {
+      "name": "090423a27534e7802d5ef986c29dbbd8fa8fb9c0674b01003e9165f8f6f896ce.jpg",
+      "sha256": "afbf26cb2c808a727d7a80f722333ab87d12d9c2800346befe2bfc6498b7408c"
+    },
+    {
+      "name": "9b83ec499789ed209fa43dd68d7a76b25bfbdbee51e6c0b6436e53b6c9b160ac.jpg",
+      "sha256": "a3f544b19d6fac7f74db8401e3e10a9280fcd44665930cd2ad69645e1f2e29af"
+    },
+    {
+      "name": "e3e7c30eea622a3589751f69f3d169fbba4e62851f71290363517a1f0cab9a2b.jpg",
+      "sha256": "e739f2c02f6915b31ac21681d941d6b8376516b219df16f0dc066b58384d930a"
+    },
+    {
+      "name": "f6da43b00f65354d774b7fa96e737b1afdbad98a09587f9dd346161894ff8c71.jpg",
+      "sha256": "b181063eb3ec726676d8c519b7a01d7b7bf65c19d5e83eb248155201856913ad"
+    }
+  ],
+  "tables": [],
+  "equations_filtered": 49
+}

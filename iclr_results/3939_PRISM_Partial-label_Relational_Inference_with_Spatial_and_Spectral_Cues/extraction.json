@@ -1,0 +1,34 @@
+{
+  "status": "complete",
+  "openreview_id": "m2MeiYOJED",
+  "pdf_sha256": "c2aa8d156d3cdf4764139d2351558366eb18b417329e2fddb3bce3b8924d85f7",
+  "images": [
+    {
+      "name": "b9586db22b554ab1f95f56886454f5923eb5409695b18474e558f451553aa42e.jpg",
+      "sha256": "fa1783f0d358a20a4af4e4afbb30a0e013abd6eb158b0d519c03d79af8000fa3"
+    },
+    {
+      "name": "2a531cbd1fc0e8ac40b299684beba5a7ec5c5408a1c11135891a3bae6336ab5d.jpg",
+      "sha256": "e9b9190e77055a5c12cac16e773996d74513561ce7dce2f318d918715e581362"
+    },
+    {
+      "name": "c504c810d4f3b99c1993e3b7cf7c4843991f9b236300130dd8c3beaa1eef75b9.jpg",
+      "sha256": "65237fed0997efbe5245e79afb414ac4783227e22b8e1f27a2abeed630626ff8"
+    }
+  ],
+  "tables": [
+    {
+      "name": "c1851b36b618e39796d9f21f3341673aea9eedba488e4bcbe9dab6a73801c185.jpg",
+      "sha256": "6b76ff6ec455d7b7494c3d96edcf6cc8213d964e267b7c33f099a5aaaca7333a"
+    },
+    {
+      "name": "fcda5badfa75aa2efb43c38790c60e3e709ac4b97fdcf4afb80ad8acf4cfc491.jpg",
+      "sha256": "1966665fcac81984d7396463623b7cc24293b981156f73225e164fbd00590a9b"
+    },
+    {
+      "name": "37087cd801db6e2b9603c3af6ba5b5b8263c48dc21a723770ede8c5207db5287.jpg",
+      "sha256": "a68135812dd0ba8060fc6836355c89f36d26dec9ba4693d41e050a9cfeb2a810"
+    }
+  ],
+  "equations_filtered": 36
+}

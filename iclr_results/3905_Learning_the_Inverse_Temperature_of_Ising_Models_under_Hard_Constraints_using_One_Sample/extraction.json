@@ -1,0 +1,13 @@
+{
+  "status": "complete",
+  "openreview_id": "DyDTtBUBEd",
+  "pdf_sha256": "b02b9a0f0ad234a7d6b228ce4509ca97afa44e41750127e4a0dbb61899ba9c6c",
+  "images": [
+    {
+      "name": "51f38b21a89adbb8ccc79053c1e785d9e4f6e27e99d966dfa47051772e16a8fd.jpg",
+      "sha256": "ed15a2c79deafb3538d35f2659f738c28750d0703ca581fd90539663b3543f18"
+    }
+  ],
+  "tables": [],
+  "equations_filtered": 95
+}

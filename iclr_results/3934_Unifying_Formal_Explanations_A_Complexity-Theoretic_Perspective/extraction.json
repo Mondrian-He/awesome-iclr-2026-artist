@@ -1,0 +1,13 @@
+{
+  "status": "complete",
+  "openreview_id": "kbps463Pdf",
+  "pdf_sha256": "e3658099730d02fded824d22b9aa33945ebc31c41b1011e790e89e6dcdf3a797",
+  "images": [],
+  "tables": [
+    {
+      "name": "eb8f14dc31e7d60950db2c857312b0d090f1f9a61624a9c86c2344dd9d2636ed.jpg",
+      "sha256": "01e7a0d2ccf1c95e0fd0cbaf5e82df248c8364dffd849f93e348b69826756e43"
+    }
+  ],
+  "equations_filtered": 100
+}
