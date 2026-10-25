@@ -1,0 +1,42 @@
+{
+  "status": "complete",
+  "openreview_id": "rxwwncarWj",
+  "pdf_sha256": "20a5184582b8bcd588a3f1429b1550021657488e9b6b0ff20dbb1505c5b814d7",
+  "images": [
+    {
+      "name": "9a7f23a29730e055dde35b87dae659b03d4acfd92d0027170b5f237a207c8267.jpg",
+      "sha256": "4d941d4db902b9712fb0ccfed1d67c9bfa12f120acafb7c87d4f33a993a1812d"
+    },
+    {
+      "name": "2703fca831839218e188e13cabc6c05d1cc2e3eb350533bfba2333b4818bcaab.jpg",
+      "sha256": "4db02bb79ab47bc6bdf209ecd33e08b94c19666a5e875b97decfbf74968e0911"
+    }
+  ],
+  "tables": [
+    {
+      "name": "69eedf1d2a2520600de60fc19f2ae2a22887be18cba9e6bd9696a38e184d9f1c.jpg",
+      "sha256": "d4bc88a2236d566a9246a49e71f70f5423745fe359594e2ae4cf9aeb51204e18"
+    },
+    {
+      "name": "3aa2025cfbb3d88163f3b260de0b6b43cac7a84c9f91093b80a38014fbbf3420.jpg",
+      "sha256": "1420233c09dcb12ace1d896e06288d81c57c80c3f6fdffafe6d6b54146399798"
+    },
+    {
+      "name": "c3897bfdf371577140fa1d65e2295eca93f398a963fc3fe90b718615a45a9f05.jpg",
+      "sha256": "b1b82f69510964f55fd8e80cfb584cf08804b8271aa91d0af253a87a73af9542"
+    },
+    {
+      "name": "5a4e8a4aad822068714b7379263e0a956bfcf8aeeeb723f699b28f30b5f5fe72.jpg",
+      "sha256": "3d5c1142fb3a844cea9ffe0ca753b36871c3ca5fdc6455d9c6067d420fad5ae0"
+    },
+    {
+      "name": "3305bef27cbf876bfc9787a477379540408df9e5b645df46734ef75496c05ab9.jpg",
+      "sha256": "c65a411097be79fe71bb39a56fe193ce0f1612dfc700648c260ffa73b42595bb"
+    },
+    {
+      "name": "b79127fe757ce2a22f49180ee82dd7dff78fb8309877b9585a14b5f6db96b2cc.jpg",
+      "sha256": "967849a8969d97563715ea0046efd808d0f0b9f83379b901cdc0671a08a84ee3"
+    }
+  ],
+  "equations_filtered": 29
+}
