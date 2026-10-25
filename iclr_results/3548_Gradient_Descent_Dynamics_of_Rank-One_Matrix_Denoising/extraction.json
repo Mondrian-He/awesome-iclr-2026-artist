@@ -1,0 +1,29 @@
+{
+  "status": "complete",
+  "openreview_id": "S5oAnaIbgb",
+  "pdf_sha256": "d234deb294a7124b986a179752e8c33e89b4c6ad155ee3e3d1c216cfe7339ba1",
+  "images": [
+    {
+      "name": "55425f47c408dc92ae8961a274f96fc12fb7041d18ca5f251745e82a56217096.jpg",
+      "sha256": "ae805f04b6c1282584ecb8e1fd3b0123d3cd777381f480ed307e25a914c685c0"
+    },
+    {
+      "name": "853cd9a0980c5cf30ceec2ec5d4b5e8fb02ca3b00da7b980a773175b8271afa1.jpg",
+      "sha256": "03e2419f1c347b3f6d50a8208887402472c0359fd19e693563e436e19e283883"
+    },
+    {
+      "name": "6f867154994bb6b8e23af874b16e5e954a8209651007e49408f68ee70e6c3439.jpg",
+      "sha256": "03c7a66d60740ce3a6436ad46a0e5bcc8f7e1958c7ab4eb49c26f716dde40952"
+    },
+    {
+      "name": "6642f5a3d6acf7f57191189e2550f1412dac23ab4b93c943afc7b3e81cc9563e.jpg",
+      "sha256": "e0eb50e54f86dec3f97f1be8e207e28abf45f13eeabd22c5f350fb870584c69c"
+    },
+    {
+      "name": "928dc23ece657ceb742d4f814a90b718df85ed46fea25f0b7db050ecbae9b638.jpg",
+      "sha256": "d5548e11c4cbc19d99a94a6ab427bb1ecee206068c2a3bbccdd310f82f491b81"
+    }
+  ],
+  "tables": [],
+  "equations_filtered": 202
+}
