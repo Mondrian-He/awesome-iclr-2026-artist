@@ -1,0 +1,18 @@
+{
+  "status": "complete",
+  "openreview_id": "N1kiOll2EN",
+  "pdf_sha256": "e302dab3b213810c0b78ffd83ecd1fd28af0bcbb67aebfe8a851aa1f03cd824d",
+  "images": [
+    {
+      "name": "ff75caa82ffd6c6b425473d3614b3c1e8c48e51c76e843dfa04975b818d6d062.jpg",
+      "sha256": "ae1af78ed26f7617c232215feb158cac9d11f229555f04a8f5545636de5a0963"
+    }
+  ],
+  "tables": [
+    {
+      "name": "dad74be0930f6b07567534d20903d51231b0543284bedc902770abf3620c8b88.jpg",
+      "sha256": "d53d7beae44bdc1aef51d252c82acfcbfdfd5e841a3e1f8515a12bbe788eec02"
+    }
+  ],
+  "equations_filtered": 28
+}
