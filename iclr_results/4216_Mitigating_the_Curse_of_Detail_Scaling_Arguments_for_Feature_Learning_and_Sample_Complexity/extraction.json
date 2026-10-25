@@ -1,0 +1,26 @@
+{
+  "status": "complete",
+  "openreview_id": "Lexn2TAw59",
+  "pdf_sha256": "f1b10bf6f6b0640c6f5789db4d6017c0ad5ebf8aaecdef1a7a53eda8017e9e99",
+  "images": [
+    {
+      "name": "2110dd7117c2acedf83b3e538aec0f94a9b4d31f65f991256d2540aaa72feee4.jpg",
+      "sha256": "1ee4c8acb517cd670e346db918590f97e0c0e4d512fe2a81e5902007ff8824ff"
+    },
+    {
+      "name": "71e86442b92599d83d34c99c50746bcf8573eef7396c73532f5f52c1762f5e45.jpg",
+      "sha256": "dd1e044bc27a2d74a06d68df8a6ae3b9425ecfcf29311e50e1525ab6239866ad"
+    },
+    {
+      "name": "f30da5f6c4135088807bc59011427505be3838f78643299fdf1f1798aaa44c1e.jpg",
+      "sha256": "8a2e3bae74ca042348bbfef1b14fd36ea0e3ee5dd443cd0ec7d4295dfe9627c6"
+    }
+  ],
+  "tables": [
+    {
+      "name": "80c7901c3cb237419263fe64a76f11377983ad77fe5ab0eeb2e5856bcc8a2398.jpg",
+      "sha256": "621eb3f0c6c77cb6de607e1ed6cf6baaa2d1455dbc75764f33a9d091bb4af3a3"
+    }
+  ],
+  "equations_filtered": 14
+}

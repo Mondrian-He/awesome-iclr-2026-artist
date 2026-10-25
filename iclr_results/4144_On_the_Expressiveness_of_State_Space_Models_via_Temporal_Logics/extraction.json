@@ -1,0 +1,21 @@
+{
+  "status": "complete",
+  "openreview_id": "Vg511oJScS",
+  "pdf_sha256": "80df0b5e19fda77abb526bf90b8b7909e0b75a3d4b9910efb509020e6dee4b7e",
+  "images": [
+    {
+      "name": "3a738ee3f39f2077ac55b7107f6d294073e52c87748fbb7ffa289df8c56e695d.jpg",
+      "sha256": "afd631bb28fa1755bcbb15cc198d2194726f6aa55a71a9848a443e9740f9ed73"
+    },
+    {
+      "name": "94e081639a671fb07df0987508b86b8df0ffaafd85914e83985489d0e1c1a8b7.jpg",
+      "sha256": "2efc2dfd9e4fbfcb77000c50d94e47635fd09195a4da7542ed1ebc9cc3322106"
+    },
+    {
+      "name": "bdfc313000cc7b113d41da1e944e0e90ad6fa311a9009f514c5e8a7af56d3408.jpg",
+      "sha256": "b4d56d418c0c34a7b3ab01e70b959f08bcbdb450e36c3603a5cf343b578262af"
+    }
+  ],
+  "tables": [],
+  "equations_filtered": 18
+}
