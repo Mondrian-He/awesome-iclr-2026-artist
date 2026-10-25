@@ -1,0 +1,38 @@
+{
+  "status": "complete",
+  "openreview_id": "RJDIX75TEE",
+  "pdf_sha256": "09461759f9da3b8834efe5ae96ecadd508d2e8d7733328160386092ca3cced31",
+  "images": [
+    {
+      "name": "d3c48e3760b2b1c3dac3c2ffde5f822ab2eb231509b3a0c8936efeb0bfde7769.jpg",
+      "sha256": "744d42920f18e8484337d447d6d3bdec5ce6ee5442070bcfe0463a4a6cd5617d"
+    },
+    {
+      "name": "5191a8ae13dbae7ce2762325e08868f983f6fffef5a23323a9a514d4bd355403.jpg",
+      "sha256": "90f83d48a6dd5232c9276b8dce778fd01cba673eb1fcdfa4999ca23113281fcf"
+    },
+    {
+      "name": "d3dd268a7bab7bc20263a171e4f092a5d7b06000d2ac717b33054ef2377e8019.jpg",
+      "sha256": "324321cb7cd107654e5a7af980c7363363710f3f60178a7c344584b9d61e67c3"
+    }
+  ],
+  "tables": [
+    {
+      "name": "890e9ab39498abe9f6a23e09fffcb073ab8ba9ea964055109dce19144e5126c5.jpg",
+      "sha256": "3578056e640358406e67fa53201aeb9b2edf1a8b8e877d93d8d543b99b9ed8ff"
+    },
+    {
+      "name": "8997c80c705b8a9cc9d930ad12e20d71fef1f086f3bda95eae8fbbd02679a207.jpg",
+      "sha256": "9c1ef73995d75b4f5f59e16632e0ea12584d2e75e2a90fe880129a2b6c656035"
+    },
+    {
+      "name": "4ae70c76f91142b090137613e10f862f770d64a942479e11a8fdba0bfc2acbf7.jpg",
+      "sha256": "311b4a16a86b998d7e71a622e21b19cb4e0cc64b9ff6ab191daff9351be27fb2"
+    },
+    {
+      "name": "24ef0ad23a1d3e5d8466f94a5c368886500d90580a15400115f2d4794a4d015f.jpg",
+      "sha256": "85bf51d185cd484b3e282a463eb76eb25fca3374db8d4019929285278b2f699f"
+    }
+  ],
+  "equations_filtered": 168
+}

@@ -1,0 +1,46 @@
+{
+  "status": "complete",
+  "openreview_id": "xCelVyUVO2",
+  "pdf_sha256": "985563c22e054c10f0b372df170c35681bfa3628b79bcbd849ca9c6cae600970",
+  "images": [
+    {
+      "name": "ca8d1d436b935d8b08a6ea940c0688beb49d7b06c1b0374fb2c79e45f848be6e.jpg",
+      "sha256": "35c6990d3cbf35c0bb2aded0bea9d64501c671558f0f73291b2c4e6e67f33a16"
+    },
+    {
+      "name": "21c756af4775756a3a27ec2e1d656b0bfc700ff467a6d2e9ccd36297833d5c95.jpg",
+      "sha256": "aaf263c848e0418c6b20f12165b9a6050881fceb336ce17eb269b93a31ad383d"
+    },
+    {
+      "name": "1b385ad76f3fe997f536f83fec05e05a2f84ee23099a1fc8f0a1df2ea2f02013.jpg",
+      "sha256": "8ecd4427bea5b48e822c61d924d9465e44f893d4366f46cd4120a3caae44e70a"
+    },
+    {
+      "name": "5673b98c792d6a1030f6503668bca209d8cd604557a371881a8240c3cd83ddd1.jpg",
+      "sha256": "340e829293595816e8db78d6abacfa5dc1a20d47f1a59db1d0719ca0a0ca851c"
+    },
+    {
+      "name": "84432dcf27f3edb9e88756a93ed4f26e659db8997cead2f7a5736505afe02d45.jpg",
+      "sha256": "08322641853ef006f9b6c3b51e54e296600e7d9af133d27407c111144bb55fdf"
+    },
+    {
+      "name": "6221948d3d456559cf98a569e7122d7d4e02d529c0c04c5528d65287aca2f401.jpg",
+      "sha256": "324ae8987064b41671596bc653775e67191e9eb8ea044fec9001d76124682d67"
+    }
+  ],
+  "tables": [
+    {
+      "name": "bf730508632e5deac409f03aa0e5ac0029875c31a9589a0a0ac6abfb69384ba3.jpg",
+      "sha256": "6306fcc42ffbb1d3f6b32d0c32f8cd9d2ec64d09f34134f67ba6b2c21295590f"
+    },
+    {
+      "name": "6433b4a900dbf8a660c4ac95ee934045fce1d45ce8adf6ff5c443ff39a774e0c.jpg",
+      "sha256": "80427df39bc744cb6b433edecfcdc1782674bb8f3e3eb2210652ff550e79b396"
+    },
+    {
+      "name": "77915f63525f910bdca712307ad2c7609c79a8f33cdf7ac8c65efa0799754be0.jpg",
+      "sha256": "5a23bc62eadf5c3fa50bf63217d58c079d1a9fc6bd003856ebc25362af14cca4"
+    }
+  ],
+  "equations_filtered": 132
+}

@@ -1,0 +1,1442 @@
+# ICLR 2026 Main Papers — Part 92 of 199
+
+27 papers.
+
+- [EGG-SR: Embedding Symbolic Equivalence into Symbolic Regression via Equality Graph](#paper-2460)
+- [PathChat-SegR1: Reasoning Segmentation in Pathology via SO-GRPO](#paper-2461)
+- [Bridging ML and algorithms: comparison of hyperbolic embeddings](#paper-2462)
+- [Toward Safer Diffusion Language Models: Discovery and Mitigation of Priming Vulnerability](#paper-2463)
+- [Pre-training LLM without Learning Rate Decay Enhances Supervised Fine-Tuning](#paper-2464)
+- [Can LLMs Reason Soundly in Law? Auditing Inference Patterns for Legal Judgment](#paper-2465)
+- [Doctor-R1: Mastering Clinical Inquiry with Experiential Agentic Reinforcement Learning](#paper-2466)
+- [Scaling Agents via Continual Pre-training](#paper-2467)
+- [Hallucination Reduction with CASAL: Contrastive Activation Steering for Amortized Learning](#paper-2468)
+- [InnoGym: Benchmarking the Innovation Potential of AI Agents](#paper-2469)
+- [Zero-Sacrifice Persistent-Robustness Adversarial Defense for Pre-Trained Encoders](#paper-2470)
+- [T1: Tool-integrated Verification for Test-time Compute Scaling in Small Language Models](#paper-2471)
+- [ATTS: Asynchronous Test-Time Scaling via Conformal Prediction](#paper-2472)
+- [Disrupting Hierarchical Reasoning: Adversarial Protection for Geographic Privacy in Multimodal Reasoning Models](#paper-2473)
+- [SlotGCG: Exploiting the Positional Vulnerability in LLMs for Jailbreak Attacks](#paper-2474)
+- [Fast Convergence of Natural Gradient Descent for Over-parameterized Physics-Informed Neural Networks](#paper-2475)
+- [Universal Multi-Domain Translation via Diffusion Routers](#paper-2476)
+- [Towards Safe and Optimal Online Bidding: A Modular Look-ahead Lyapunov Framework](#paper-2477)
+- [Learning Human Habits with Rule-Guided Active Inference](#paper-2478)
+- [Learning to summarize user information for personalized reinforcement learning from human feedback](#paper-2479)
+- [Contextual and Seasonal LSTMs for Time Series Anomaly Detection](#paper-2480)
+- [STAR: Similarity-guided Teacher-Assisted Refinement for Super-Tiny Function Calling Models](#paper-2481)
+- [Uniform Discrete Diffusion with Metric Path for Video Generation](#paper-2482)
+- [EnvSocial-Diff: A Diffusion-Based Crowd Simulation Model with Environmental Conditioning and Individual-Group Interaction](#paper-2483)
+- [Enhancing Sparse Event Detection in Healthcare Time-Series via Adaptive Gate of Context–Detail Interaction](#paper-2484)
+- [FMIP: Joint Continuous-Integer Flow For Mixed-Integer Linear Programming](#paper-2485)
+- [PhysLLM: Harnessing Large Language Models for Cross-Modal Remote Physiological Sensing](#paper-2486)
+
+---
+
+<a id="paper-2460"></a>
+## EGG-SR: Embedding Symbolic Equivalence into Symbolic Regression via Equality Graph
+
+**Type:** Poster | [OpenReview](https://openreview.net/forum?id=oh9ChF7Pv0)
+
+### Images
+
+![images](../iclr_results/2460_EGG-SR_Embedding_Symbolic_Equivalence_into_Symbolic_Regression_via_Equality_Graph/images/04fbecc3a74aa663bc7b18d7fb544b88d063ae3c761ce30283d722edc6d41756.jpg)
+
+![images](../iclr_results/2460_EGG-SR_Embedding_Symbolic_Equivalence_into_Symbolic_Regression_via_Equality_Graph/images/0a925ece3f043932889fce39bed6ab7523b7730cca1a165bdf1444a44d624353.jpg)
+
+![images](../iclr_results/2460_EGG-SR_Embedding_Symbolic_Equivalence_into_Symbolic_Regression_via_Equality_Graph/images/255a0baee5a10c7764017c529c403c6f40ae234890fa158c045f8390d4b691cc.jpg)
+
+![images](../iclr_results/2460_EGG-SR_Embedding_Symbolic_Equivalence_into_Symbolic_Regression_via_Equality_Graph/images/3489efadc5b738ea7bcd31c1a05936643662870014ff1eb453fffe60c391bc9d.jpg)
+
+![images](../iclr_results/2460_EGG-SR_Embedding_Symbolic_Equivalence_into_Symbolic_Regression_via_Equality_Graph/images/3cefb5ee97aedf6308b278a20e7c12e28fbb3eada0eec9f515695c9b9645b79b.jpg)
+
+![images](../iclr_results/2460_EGG-SR_Embedding_Symbolic_Equivalence_into_Symbolic_Regression_via_Equality_Graph/images/5723c7ccafd30c8f06669b45e2e1ed86d6ba16da59b360681161a4b1e6735c2d.jpg)
+
+![images](../iclr_results/2460_EGG-SR_Embedding_Symbolic_Equivalence_into_Symbolic_Regression_via_Equality_Graph/images/5c91ed1b6faee12a2156d646a10ea39d18acab13a3f6caaf863f1f716307d4da.jpg)
+
+![images](../iclr_results/2460_EGG-SR_Embedding_Symbolic_Equivalence_into_Symbolic_Regression_via_Equality_Graph/images/810251e5934e4701bb56684ba1ef065ac3529dfd47f54c9adbd339a1ab71c7fe.jpg)
+
+![images](../iclr_results/2460_EGG-SR_Embedding_Symbolic_Equivalence_into_Symbolic_Regression_via_Equality_Graph/images/83dd03fca34f58e0fcef8228122bf9af4cedf685733d5b232db021602f142c20.jpg)
+
+![images](../iclr_results/2460_EGG-SR_Embedding_Symbolic_Equivalence_into_Symbolic_Regression_via_Equality_Graph/images/8ea9e9d1307c0e801c1901de6c2d935ae92ee9a979b35055562f293b6d4764e8.jpg)
+
+![images](../iclr_results/2460_EGG-SR_Embedding_Symbolic_Equivalence_into_Symbolic_Regression_via_Equality_Graph/images/8f33e34a8b783c9fd6108cd04b7e0d4635119731757eb3f448fee910d9a29440.jpg)
+
+![images](../iclr_results/2460_EGG-SR_Embedding_Symbolic_Equivalence_into_Symbolic_Regression_via_Equality_Graph/images/9b8b8d68b61cc92824be657e7870dfd90273b4a359123fb73a98d750cc976efa.jpg)
+
+![images](../iclr_results/2460_EGG-SR_Embedding_Symbolic_Equivalence_into_Symbolic_Regression_via_Equality_Graph/images/9e5ebc5c9ef797d27dc396cee613312bc97c56691612f15ad7e3279eb2140516.jpg)
+
+![images](../iclr_results/2460_EGG-SR_Embedding_Symbolic_Equivalence_into_Symbolic_Regression_via_Equality_Graph/images/9f87c82d31828219e054cd221cbf08a5c7069dfecb5b6998af8e1e740f77a981.jpg)
+
+![images](../iclr_results/2460_EGG-SR_Embedding_Symbolic_Equivalence_into_Symbolic_Regression_via_Equality_Graph/images/a0e1f76bf7b1bb422bf58c56bce67043351a900516ff1413f43a5b547e332e23.jpg)
+
+![images](../iclr_results/2460_EGG-SR_Embedding_Symbolic_Equivalence_into_Symbolic_Regression_via_Equality_Graph/images/a15877ec835ad03ac65b7f1daaed48d5bf58731cb864df3b76c7a318eb78e7f0.jpg)
+
+![images](../iclr_results/2460_EGG-SR_Embedding_Symbolic_Equivalence_into_Symbolic_Regression_via_Equality_Graph/images/b210cfef500fc7c4c7820389ac987ebe3f21c4b98af082252bf831795944d26f.jpg)
+
+![images](../iclr_results/2460_EGG-SR_Embedding_Symbolic_Equivalence_into_Symbolic_Regression_via_Equality_Graph/images/c74b43d7395eec02a33e6a029c0e5af4e8c0fe9bed98d297e9dde1636ac2178f.jpg)
+
+![images](../iclr_results/2460_EGG-SR_Embedding_Symbolic_Equivalence_into_Symbolic_Regression_via_Equality_Graph/images/e4c6b71d0306d6d725e594e9218b509b12dc68350ea9194ad57b669208c1ba97.jpg)
+
+![images](../iclr_results/2460_EGG-SR_Embedding_Symbolic_Equivalence_into_Symbolic_Regression_via_Equality_Graph/images/e60ec0300b6657944e61509a8e5c83e5ceae4993627131bae20dc8a8492722f5.jpg)
+
+![images](../iclr_results/2460_EGG-SR_Embedding_Symbolic_Equivalence_into_Symbolic_Regression_via_Equality_Graph/images/e850f25dd842aef2644d894c848ec749b5e99564493f488b83ae8d874c855349.jpg)
+
+### Tables
+
+![tables](../iclr_results/2460_EGG-SR_Embedding_Symbolic_Equivalence_into_Symbolic_Regression_via_Equality_Graph/tables/0556d7f46fffe71c17ec160ca4210f16c557ab07731e858ef8858625644bcfd8.jpg)
+
+![tables](../iclr_results/2460_EGG-SR_Embedding_Symbolic_Equivalence_into_Symbolic_Regression_via_Equality_Graph/tables/123b9003c390b17001528d13f890b4bd0f9a8583e5bf04da5b3a6b423efdf01b.jpg)
+
+![tables](../iclr_results/2460_EGG-SR_Embedding_Symbolic_Equivalence_into_Symbolic_Regression_via_Equality_Graph/tables/4e31589bdd396c86b2745521c276c8d7823731d92e77efc1b5358f54be3afba1.jpg)
+
+![tables](../iclr_results/2460_EGG-SR_Embedding_Symbolic_Equivalence_into_Symbolic_Regression_via_Equality_Graph/tables/4ff93891fd7800ca23f332e5eb19eb72864b03c3caab65cfc1836043fc69aae7.jpg)
+
+![tables](../iclr_results/2460_EGG-SR_Embedding_Symbolic_Equivalence_into_Symbolic_Regression_via_Equality_Graph/tables/56ef7431db1b69929fce2a24d01c6ebca21db919a601b624a4bb9debc72e844f.jpg)
+
+![tables](../iclr_results/2460_EGG-SR_Embedding_Symbolic_Equivalence_into_Symbolic_Regression_via_Equality_Graph/tables/a2bcd3af6820f37ecb83d7e96fa2c5c834811ee62257e7de98bf80b2e638dc4b.jpg)
+
+![tables](../iclr_results/2460_EGG-SR_Embedding_Symbolic_Equivalence_into_Symbolic_Regression_via_Equality_Graph/tables/bf9d629b169afa260e976ca5222c490beadc33cc8b82e63296fb9caf71be32d6.jpg)
+
+![tables](../iclr_results/2460_EGG-SR_Embedding_Symbolic_Equivalence_into_Symbolic_Regression_via_Equality_Graph/tables/fb1b38eedd42cd976338ec900914aad1d9009ddca38612442467f1c57b38e9c9.jpg)
+
+<a id="paper-2461"></a>
+## PathChat-SegR1: Reasoning Segmentation in Pathology via SO-GRPO
+
+**Type:** Poster | [OpenReview](https://openreview.net/forum?id=DQESI75YrD)
+
+### Images
+
+![images](../iclr_results/2461_PathChat-SegR1_Reasoning_Segmentation_in_Pathology_via_SO-GRPO/images/684b6ce2e5b5e55eb15a9eccf434a36aba8893075ff5b43a06fdb82ba081798a.jpg)
+
+![images](../iclr_results/2461_PathChat-SegR1_Reasoning_Segmentation_in_Pathology_via_SO-GRPO/images/c277b966fa0bf64107be03b5c71605336c30ee3590ad970c0e8aac9151dacc58.jpg)
+
+![images](../iclr_results/2461_PathChat-SegR1_Reasoning_Segmentation_in_Pathology_via_SO-GRPO/images/fdc1abd77cf6b2a5a0e95f5806de0e8ff38daa40f893d926dae8af0cfd8ebd11.jpg)
+
+### Tables
+
+![tables](../iclr_results/2461_PathChat-SegR1_Reasoning_Segmentation_in_Pathology_via_SO-GRPO/tables/0f3faf3fb69f49a354cbfa72b01180506cff85b70746bcd9a2b21f793a333f70.jpg)
+
+![tables](../iclr_results/2461_PathChat-SegR1_Reasoning_Segmentation_in_Pathology_via_SO-GRPO/tables/183483eb6b9f1b98e56936c2fea221ef822a035c5189e2edbb6c1196375e5b95.jpg)
+
+![tables](../iclr_results/2461_PathChat-SegR1_Reasoning_Segmentation_in_Pathology_via_SO-GRPO/tables/348c35e86dd47ff301a6bed31f9ce150ca997c0a607da85d69066d642bf1a4b9.jpg)
+
+![tables](../iclr_results/2461_PathChat-SegR1_Reasoning_Segmentation_in_Pathology_via_SO-GRPO/tables/ca1cfe7e663a54938d256efd20ef6610a9e59f5e66274111fc4606d3f4a9f1d4.jpg)
+
+![tables](../iclr_results/2461_PathChat-SegR1_Reasoning_Segmentation_in_Pathology_via_SO-GRPO/tables/d13aca62f28e4ed994ab5fbf2ec3d4cc7dda5294527f5e699d146b63eba8936a.jpg)
+
+![tables](../iclr_results/2461_PathChat-SegR1_Reasoning_Segmentation_in_Pathology_via_SO-GRPO/tables/e14246cb0b840b45db17729c6e1147c2066e025367f5488c68bff37afc05cc19.jpg)
+
+<a id="paper-2462"></a>
+## Bridging ML and algorithms: comparison of hyperbolic embeddings
+
+**Type:** Poster | [OpenReview](https://openreview.net/forum?id=vxiyM9HJw4)
+
+### Images
+
+![images](../iclr_results/2462_Bridging_ML_and_algorithms_comparison_of_hyperbolic_embeddings/images/16ab0244729a30e854dd3df99ff3efd7dedae41d0d5768f5549cd70f253c461e.jpg)
+
+![images](../iclr_results/2462_Bridging_ML_and_algorithms_comparison_of_hyperbolic_embeddings/images/57a53cbf040a3bbd7dc43693a5e741b4a3585c7c76745f35f5b461c4163bd3d4.jpg)
+
+![images](../iclr_results/2462_Bridging_ML_and_algorithms_comparison_of_hyperbolic_embeddings/images/787da29d8579efefae55e70411c18b36545beecf0ae33567030f77ccb69939a6.jpg)
+
+![images](../iclr_results/2462_Bridging_ML_and_algorithms_comparison_of_hyperbolic_embeddings/images/8c3f91270c27c61cbd3a44e3742ae3cf05dc86131a52af0be3c78314c84123be.jpg)
+
+![images](../iclr_results/2462_Bridging_ML_and_algorithms_comparison_of_hyperbolic_embeddings/images/9316a72b7a957a4961aaf64b1279678410a1046cdf6f8bc5f20cb85f05f2fcc9.jpg)
+
+![images](../iclr_results/2462_Bridging_ML_and_algorithms_comparison_of_hyperbolic_embeddings/images/97a1e04856118996f34543c1e3ba63bc26ca8184708842e2d6a8360e422a8129.jpg)
+
+![images](../iclr_results/2462_Bridging_ML_and_algorithms_comparison_of_hyperbolic_embeddings/images/b19ca870546121dfb57e3c33a322cbdf02aa69816a48287bd2fc32d5fb03b57b.jpg)
+
+![images](../iclr_results/2462_Bridging_ML_and_algorithms_comparison_of_hyperbolic_embeddings/images/b2926414f6530ff12a54b7db0565bd80ccf3bfad0bf7400a4ee9546ea791e50c.jpg)
+
+![images](../iclr_results/2462_Bridging_ML_and_algorithms_comparison_of_hyperbolic_embeddings/images/b30d73c8eef8311b4fc44b3581d58c116d58b2ec263be6b20aa054187d9dd722.jpg)
+
+![images](../iclr_results/2462_Bridging_ML_and_algorithms_comparison_of_hyperbolic_embeddings/images/b897e11a339f021a5a2b6be5616c47acd69307e93ae65265290046a3194ff55c.jpg)
+
+![images](../iclr_results/2462_Bridging_ML_and_algorithms_comparison_of_hyperbolic_embeddings/images/b91e9e2c2eb21250ec1341fa3441412b6931ad2d13b715c54642e985cb7e2523.jpg)
+
+![images](../iclr_results/2462_Bridging_ML_and_algorithms_comparison_of_hyperbolic_embeddings/images/bcdad769cccd02c32a8773bb3e75904b5d176638872c2767f8cfc5d18936ada2.jpg)
+
+![images](../iclr_results/2462_Bridging_ML_and_algorithms_comparison_of_hyperbolic_embeddings/images/c0c6f7cc8107213536c1183e1557d084bd36768f869dc687de65170849862008.jpg)
+
+![images](../iclr_results/2462_Bridging_ML_and_algorithms_comparison_of_hyperbolic_embeddings/images/cefc3e4dedd8922559372a42deb17fd5bc50960c47546ec1de2604f3cb6fb403.jpg)
+
+![images](../iclr_results/2462_Bridging_ML_and_algorithms_comparison_of_hyperbolic_embeddings/images/d0787fd70c119f788c27a1f697defc939308dabb363fa28967d5d31fb72909e2.jpg)
+
+![images](../iclr_results/2462_Bridging_ML_and_algorithms_comparison_of_hyperbolic_embeddings/images/d244147c4f3d69575c781f8285d9e996ac8d3fe08f87e139be1c47289505f767.jpg)
+
+![images](../iclr_results/2462_Bridging_ML_and_algorithms_comparison_of_hyperbolic_embeddings/images/de34f01956398dddcec30fc1dc625e0611c467ba1fc584c89d7777f9465aacae.jpg)
+
+### Tables
+
+![tables](../iclr_results/2462_Bridging_ML_and_algorithms_comparison_of_hyperbolic_embeddings/tables/120e66390d19fc87c8cc14ab0ae3ab4e15b394ac8ffb38a769679deceb6e4a33.jpg)
+
+![tables](../iclr_results/2462_Bridging_ML_and_algorithms_comparison_of_hyperbolic_embeddings/tables/3960dd1a2d4b130069b9fdc5d1bb9e5d56ba252e663e34db3bb0504c514a4b52.jpg)
+
+![tables](../iclr_results/2462_Bridging_ML_and_algorithms_comparison_of_hyperbolic_embeddings/tables/4992afbd085a899ad8d9d22bad00ae938a27ee1b4ca95d5b1a5f56c99df90da4.jpg)
+
+![tables](../iclr_results/2462_Bridging_ML_and_algorithms_comparison_of_hyperbolic_embeddings/tables/5580ba38b772ec4fc66034525dbd96a3194fa857a2c91128dc8840c3fd8f1fab.jpg)
+
+![tables](../iclr_results/2462_Bridging_ML_and_algorithms_comparison_of_hyperbolic_embeddings/tables/7ab07fa809ee40f688cc981e1726dca2e28f36ae78580c36da0c606efc88c0e0.jpg)
+
+![tables](../iclr_results/2462_Bridging_ML_and_algorithms_comparison_of_hyperbolic_embeddings/tables/9f925591aee66f366d5affbaf786973236f7363851c966ad52c5f231a6c638e4.jpg)
+
+![tables](../iclr_results/2462_Bridging_ML_and_algorithms_comparison_of_hyperbolic_embeddings/tables/cd2925d958cb38c2e452df7100b41eb5fa8a841307c19d109981345bd25bf8b0.jpg)
+
+![tables](../iclr_results/2462_Bridging_ML_and_algorithms_comparison_of_hyperbolic_embeddings/tables/e8ebd4fb195eaeda8a29ddeed44962f3c61fe890a290fec460df9065b32e840c.jpg)
+
+<a id="paper-2463"></a>
+## Toward Safer Diffusion Language Models: Discovery and Mitigation of Priming Vulnerability
+
+**Type:** Poster | [OpenReview](https://openreview.net/forum?id=ZMzha5gbnF)
+
+### Images
+
+![images](../iclr_results/2463_Toward_Safer_Diffusion_Language_Models_Discovery_and_Mitigation_of_Priming_Vulnerability/images/30c0cb70a7431ecc53b659b01802f868e567dadb929b7b5410740a77c0617540.jpg)
+
+![images](../iclr_results/2463_Toward_Safer_Diffusion_Language_Models_Discovery_and_Mitigation_of_Priming_Vulnerability/images/3cebc771cbbbad2396cc67a1d37037d756c0e17179f2b2d2d97ba1b182219c80.jpg)
+
+![images](../iclr_results/2463_Toward_Safer_Diffusion_Language_Models_Discovery_and_Mitigation_of_Priming_Vulnerability/images/3fd96a8ae4d16ee06a634ad94bca1152f6233ed53537ebd13a30c14d959d8444.jpg)
+
+![images](../iclr_results/2463_Toward_Safer_Diffusion_Language_Models_Discovery_and_Mitigation_of_Priming_Vulnerability/images/9678c84954ed3097ec7f88acd35cb84e0043366ccda1649d4eb26589ad4b6574.jpg)
+
+![images](../iclr_results/2463_Toward_Safer_Diffusion_Language_Models_Discovery_and_Mitigation_of_Priming_Vulnerability/images/a8b516931502ea8925e25dbf6cea9549d590ff330cd4e5813f4809d5614a0c89.jpg)
+
+![images](../iclr_results/2463_Toward_Safer_Diffusion_Language_Models_Discovery_and_Mitigation_of_Priming_Vulnerability/images/b79a20afe55e81d35eb2fccdffa6534a046958e704700292b086b623fcc800f3.jpg)
+
+![images](../iclr_results/2463_Toward_Safer_Diffusion_Language_Models_Discovery_and_Mitigation_of_Priming_Vulnerability/images/be1cc2fbb21f3bfa827109106e1788a6ba09c1209dd9bf8c3a59fe8f3f9f8e14.jpg)
+
+![images](../iclr_results/2463_Toward_Safer_Diffusion_Language_Models_Discovery_and_Mitigation_of_Priming_Vulnerability/images/d1b3c3e746c8328b1edf746df9fa03886f2c231f0c9bf523b36e2dcb94df9243.jpg)
+
+![images](../iclr_results/2463_Toward_Safer_Diffusion_Language_Models_Discovery_and_Mitigation_of_Priming_Vulnerability/images/d332a6706ed0df4d8ab7b3fc97293fd5ea266686abe3a132f6429d8f3420a679.jpg)
+
+![images](../iclr_results/2463_Toward_Safer_Diffusion_Language_Models_Discovery_and_Mitigation_of_Priming_Vulnerability/images/f80a34db45a13aa9a15ce40cf6946927f690721baa363ba91c8a932e1d472be8.jpg)
+
+### Tables
+
+![tables](../iclr_results/2463_Toward_Safer_Diffusion_Language_Models_Discovery_and_Mitigation_of_Priming_Vulnerability/tables/09169c8b2620ffdc36d16aa609f5494c6eb9a3294e3e4824406937539adc5d46.jpg)
+
+![tables](../iclr_results/2463_Toward_Safer_Diffusion_Language_Models_Discovery_and_Mitigation_of_Priming_Vulnerability/tables/0948f572725e198bed421db12a2d35904ecd4391c1bfe8f2c27e234e8bf8fbfb.jpg)
+
+![tables](../iclr_results/2463_Toward_Safer_Diffusion_Language_Models_Discovery_and_Mitigation_of_Priming_Vulnerability/tables/30eeccf313db448f5575d64875cea838882a96fb33184c9f6cbc7e3859dbcb38.jpg)
+
+![tables](../iclr_results/2463_Toward_Safer_Diffusion_Language_Models_Discovery_and_Mitigation_of_Priming_Vulnerability/tables/33804e813397ef11d7f7727c82a0bbe56969f0c614ead489a680e51c0c2ad064.jpg)
+
+![tables](../iclr_results/2463_Toward_Safer_Diffusion_Language_Models_Discovery_and_Mitigation_of_Priming_Vulnerability/tables/38c7dc9656fac8680e32e7933ddd42d175cd395cb61de36aeb8ff4e1427cc493.jpg)
+
+![tables](../iclr_results/2463_Toward_Safer_Diffusion_Language_Models_Discovery_and_Mitigation_of_Priming_Vulnerability/tables/5057ac9d129402c8b4488be97e4bb24f252ad0e53a0391b49ff5f351e97996d0.jpg)
+
+![tables](../iclr_results/2463_Toward_Safer_Diffusion_Language_Models_Discovery_and_Mitigation_of_Priming_Vulnerability/tables/5bb3480ee99acfe9c8aa640a10c65170df381e83840887a60901c4643c5c4814.jpg)
+
+![tables](../iclr_results/2463_Toward_Safer_Diffusion_Language_Models_Discovery_and_Mitigation_of_Priming_Vulnerability/tables/5d43705a6b7fc49a5016931077c67739e39babb528c765430c14572d197e14a7.jpg)
+
+![tables](../iclr_results/2463_Toward_Safer_Diffusion_Language_Models_Discovery_and_Mitigation_of_Priming_Vulnerability/tables/9897c6f9712f0ec41f97af4362bbbd0e014c1fb9df19653cb4a9b5a052c60e38.jpg)
+
+![tables](../iclr_results/2463_Toward_Safer_Diffusion_Language_Models_Discovery_and_Mitigation_of_Priming_Vulnerability/tables/d32c3bf58d32262fcd8f325ed6b55818a6f225adf74d4bff4f62e82680190d5c.jpg)
+
+<a id="paper-2464"></a>
+## Pre-training LLM without Learning Rate Decay Enhances Supervised Fine-Tuning
+
+**Type:** Poster | [OpenReview](https://openreview.net/forum?id=JnebU2QLdH)
+
+### Images
+
+![images](../iclr_results/2464_Pre-training_LLM_without_Learning_Rate_Decay_Enhances_Supervised_Fine-Tuning/images/5fbb2faf36685b06de56d0ce01af9a2cc9fd40707ea2289800ed9d2ff66b8b78.jpg)
+
+![images](../iclr_results/2464_Pre-training_LLM_without_Learning_Rate_Decay_Enhances_Supervised_Fine-Tuning/images/6525c866a3107263e31dd2a9a0b21422ee915f671faa51800f122e1bb6da27ca.jpg)
+
+![images](../iclr_results/2464_Pre-training_LLM_without_Learning_Rate_Decay_Enhances_Supervised_Fine-Tuning/images/794673d2638dc9ad183908a88663e24ca1d04cd409c955c5885ebaa6675c6248.jpg)
+
+![images](../iclr_results/2464_Pre-training_LLM_without_Learning_Rate_Decay_Enhances_Supervised_Fine-Tuning/images/a2c9170eee1b5143cc4f885e1a38d7bcf5024fb8a4e4ce7912a41deafe30d5cb.jpg)
+
+### Tables
+
+![tables](../iclr_results/2464_Pre-training_LLM_without_Learning_Rate_Decay_Enhances_Supervised_Fine-Tuning/tables/045564fe190ef651e0b845d01180a3b83642493a69909e97cbf74a312fdfc449.jpg)
+
+![tables](../iclr_results/2464_Pre-training_LLM_without_Learning_Rate_Decay_Enhances_Supervised_Fine-Tuning/tables/22a65d9f69088a79d36fc32c973cdfd0b6784cff5db12cc5228b43865b104743.jpg)
+
+![tables](../iclr_results/2464_Pre-training_LLM_without_Learning_Rate_Decay_Enhances_Supervised_Fine-Tuning/tables/32fc2bcd0213e83f186287381923f9d3e71a0836910bc3d5d76a5ee57d41fabd.jpg)
+
+![tables](../iclr_results/2464_Pre-training_LLM_without_Learning_Rate_Decay_Enhances_Supervised_Fine-Tuning/tables/38a80705e75393511dee77d2941e499a7178e4866d404976a72a9b73665b256a.jpg)
+
+![tables](../iclr_results/2464_Pre-training_LLM_without_Learning_Rate_Decay_Enhances_Supervised_Fine-Tuning/tables/426a192a7780832b58627bb23cb6ea103d9a664de87c4a792871918a0e06840b.jpg)
+
+![tables](../iclr_results/2464_Pre-training_LLM_without_Learning_Rate_Decay_Enhances_Supervised_Fine-Tuning/tables/5ac3038d6d8e73c17510643c1dd89675ec75302692935a997ebaa93ec8e1d859.jpg)
+
+![tables](../iclr_results/2464_Pre-training_LLM_without_Learning_Rate_Decay_Enhances_Supervised_Fine-Tuning/tables/5de1e54e9fb5f3062562aa2782faa285218a70131859a445fc040c29a811e46f.jpg)
+
+![tables](../iclr_results/2464_Pre-training_LLM_without_Learning_Rate_Decay_Enhances_Supervised_Fine-Tuning/tables/632d239f7911408e9aa28fcf4aaa104025a204856c6a80c714fd936e312dccfe.jpg)
+
+![tables](../iclr_results/2464_Pre-training_LLM_without_Learning_Rate_Decay_Enhances_Supervised_Fine-Tuning/tables/6d2bfbef52f27f6df0d5d2fca23097feb00386ae718916bb98c804b014c43f06.jpg)
+
+![tables](../iclr_results/2464_Pre-training_LLM_without_Learning_Rate_Decay_Enhances_Supervised_Fine-Tuning/tables/6e92846989352db01b6ad5e61b6ca1ff25ca264b9ec668a7aed13d77945b688a.jpg)
+
+![tables](../iclr_results/2464_Pre-training_LLM_without_Learning_Rate_Decay_Enhances_Supervised_Fine-Tuning/tables/73184329fc37468cf79701134b661e161beaee51b2395b19e59f88ec524d9052.jpg)
+
+![tables](../iclr_results/2464_Pre-training_LLM_without_Learning_Rate_Decay_Enhances_Supervised_Fine-Tuning/tables/752ba0683b084091f3957a27f5f75d6303b03ee788c5381ee85e9cd40ebc2b41.jpg)
+
+![tables](../iclr_results/2464_Pre-training_LLM_without_Learning_Rate_Decay_Enhances_Supervised_Fine-Tuning/tables/76c539c76c5a1ece800ecaee753d61d03a527de59baffd9b0796c89dba36b5b2.jpg)
+
+![tables](../iclr_results/2464_Pre-training_LLM_without_Learning_Rate_Decay_Enhances_Supervised_Fine-Tuning/tables/7d66ab3be07d89460c8307f9d4bb2538191db78170855e7ad0ac1234cfc6548f.jpg)
+
+![tables](../iclr_results/2464_Pre-training_LLM_without_Learning_Rate_Decay_Enhances_Supervised_Fine-Tuning/tables/85fe32e12230e23a7795405ef800a25d0cba34cae9beb3526871aa9e38f8c80d.jpg)
+
+![tables](../iclr_results/2464_Pre-training_LLM_without_Learning_Rate_Decay_Enhances_Supervised_Fine-Tuning/tables/bd4ec1779e40adcdabc70908b486fe75138180c2cd7d87ee67c7bbe5d8e3403f.jpg)
+
+![tables](../iclr_results/2464_Pre-training_LLM_without_Learning_Rate_Decay_Enhances_Supervised_Fine-Tuning/tables/c650d65a9dbbf7098fc91ba71808cd9dee56b76e7a880ac80c297b67ee09c5ad.jpg)
+
+![tables](../iclr_results/2464_Pre-training_LLM_without_Learning_Rate_Decay_Enhances_Supervised_Fine-Tuning/tables/c82cbc888650842ac5b975a5dfe582b4319dce210e24828f4ed70fefe78c794d.jpg)
+
+![tables](../iclr_results/2464_Pre-training_LLM_without_Learning_Rate_Decay_Enhances_Supervised_Fine-Tuning/tables/ca7fc96f9797daee6ed2b68fd94b069e3e24acffa308b2780fb269473b002bcf.jpg)
+
+![tables](../iclr_results/2464_Pre-training_LLM_without_Learning_Rate_Decay_Enhances_Supervised_Fine-Tuning/tables/cbac6546ca8141abe6991d78ba3d0a8d4055e51ba691dab5b73c01479d9b190c.jpg)
+
+![tables](../iclr_results/2464_Pre-training_LLM_without_Learning_Rate_Decay_Enhances_Supervised_Fine-Tuning/tables/d5f6ee9a10cb1ea5d624d03fd45705fa82cfa8fd2d2c48075f76cfd8bd7f0be4.jpg)
+
+![tables](../iclr_results/2464_Pre-training_LLM_without_Learning_Rate_Decay_Enhances_Supervised_Fine-Tuning/tables/e9be930cbafb970cdf3e93c87dcb2095ad7ec34dd5213d609c8cc60591297a5f.jpg)
+
+![tables](../iclr_results/2464_Pre-training_LLM_without_Learning_Rate_Decay_Enhances_Supervised_Fine-Tuning/tables/f5fd44c2167d2b565aff6489c9ffd4c57953bf3dac2b8602b419fa93cefc1668.jpg)
+
+<a id="paper-2465"></a>
+## Can LLMs Reason Soundly in Law? Auditing Inference Patterns for Legal Judgment
+
+**Type:** Poster | [OpenReview](https://openreview.net/forum?id=5T0BXtJxzN)
+
+### Images
+
+![images](../iclr_results/2465_Can_LLMs_Reason_Soundly_in_Law_Auditing_Inference_Patterns_for_Legal_Judgment/images/0756ef42da3a5c11ffccbf8cd5b0c8f40701173e6c6f6230f450130dd4ee8342.jpg)
+
+![images](../iclr_results/2465_Can_LLMs_Reason_Soundly_in_Law_Auditing_Inference_Patterns_for_Legal_Judgment/images/0a8c3399e99cd43913ce46acc0d55c732e92a0bc961b7aae23bb973cae985d5f.jpg)
+
+![images](../iclr_results/2465_Can_LLMs_Reason_Soundly_in_Law_Auditing_Inference_Patterns_for_Legal_Judgment/images/0faea6e64e07d81cf805a9992c022e08e09e8bf318c0cfba448741be36bbf4ff.jpg)
+
+![images](../iclr_results/2465_Can_LLMs_Reason_Soundly_in_Law_Auditing_Inference_Patterns_for_Legal_Judgment/images/120b56fe1967ad1fb5112a559dd0be132835b8147c4c0209b44934286b2df922.jpg)
+
+![images](../iclr_results/2465_Can_LLMs_Reason_Soundly_in_Law_Auditing_Inference_Patterns_for_Legal_Judgment/images/1432f34bbeb4fd3115a9db7d5da72a9e3e08431e89ac8285b3b38312694439fa.jpg)
+
+![images](../iclr_results/2465_Can_LLMs_Reason_Soundly_in_Law_Auditing_Inference_Patterns_for_Legal_Judgment/images/19f28a865b0e9529c72e627d375499695e25db7379c6b888292cc658b48488d3.jpg)
+
+![images](../iclr_results/2465_Can_LLMs_Reason_Soundly_in_Law_Auditing_Inference_Patterns_for_Legal_Judgment/images/1b2ec3bc0ad42d2460640294524bcd6e5d8cfe4a92104a7e27ed774da4247e35.jpg)
+
+![images](../iclr_results/2465_Can_LLMs_Reason_Soundly_in_Law_Auditing_Inference_Patterns_for_Legal_Judgment/images/256fdf31649e0b5c4b463fcdd9239c6aa150025572843126e629eb93b0427fc9.jpg)
+
+![images](../iclr_results/2465_Can_LLMs_Reason_Soundly_in_Law_Auditing_Inference_Patterns_for_Legal_Judgment/images/2da99017c6b45b364d597e7218af835fb59d5d1540e636d29cbd1040f2035201.jpg)
+
+![images](../iclr_results/2465_Can_LLMs_Reason_Soundly_in_Law_Auditing_Inference_Patterns_for_Legal_Judgment/images/3227102a91f9c1ac5e15230f421f9976f9f531de6a443a757fa86c800f957e7c.jpg)
+
+![images](../iclr_results/2465_Can_LLMs_Reason_Soundly_in_Law_Auditing_Inference_Patterns_for_Legal_Judgment/images/6380a13aa113e7f6b159b3e00ad6ce1062a5dab85f6ef75c4f1d4188cd961cd9.jpg)
+
+![images](../iclr_results/2465_Can_LLMs_Reason_Soundly_in_Law_Auditing_Inference_Patterns_for_Legal_Judgment/images/64d014e9b632bcb03968ec6821618cb5bec7e3168dd4870184aca9ce7a82964e.jpg)
+
+![images](../iclr_results/2465_Can_LLMs_Reason_Soundly_in_Law_Auditing_Inference_Patterns_for_Legal_Judgment/images/7b23da32c5669139d2c5effb81a50a3eff06d026083bcf50d1062ce3a3b47952.jpg)
+
+![images](../iclr_results/2465_Can_LLMs_Reason_Soundly_in_Law_Auditing_Inference_Patterns_for_Legal_Judgment/images/85d92ffba37e8dc83abdfbb8bd9077a71c56df2b1a697041d706a3c8e2ef3312.jpg)
+
+![images](../iclr_results/2465_Can_LLMs_Reason_Soundly_in_Law_Auditing_Inference_Patterns_for_Legal_Judgment/images/9e831625408ff524dc7966cbc371f79c1ab139cc52cfc924aa1f85f62ec7d44e.jpg)
+
+![images](../iclr_results/2465_Can_LLMs_Reason_Soundly_in_Law_Auditing_Inference_Patterns_for_Legal_Judgment/images/a710a8e15310ba518406d4d9d8c784c51aa7afea1c21a130f0881fd9aeef9ff3.jpg)
+
+![images](../iclr_results/2465_Can_LLMs_Reason_Soundly_in_Law_Auditing_Inference_Patterns_for_Legal_Judgment/images/b2417b661b824f16bcc6a68b51a722510386df7f7a15196d026fe67721a8b6e3.jpg)
+
+![images](../iclr_results/2465_Can_LLMs_Reason_Soundly_in_Law_Auditing_Inference_Patterns_for_Legal_Judgment/images/c0bb1d5d7e39a8a5c87602c74d84ec1e098581ca68a8b1c5fd53a4f788021c91.jpg)
+
+![images](../iclr_results/2465_Can_LLMs_Reason_Soundly_in_Law_Auditing_Inference_Patterns_for_Legal_Judgment/images/c2216ed78aa719d196f12610f30cc301ce493bf228dcb7c969d3ba66ec290b3a.jpg)
+
+![images](../iclr_results/2465_Can_LLMs_Reason_Soundly_in_Law_Auditing_Inference_Patterns_for_Legal_Judgment/images/d94227b43c6756bdd41307a764786317c71ab74a6ca94ddc29496393d110bcc3.jpg)
+
+![images](../iclr_results/2465_Can_LLMs_Reason_Soundly_in_Law_Auditing_Inference_Patterns_for_Legal_Judgment/images/de1a6660550c3b7a7568925daa9ce9f87a4b8d258782028c77cde825bec15080.jpg)
+
+![images](../iclr_results/2465_Can_LLMs_Reason_Soundly_in_Law_Auditing_Inference_Patterns_for_Legal_Judgment/images/df3d25e66aee8fcc3f57654dd55e17a69f733c82323d634bd7af5990e927b7e7.jpg)
+
+![images](../iclr_results/2465_Can_LLMs_Reason_Soundly_in_Law_Auditing_Inference_Patterns_for_Legal_Judgment/images/e7205cc005a32da5f4972e8964ea5d7bbed29e4cf831b26aac0a08d879be166d.jpg)
+
+![images](../iclr_results/2465_Can_LLMs_Reason_Soundly_in_Law_Auditing_Inference_Patterns_for_Legal_Judgment/images/f112a64c8e7bb433ddc6c900d36903898910c9f079419d6e9be761c08b49b9b2.jpg)
+
+![images](../iclr_results/2465_Can_LLMs_Reason_Soundly_in_Law_Auditing_Inference_Patterns_for_Legal_Judgment/images/f1f72b5997389fca1ba8abcbe19d05ec0984df2513044012af1e0e3a3b8bb141.jpg)
+
+### Tables
+
+![tables](../iclr_results/2465_Can_LLMs_Reason_Soundly_in_Law_Auditing_Inference_Patterns_for_Legal_Judgment/tables/174ce1d034ff1ec63e7b2ecfa34d8c0201d0cd162829268709102e39f43f950a.jpg)
+
+![tables](../iclr_results/2465_Can_LLMs_Reason_Soundly_in_Law_Auditing_Inference_Patterns_for_Legal_Judgment/tables/389f74441b071a040086a2717d596487d54454c4906f0131d5b1077997f54145.jpg)
+
+![tables](../iclr_results/2465_Can_LLMs_Reason_Soundly_in_Law_Auditing_Inference_Patterns_for_Legal_Judgment/tables/ccb468c96dbcdc00e53b36ca16247051fd8489ecc47dc4d913ba38a9dd41bb5e.jpg)
+
+![tables](../iclr_results/2465_Can_LLMs_Reason_Soundly_in_Law_Auditing_Inference_Patterns_for_Legal_Judgment/tables/f7c73c3fb9a40ee34d3bae5a06e760d39273896653bbe07162cf49cdfec4666d.jpg)
+
+<a id="paper-2466"></a>
+## Doctor-R1: Mastering Clinical Inquiry with Experiential Agentic Reinforcement Learning
+
+**Type:** Poster | [OpenReview](https://openreview.net/forum?id=vQGHTyL0Jw)
+
+### Images
+
+![images](../iclr_results/2466_Doctor-R1_Mastering_Clinical_Inquiry_with_Experiential_Agentic_Reinforcement_Learning/images/48ecd3aabd8830ca832bae85636b94f69a9c977503860ce20c7d5e85c25ee3b4.jpg)
+
+![images](../iclr_results/2466_Doctor-R1_Mastering_Clinical_Inquiry_with_Experiential_Agentic_Reinforcement_Learning/images/5e2ce50e9cd1abe552cf0070776b79004efa75d3553392671428730afe567ae8.jpg)
+
+![images](../iclr_results/2466_Doctor-R1_Mastering_Clinical_Inquiry_with_Experiential_Agentic_Reinforcement_Learning/images/5efd9ae1e01ef76d2dc15463144a4ccfddb661be4eeaaf7ee2e70406e20b5b53.jpg)
+
+![images](../iclr_results/2466_Doctor-R1_Mastering_Clinical_Inquiry_with_Experiential_Agentic_Reinforcement_Learning/images/bfdd95cd25c7ff0d1ba97d31be6363403355c34f953eb6ecc5c64906c545678c.jpg)
+
+![images](../iclr_results/2466_Doctor-R1_Mastering_Clinical_Inquiry_with_Experiential_Agentic_Reinforcement_Learning/images/f1d685723e6a61442a8c4a128ce448d507160fb62a12797520dc63280a8c6f42.jpg)
+
+### Tables
+
+![tables](../iclr_results/2466_Doctor-R1_Mastering_Clinical_Inquiry_with_Experiential_Agentic_Reinforcement_Learning/tables/02c1af69cc5d0608db538a50a25765e14da5b46fec6d841496cc6c2d14cdaf98.jpg)
+
+![tables](../iclr_results/2466_Doctor-R1_Mastering_Clinical_Inquiry_with_Experiential_Agentic_Reinforcement_Learning/tables/0642fde8a24cf2ac5c9ff006d3c51c2f658966a9daf3e9495c27dcb188febda9.jpg)
+
+![tables](../iclr_results/2466_Doctor-R1_Mastering_Clinical_Inquiry_with_Experiential_Agentic_Reinforcement_Learning/tables/11f560ace26bf0b6b5a4c1c7fde823aae16271468e4b150bfddd47445d0a1669.jpg)
+
+![tables](../iclr_results/2466_Doctor-R1_Mastering_Clinical_Inquiry_with_Experiential_Agentic_Reinforcement_Learning/tables/1ac9f453712c6aaa9a077438048f58b1018680f6af97c6154fd996cf473be6b0.jpg)
+
+![tables](../iclr_results/2466_Doctor-R1_Mastering_Clinical_Inquiry_with_Experiential_Agentic_Reinforcement_Learning/tables/252c8c79d4b0cf1e808fd9d9ac38ff6142b873e7e0b1169fc1b2b103d8911aa5.jpg)
+
+![tables](../iclr_results/2466_Doctor-R1_Mastering_Clinical_Inquiry_with_Experiential_Agentic_Reinforcement_Learning/tables/26c356e42c3dd20b41cb0cd64bd9c1ca02646098ec8b20d9a92d1c594da2da4d.jpg)
+
+![tables](../iclr_results/2466_Doctor-R1_Mastering_Clinical_Inquiry_with_Experiential_Agentic_Reinforcement_Learning/tables/324f85eba3a19c4b07e7165fce448512102943a973f51217d8413e6e10bf6cfc.jpg)
+
+![tables](../iclr_results/2466_Doctor-R1_Mastering_Clinical_Inquiry_with_Experiential_Agentic_Reinforcement_Learning/tables/351b035db8480728bfe5d08e792975bdfeb135b809715d503315cad20c620f49.jpg)
+
+![tables](../iclr_results/2466_Doctor-R1_Mastering_Clinical_Inquiry_with_Experiential_Agentic_Reinforcement_Learning/tables/49520cd6e5a162313900d00c995f6d108c6615257e0a8ba0de80cbf33e201d6d.jpg)
+
+![tables](../iclr_results/2466_Doctor-R1_Mastering_Clinical_Inquiry_with_Experiential_Agentic_Reinforcement_Learning/tables/8cc588b4561ac70c4cd55687e017a559faadcefa9bf1ae03230bd9399e15f353.jpg)
+
+![tables](../iclr_results/2466_Doctor-R1_Mastering_Clinical_Inquiry_with_Experiential_Agentic_Reinforcement_Learning/tables/8d158c08edad911c8d23064cc3a7870b6fcb3784ae086ec4f60fc8817bdc54dd.jpg)
+
+![tables](../iclr_results/2466_Doctor-R1_Mastering_Clinical_Inquiry_with_Experiential_Agentic_Reinforcement_Learning/tables/8f2a6a523a19a392875353ae93f7dcc91781941fb357e340bb402f0413527b0a.jpg)
+
+![tables](../iclr_results/2466_Doctor-R1_Mastering_Clinical_Inquiry_with_Experiential_Agentic_Reinforcement_Learning/tables/9d58809f79a5cbd541aa40328c585dbc2751c6ccfa24f712f6e71b9c12518939.jpg)
+
+![tables](../iclr_results/2466_Doctor-R1_Mastering_Clinical_Inquiry_with_Experiential_Agentic_Reinforcement_Learning/tables/a0aea2cfe1fd50a311f62a0f99ba005cae528b39ec0e2929ed110a4a20b13af9.jpg)
+
+![tables](../iclr_results/2466_Doctor-R1_Mastering_Clinical_Inquiry_with_Experiential_Agentic_Reinforcement_Learning/tables/a3f19f7fdef513b9e39b92637b5dc9fa1bbdd43ebfd72e54f7a7a38d19d1dd37.jpg)
+
+![tables](../iclr_results/2466_Doctor-R1_Mastering_Clinical_Inquiry_with_Experiential_Agentic_Reinforcement_Learning/tables/cc18fb342a201433d5fcbe65b4bdddd03c5972bc811258c4589ba834c61f2528.jpg)
+
+![tables](../iclr_results/2466_Doctor-R1_Mastering_Clinical_Inquiry_with_Experiential_Agentic_Reinforcement_Learning/tables/e4cb0564b4e680d46e63d61b88d6ef479ec85cef2d32b62865d4467b2cb4fe45.jpg)
+
+![tables](../iclr_results/2466_Doctor-R1_Mastering_Clinical_Inquiry_with_Experiential_Agentic_Reinforcement_Learning/tables/eb80e1613f77ee6bfa318da903db95b26de082c30018f90decb509c6ddda06b5.jpg)
+
+![tables](../iclr_results/2466_Doctor-R1_Mastering_Clinical_Inquiry_with_Experiential_Agentic_Reinforcement_Learning/tables/eed13fb4be498b55bb20fcfd13649086ef207ee127a347813f828a4103e00ecb.jpg)
+
+![tables](../iclr_results/2466_Doctor-R1_Mastering_Clinical_Inquiry_with_Experiential_Agentic_Reinforcement_Learning/tables/f7643aef77fcc119274d56a6de395fad4a011d42052d82b216d9a829c7a453a4.jpg)
+
+<a id="paper-2467"></a>
+## Scaling Agents via Continual Pre-training
+
+**Type:** Poster | [OpenReview](https://openreview.net/forum?id=Dru5mm9anE)
+
+### Images
+
+![images](../iclr_results/2467_Scaling_Agents_via_Continual_Pre-training/images/215341eefe00600ccb65ff2b0d452bcbeb5e218fca91fb94f190382a7c9b2499.jpg)
+
+![images](../iclr_results/2467_Scaling_Agents_via_Continual_Pre-training/images/4b7cde44aaebb106d3847abf790af099cbc08548232b41e5e7a4de08714466c7.jpg)
+
+![images](../iclr_results/2467_Scaling_Agents_via_Continual_Pre-training/images/53e86609925d9628b0ae6ec354ce521f199aac2bb0ff74fccd119119e2923319.jpg)
+
+![images](../iclr_results/2467_Scaling_Agents_via_Continual_Pre-training/images/57983cd9641d5d65253c09a8b0b307a168cc6d69548a130bac0b4b20f7f14fca.jpg)
+
+![images](../iclr_results/2467_Scaling_Agents_via_Continual_Pre-training/images/686faf44552da2b4352cc7253b15d32a8ee6f64df9f69faf357d9d9599c611de.jpg)
+
+![images](../iclr_results/2467_Scaling_Agents_via_Continual_Pre-training/images/70633e0d4f929af008fc8cdb579dd3dc6b81966da7871c2bcae566cf14c2c9a7.jpg)
+
+![images](../iclr_results/2467_Scaling_Agents_via_Continual_Pre-training/images/8c8726071bfd94b4f42294e6a5ff07a6b806b98d641d15b3447d736614ee9957.jpg)
+
+![images](../iclr_results/2467_Scaling_Agents_via_Continual_Pre-training/images/99dc84113953cf9b3dffb1ac33f60b0bc909f4a087fca2a67e79d89ee296b75a.jpg)
+
+![images](../iclr_results/2467_Scaling_Agents_via_Continual_Pre-training/images/a012d536afe049f15bb72050896b3c3a66055445b19ceacca2ce3c3d8333996f.jpg)
+
+![images](../iclr_results/2467_Scaling_Agents_via_Continual_Pre-training/images/f6ce4d2df2b6db0c046baa5e3591f3dd7049cff25c899216313ebe326e21587c.jpg)
+
+### Tables
+
+![tables](../iclr_results/2467_Scaling_Agents_via_Continual_Pre-training/tables/0152dfbb0c46cd893b038cd6bbed7c9957d638049b1b5862fb1eed91e8a8213f.jpg)
+
+![tables](../iclr_results/2467_Scaling_Agents_via_Continual_Pre-training/tables/09078b9ce1a0a00e20d88ad3c0e5628631f0ac438360412c04730e15d1bc3007.jpg)
+
+![tables](../iclr_results/2467_Scaling_Agents_via_Continual_Pre-training/tables/1d2fbcbc930e55756d64e10380b53a5521d03aed93ecd17944b4918fdee68bd5.jpg)
+
+![tables](../iclr_results/2467_Scaling_Agents_via_Continual_Pre-training/tables/23ab27fed74c401b5702dc3e12b25e40b70402d2763e6a1e3d65c9201e7bfaf6.jpg)
+
+![tables](../iclr_results/2467_Scaling_Agents_via_Continual_Pre-training/tables/2416348093636f12cbcb6ec7c1544629305ad5bafe6752469fde9b3e0b8a5864.jpg)
+
+![tables](../iclr_results/2467_Scaling_Agents_via_Continual_Pre-training/tables/63d74a3306da87f4712a04d4889912a6e2c8aee14114777ce6d12b245c2d1fd7.jpg)
+
+![tables](../iclr_results/2467_Scaling_Agents_via_Continual_Pre-training/tables/8a6f35110ad97892ee53f749f0856b393639e17c711a1e33fdca9c5a62766548.jpg)
+
+![tables](../iclr_results/2467_Scaling_Agents_via_Continual_Pre-training/tables/9c84379191491f404b9e04af8bf4a45c3f75dfc7133fa29718cfa4042e8baa7b.jpg)
+
+![tables](../iclr_results/2467_Scaling_Agents_via_Continual_Pre-training/tables/b590dffb8ff6f72a877c3f20e370962f9bbc38a5cdcdd8a4037c00ce451f9d46.jpg)
+
+![tables](../iclr_results/2467_Scaling_Agents_via_Continual_Pre-training/tables/e7a4c9c6572443c4e452821f32b0ce107cc60d1b8b9e64bf6f2febadeaae1537.jpg)
+
+<a id="paper-2468"></a>
+## Hallucination Reduction with CASAL: Contrastive Activation Steering for Amortized Learning
+
+**Type:** Poster | [OpenReview](https://openreview.net/forum?id=YM3RcI3q0E)
+
+### Images
+
+![images](../iclr_results/2468_Hallucination_Reduction_with_CASAL_Contrastive_Activation_Steering_for_Amortized_Learning/images/1147ad8cab57788a2a7ae8bc4ea5d9ca3e7aa3020f5218f3d422987e6af23e62.jpg)
+
+![images](../iclr_results/2468_Hallucination_Reduction_with_CASAL_Contrastive_Activation_Steering_for_Amortized_Learning/images/13bbcfe1219d2dd0bb089e02eab49278a56eebc5dda4c5b7dfbb935d0c604b7c.jpg)
+
+![images](../iclr_results/2468_Hallucination_Reduction_with_CASAL_Contrastive_Activation_Steering_for_Amortized_Learning/images/1b266f07cde23775b716945bdb8b24c6c15cdab762f36c6eeab8f3ac1437efbf.jpg)
+
+![images](../iclr_results/2468_Hallucination_Reduction_with_CASAL_Contrastive_Activation_Steering_for_Amortized_Learning/images/1e91f4c2d3af34157c1db26a49fe6d0cb0503ab6b60ca5f0f10fab089daeb8d5.jpg)
+
+![images](../iclr_results/2468_Hallucination_Reduction_with_CASAL_Contrastive_Activation_Steering_for_Amortized_Learning/images/3fcd62928a1b18074df98a9dfe1fe84584886441045f90c427ba8fe14d5931e9.jpg)
+
+![images](../iclr_results/2468_Hallucination_Reduction_with_CASAL_Contrastive_Activation_Steering_for_Amortized_Learning/images/5441ed0b8b6a176bcc17bf81faef2b1efda14e4d4571ffe90d4f9711b51e22c0.jpg)
+
+![images](../iclr_results/2468_Hallucination_Reduction_with_CASAL_Contrastive_Activation_Steering_for_Amortized_Learning/images/5d9c5e0bfcc9893b33b41ae6955809d2a95f2ef321329d22a32db02b87ac1a2c.jpg)
+
+![images](../iclr_results/2468_Hallucination_Reduction_with_CASAL_Contrastive_Activation_Steering_for_Amortized_Learning/images/6b5ff53a24f51a2e135086987836a3e0a2025d4f33a72cb312e56c33a2986113.jpg)
+
+![images](../iclr_results/2468_Hallucination_Reduction_with_CASAL_Contrastive_Activation_Steering_for_Amortized_Learning/images/7e74b93c66a86c7e4e1695195138cc59d79bfd09d9066866625119d7fa7bb76d.jpg)
+
+![images](../iclr_results/2468_Hallucination_Reduction_with_CASAL_Contrastive_Activation_Steering_for_Amortized_Learning/images/8767096252998956df630f1806637e436c1e00c9f71fb13a345fd33b7ab5c43b.jpg)
+
+![images](../iclr_results/2468_Hallucination_Reduction_with_CASAL_Contrastive_Activation_Steering_for_Amortized_Learning/images/95eb33d5ada14e180e48c0a6a3f3575c0c2831a13cc4a56427dd82abf3b0e289.jpg)
+
+![images](../iclr_results/2468_Hallucination_Reduction_with_CASAL_Contrastive_Activation_Steering_for_Amortized_Learning/images/9ad33fc022bc36ef6b45f2979ed1fcb505c49a1a01123a534fb877a71706bbf4.jpg)
+
+![images](../iclr_results/2468_Hallucination_Reduction_with_CASAL_Contrastive_Activation_Steering_for_Amortized_Learning/images/b2fabb6fec4a9f3efcb634b1433a923fbef3676e0444d4037d20208a3413b90d.jpg)
+
+![images](../iclr_results/2468_Hallucination_Reduction_with_CASAL_Contrastive_Activation_Steering_for_Amortized_Learning/images/b61869bdfc53b1c126bf9376156a1634471d054c8d0d633b31408424205d7826.jpg)
+
+![images](../iclr_results/2468_Hallucination_Reduction_with_CASAL_Contrastive_Activation_Steering_for_Amortized_Learning/images/b7d8d1d897d6708fd643ddf6ce528c86ba36958463ab0ad0f0ced54f02b5e91c.jpg)
+
+![images](../iclr_results/2468_Hallucination_Reduction_with_CASAL_Contrastive_Activation_Steering_for_Amortized_Learning/images/c579825ec5c296fe03ba5ecb01db6f0defcedad2eb0f054c99afecd3275eb911.jpg)
+
+![images](../iclr_results/2468_Hallucination_Reduction_with_CASAL_Contrastive_Activation_Steering_for_Amortized_Learning/images/cdd5c5050b98c6c39e9cd904faf8f433f42f9cf302098ce024633e92d693fe45.jpg)
+
+![images](../iclr_results/2468_Hallucination_Reduction_with_CASAL_Contrastive_Activation_Steering_for_Amortized_Learning/images/cff21fc2424593eced978a73346c45c136402d40391212e940ac6bd68123cc11.jpg)
+
+![images](../iclr_results/2468_Hallucination_Reduction_with_CASAL_Contrastive_Activation_Steering_for_Amortized_Learning/images/e7bcb49ca61758efaa5c54432fb2944ccda680a05ff7654d50bd20a765bab431.jpg)
+
+![images](../iclr_results/2468_Hallucination_Reduction_with_CASAL_Contrastive_Activation_Steering_for_Amortized_Learning/images/f09cb44bb8a4f9c467b40d1b50d1eff8447410db5460ef97b8bed8c9c5318c99.jpg)
+
+![images](../iclr_results/2468_Hallucination_Reduction_with_CASAL_Contrastive_Activation_Steering_for_Amortized_Learning/images/f207dd2b3534f8871432bbe322f0b13f388b9b8625bd35d1a3c37edd7abde883.jpg)
+
+![images](../iclr_results/2468_Hallucination_Reduction_with_CASAL_Contrastive_Activation_Steering_for_Amortized_Learning/images/f40be03923a17ee8b4ec71f85ad301dc9e1399ebd50237b604c8a4660b1e8aa9.jpg)
+
+### Tables
+
+![tables](../iclr_results/2468_Hallucination_Reduction_with_CASAL_Contrastive_Activation_Steering_for_Amortized_Learning/tables/097cd4259afb2357b329a52fba51deb139fd4fd8ac9d6195d15818670e928bbb.jpg)
+
+![tables](../iclr_results/2468_Hallucination_Reduction_with_CASAL_Contrastive_Activation_Steering_for_Amortized_Learning/tables/4e9799619cda1c9926947d46fa8fef721992d0bc6c1ef156e8f7b847c968ea29.jpg)
+
+![tables](../iclr_results/2468_Hallucination_Reduction_with_CASAL_Contrastive_Activation_Steering_for_Amortized_Learning/tables/570fe4886fa858f26bf75a6d2d3d715deb049e2ac8bfe3d198bbe71c69d6cb72.jpg)
+
+![tables](../iclr_results/2468_Hallucination_Reduction_with_CASAL_Contrastive_Activation_Steering_for_Amortized_Learning/tables/5c78e55a8c1aaf3c741a1aee448b817f6a52858d0a23d7ec7fd7f599ed4199fa.jpg)
+
+![tables](../iclr_results/2468_Hallucination_Reduction_with_CASAL_Contrastive_Activation_Steering_for_Amortized_Learning/tables/640c2e9cd3cbb5a3404e8d11a812e9e7db637f08c9897f8bf0368ffde0225077.jpg)
+
+![tables](../iclr_results/2468_Hallucination_Reduction_with_CASAL_Contrastive_Activation_Steering_for_Amortized_Learning/tables/7182a734c44bd4fd73bf24b2a62e25b2f7a649a1ecf7b6ff41e12c7c36179b26.jpg)
+
+![tables](../iclr_results/2468_Hallucination_Reduction_with_CASAL_Contrastive_Activation_Steering_for_Amortized_Learning/tables/78680577f6dc3e3821a7189e2d59dd9386ae0e80d5fe5e81d46a40276a07359f.jpg)
+
+![tables](../iclr_results/2468_Hallucination_Reduction_with_CASAL_Contrastive_Activation_Steering_for_Amortized_Learning/tables/7c5553721962b0f9e4b0b337e37a8b0a100a87c21307aa094500839c811a1825.jpg)
+
+![tables](../iclr_results/2468_Hallucination_Reduction_with_CASAL_Contrastive_Activation_Steering_for_Amortized_Learning/tables/c93bffbfb20ff4d4df818d8402571b0af39f6e52f1dd828239465cc4b6455a04.jpg)
+
+![tables](../iclr_results/2468_Hallucination_Reduction_with_CASAL_Contrastive_Activation_Steering_for_Amortized_Learning/tables/d35aff349a334dd148ad4e6f48386ec9a2d84c015b5a144abd554cc39336b723.jpg)
+
+![tables](../iclr_results/2468_Hallucination_Reduction_with_CASAL_Contrastive_Activation_Steering_for_Amortized_Learning/tables/d5fe58a87166d173a8276cff1406ba56d9b8a4f5968fd7a9e9242b80c5def050.jpg)
+
+![tables](../iclr_results/2468_Hallucination_Reduction_with_CASAL_Contrastive_Activation_Steering_for_Amortized_Learning/tables/db9940c5b31499d53c151fa24814ce1e21890c49a3fcf742ce11ff09c82ea745.jpg)
+
+![tables](../iclr_results/2468_Hallucination_Reduction_with_CASAL_Contrastive_Activation_Steering_for_Amortized_Learning/tables/ec1c1fb3f640170e211a255198eeae7599b4b6f95487cb66e34e6598dd7eafa0.jpg)
+
+<a id="paper-2469"></a>
+## InnoGym: Benchmarking the Innovation Potential of AI Agents
+
+**Type:** Poster | [OpenReview](https://openreview.net/forum?id=GRufFX1gAy)
+
+### Images
+
+![images](../iclr_results/2469_InnoGym_Benchmarking_the_Innovation_Potential_of_AI_Agents/images/19c668ae91910416202e75d52d4c5ce5fae4b79da01a49f4d9225ca7d797f2f9.jpg)
+
+![images](../iclr_results/2469_InnoGym_Benchmarking_the_Innovation_Potential_of_AI_Agents/images/2108d8086db927be791ef7a7455706236d7e36abf82e43ef737d8ffa909d03a9.jpg)
+
+![images](../iclr_results/2469_InnoGym_Benchmarking_the_Innovation_Potential_of_AI_Agents/images/43f29f0e6386e16760998f3ce9a8c22d4079322bfae8904175956f5e6e227a5c.jpg)
+
+![images](../iclr_results/2469_InnoGym_Benchmarking_the_Innovation_Potential_of_AI_Agents/images/a4966363445e1c06cd5a678ea210fe05675a28c6a27adb152c3bdfdcfa6e6812.jpg)
+
+![images](../iclr_results/2469_InnoGym_Benchmarking_the_Innovation_Potential_of_AI_Agents/images/cf282e3988f7990e433acd9e3ca7809606fefb0fbbc0824786c9074d92036729.jpg)
+
+![images](../iclr_results/2469_InnoGym_Benchmarking_the_Innovation_Potential_of_AI_Agents/images/fcd107fa3e3c37398e30835d99fef87373a2585a2487eaba9bf9a6f1ffc20965.jpg)
+
+### Tables
+
+![tables](../iclr_results/2469_InnoGym_Benchmarking_the_Innovation_Potential_of_AI_Agents/tables/00a83b0e75cfe50c1d23299e94ce70da36e6d0e07ac72da0c514a662cd508c91.jpg)
+
+![tables](../iclr_results/2469_InnoGym_Benchmarking_the_Innovation_Potential_of_AI_Agents/tables/02deb0112dc30939ecd225cb78dbe76a06466448e6ca20fc44432d9240da4339.jpg)
+
+![tables](../iclr_results/2469_InnoGym_Benchmarking_the_Innovation_Potential_of_AI_Agents/tables/1032f74a6ef98c93aece0c9bc1c07bbfb99adfa7fee82112432dc89526f94f5e.jpg)
+
+![tables](../iclr_results/2469_InnoGym_Benchmarking_the_Innovation_Potential_of_AI_Agents/tables/3b8eec15e11c4b29dd2e9f96e135010a827f98a4378da18f870e343dfc0baf30.jpg)
+
+![tables](../iclr_results/2469_InnoGym_Benchmarking_the_Innovation_Potential_of_AI_Agents/tables/42346021a4f60b6a4dd793c80770964432f5515b6eee9467e0cb8c42da49625c.jpg)
+
+![tables](../iclr_results/2469_InnoGym_Benchmarking_the_Innovation_Potential_of_AI_Agents/tables/4639c9743581a57cefcf8c33b61bd238410025eb77fb5f2c15a626d5ebcc1c02.jpg)
+
+![tables](../iclr_results/2469_InnoGym_Benchmarking_the_Innovation_Potential_of_AI_Agents/tables/4fabf10c2c3f48180d98c9d5b544b00625f78f91dd8efab6fa0567a45bda86d7.jpg)
+
+![tables](../iclr_results/2469_InnoGym_Benchmarking_the_Innovation_Potential_of_AI_Agents/tables/5df776de584b1232b660f988b68ae49e8c367c6d972dbe34cc7399e84431e5a4.jpg)
+
+![tables](../iclr_results/2469_InnoGym_Benchmarking_the_Innovation_Potential_of_AI_Agents/tables/667bca83cd0660861070de0b32c5e2b7525be06bd57d0ec2ee2526f12719255b.jpg)
+
+![tables](../iclr_results/2469_InnoGym_Benchmarking_the_Innovation_Potential_of_AI_Agents/tables/8966254429948ac0374641815b37bbd5b408ac4f8b41f40239af90dfd48a81ca.jpg)
+
+![tables](../iclr_results/2469_InnoGym_Benchmarking_the_Innovation_Potential_of_AI_Agents/tables/93856776400f2315dabd33d28c0d7832c2f4d45b8c021db13b986d54bfc9ee11.jpg)
+
+![tables](../iclr_results/2469_InnoGym_Benchmarking_the_Innovation_Potential_of_AI_Agents/tables/971e3b2d82876ab7083a6050aeb4123063b91ed437db6ccf40fd15ff23eb291e.jpg)
+
+![tables](../iclr_results/2469_InnoGym_Benchmarking_the_Innovation_Potential_of_AI_Agents/tables/975961dcebf6daa08a3a0761270e35782a4d0b0f29b4746a68b452118eb94635.jpg)
+
+<a id="paper-2470"></a>
+## Zero-Sacrifice Persistent-Robustness Adversarial Defense for Pre-Trained Encoders
+
+**Type:** Poster | [OpenReview](https://openreview.net/forum?id=AYFUmgCpkB)
+
+### Images
+
+![images](../iclr_results/2470_Zero-Sacrifice_Persistent-Robustness_Adversarial_Defense_for_Pre-Trained_Encoders/images/18c1b536d94dce33dd7fd09865d27c9083e119ecf2fdcf10fe79802741a42f7a.jpg)
+
+![images](../iclr_results/2470_Zero-Sacrifice_Persistent-Robustness_Adversarial_Defense_for_Pre-Trained_Encoders/images/3f2e371574ca7bab0b3aeb7428111792a22fd7f8acb81f0f84248d180d60f8b8.jpg)
+
+![images](../iclr_results/2470_Zero-Sacrifice_Persistent-Robustness_Adversarial_Defense_for_Pre-Trained_Encoders/images/67955a2e15b0145128d996e29de448ec57021940f07db33b09460fc31d994a32.jpg)
+
+![images](../iclr_results/2470_Zero-Sacrifice_Persistent-Robustness_Adversarial_Defense_for_Pre-Trained_Encoders/images/aec5563f7d9c392d205ca729e8f8483e6b1e7df55f6aee20092e86a3543d6b47.jpg)
+
+![images](../iclr_results/2470_Zero-Sacrifice_Persistent-Robustness_Adversarial_Defense_for_Pre-Trained_Encoders/images/b88c32b0090425323446048039ddf766855fdb7cbb20cb63b01e9ef231de508f.jpg)
+
+![images](../iclr_results/2470_Zero-Sacrifice_Persistent-Robustness_Adversarial_Defense_for_Pre-Trained_Encoders/images/ef2f67bfa07417458b66d5f763d55347f15e296f7925d6569ee54327403a62fa.jpg)
+
+![images](../iclr_results/2470_Zero-Sacrifice_Persistent-Robustness_Adversarial_Defense_for_Pre-Trained_Encoders/images/fe418e6ef80a450edcb69906020358f60276d34b4d925c5c4fb4d4eea4b272a8.jpg)
+
+### Tables
+
+![tables](../iclr_results/2470_Zero-Sacrifice_Persistent-Robustness_Adversarial_Defense_for_Pre-Trained_Encoders/tables/140ed6acda9d5b502988e60e1aa01b3e8c8f3998c4a226dfcc1eee61caf35e66.jpg)
+
+![tables](../iclr_results/2470_Zero-Sacrifice_Persistent-Robustness_Adversarial_Defense_for_Pre-Trained_Encoders/tables/2400ef73597c95bd872bebb4e26c4683b76c4813de012b515813e22e48546ef7.jpg)
+
+![tables](../iclr_results/2470_Zero-Sacrifice_Persistent-Robustness_Adversarial_Defense_for_Pre-Trained_Encoders/tables/51393df3c65e136d7f950018e84580e92b1e0790e135257a325c93e5d328c968.jpg)
+
+![tables](../iclr_results/2470_Zero-Sacrifice_Persistent-Robustness_Adversarial_Defense_for_Pre-Trained_Encoders/tables/53925a4523627a7950794996a1b92023878f9bfbd4df3fe124ac529d59db93a0.jpg)
+
+![tables](../iclr_results/2470_Zero-Sacrifice_Persistent-Robustness_Adversarial_Defense_for_Pre-Trained_Encoders/tables/5d0e3722bac3fa2fef21aa4f35db79b5a46667e3064459240acc0bf42553ad1a.jpg)
+
+![tables](../iclr_results/2470_Zero-Sacrifice_Persistent-Robustness_Adversarial_Defense_for_Pre-Trained_Encoders/tables/62824bcacbbded5074809b65a045d8c1510951344d92e704276df32c1e425653.jpg)
+
+![tables](../iclr_results/2470_Zero-Sacrifice_Persistent-Robustness_Adversarial_Defense_for_Pre-Trained_Encoders/tables/66eafe0e16cb2829c104e5fa34e913305fe70a454cb1c7710e432a9b61bfc9b5.jpg)
+
+![tables](../iclr_results/2470_Zero-Sacrifice_Persistent-Robustness_Adversarial_Defense_for_Pre-Trained_Encoders/tables/721ef778d6d992a009460787c16ed564e23452fa298d803a585833c809d6d631.jpg)
+
+![tables](../iclr_results/2470_Zero-Sacrifice_Persistent-Robustness_Adversarial_Defense_for_Pre-Trained_Encoders/tables/74475d6bab57e226a275dbf998f8b24121c5b23d3699899889bb9b0835b96409.jpg)
+
+![tables](../iclr_results/2470_Zero-Sacrifice_Persistent-Robustness_Adversarial_Defense_for_Pre-Trained_Encoders/tables/7eea1dfae40f2c93b7418d5106fc74e12068d684ff490a8c78ec250058e54dd3.jpg)
+
+![tables](../iclr_results/2470_Zero-Sacrifice_Persistent-Robustness_Adversarial_Defense_for_Pre-Trained_Encoders/tables/917aaeb861028535a6526e2b76db09a2b180eb29c9471aa505485c2a2762841f.jpg)
+
+![tables](../iclr_results/2470_Zero-Sacrifice_Persistent-Robustness_Adversarial_Defense_for_Pre-Trained_Encoders/tables/96ff37b76e6fb0481414694fee7592dd66007c9a5a670229c60786b209cc2317.jpg)
+
+![tables](../iclr_results/2470_Zero-Sacrifice_Persistent-Robustness_Adversarial_Defense_for_Pre-Trained_Encoders/tables/9eb051d82a2dffa2e63e977458e839d0ad9974cc1648cea21c1bb10ef2875fb4.jpg)
+
+![tables](../iclr_results/2470_Zero-Sacrifice_Persistent-Robustness_Adversarial_Defense_for_Pre-Trained_Encoders/tables/ab1fdabb57e4abef607a1f68b95e6e90f6daf457b6a7987343bfd906f5cb2520.jpg)
+
+![tables](../iclr_results/2470_Zero-Sacrifice_Persistent-Robustness_Adversarial_Defense_for_Pre-Trained_Encoders/tables/ba306fa32c81d9021e00005df7e3eb8c562c4870517bc0bb18b27149059ebb19.jpg)
+
+![tables](../iclr_results/2470_Zero-Sacrifice_Persistent-Robustness_Adversarial_Defense_for_Pre-Trained_Encoders/tables/be9a625ef5649e94d274d90f964287078bad391663ad8026d47f71b6df810bef.jpg)
+
+![tables](../iclr_results/2470_Zero-Sacrifice_Persistent-Robustness_Adversarial_Defense_for_Pre-Trained_Encoders/tables/c5a923e2e9a4ed64cfdeedb8b42c98c73faf506d344d312d996bf6ebbdb1aa5a.jpg)
+
+<a id="paper-2471"></a>
+## T1: Tool-integrated Verification for Test-time Compute Scaling in Small Language Models
+
+**Type:** Poster | [OpenReview](https://openreview.net/forum?id=tBkLWfmugI)
+
+### Images
+
+![images](../iclr_results/2471_T1_Tool-integrated_Verification_for_Test-time_Compute_Scaling_in_Small_Language_Models/images/02e886bd03afbcda3d11ce8a30a20626d17925d8ffce1a03f3b6b86a25884ad7.jpg)
+
+![images](../iclr_results/2471_T1_Tool-integrated_Verification_for_Test-time_Compute_Scaling_in_Small_Language_Models/images/26b98c3ac94836451e19b4f6b94f1e3410165be7a459909a03fc5e3d55251afc.jpg)
+
+![images](../iclr_results/2471_T1_Tool-integrated_Verification_for_Test-time_Compute_Scaling_in_Small_Language_Models/images/419b14395f843bf08f3c1c4268763839adc3d56fbd7b2e1c230bc05fa2eff796.jpg)
+
+![images](../iclr_results/2471_T1_Tool-integrated_Verification_for_Test-time_Compute_Scaling_in_Small_Language_Models/images/4a86ed420f8b62035277af925e18f5a3fa7dadf26212b94eb6100e3b4822b595.jpg)
+
+![images](../iclr_results/2471_T1_Tool-integrated_Verification_for_Test-time_Compute_Scaling_in_Small_Language_Models/images/501ffc7593f7e00af3a40e90394a92a66546c24a7ac67cd6c5b369f1deddbc29.jpg)
+
+![images](../iclr_results/2471_T1_Tool-integrated_Verification_for_Test-time_Compute_Scaling_in_Small_Language_Models/images/6021ecc269954ba18de0bca10a00c02318062b6d436a2fcbd8f5327cd01fe9c8.jpg)
+
+![images](../iclr_results/2471_T1_Tool-integrated_Verification_for_Test-time_Compute_Scaling_in_Small_Language_Models/images/6969d1af480c3c92200624d02c404330142b5dbb6123f300d92d93138d9ca5b5.jpg)
+
+![images](../iclr_results/2471_T1_Tool-integrated_Verification_for_Test-time_Compute_Scaling_in_Small_Language_Models/images/a0418a83d8daae85fc71b1fc68023cd15e88b92b24d5e9ae2917b60fcc994ee8.jpg)
+
+![images](../iclr_results/2471_T1_Tool-integrated_Verification_for_Test-time_Compute_Scaling_in_Small_Language_Models/images/a6f7ffaf0f84d27e4b9a5c87467fb3356661c1c9b8ec8bec73aa5ff86b58cd6d.jpg)
+
+![images](../iclr_results/2471_T1_Tool-integrated_Verification_for_Test-time_Compute_Scaling_in_Small_Language_Models/images/ab7551389e2fc88e89af420803fccffa2be305ca0b9da197a66d320cad458d62.jpg)
+
+![images](../iclr_results/2471_T1_Tool-integrated_Verification_for_Test-time_Compute_Scaling_in_Small_Language_Models/images/c1240a2fde996015d38f49ee166e88ed1cecb5c8f73750be5605f74b31c854de.jpg)
+
+![images](../iclr_results/2471_T1_Tool-integrated_Verification_for_Test-time_Compute_Scaling_in_Small_Language_Models/images/ca87a224a60eae5dacbb5eb77628888c567c25e55997d11ba09e77b255aa15be.jpg)
+
+![images](../iclr_results/2471_T1_Tool-integrated_Verification_for_Test-time_Compute_Scaling_in_Small_Language_Models/images/cea7712f64942cb95c9dcb7ddc3670241ff917d2970cad3ed9b04417788f791e.jpg)
+
+![images](../iclr_results/2471_T1_Tool-integrated_Verification_for_Test-time_Compute_Scaling_in_Small_Language_Models/images/d4f4134237b27fe62b7fd28cc93f4a0e77729561a8570d7b79c9303c6bee1816.jpg)
+
+![images](../iclr_results/2471_T1_Tool-integrated_Verification_for_Test-time_Compute_Scaling_in_Small_Language_Models/images/dfd81fffdb67bdef428db9419fc15e2739c9d451f006b47f6a929f62e14a2e83.jpg)
+
+### Tables
+
+![tables](../iclr_results/2471_T1_Tool-integrated_Verification_for_Test-time_Compute_Scaling_in_Small_Language_Models/tables/018b4a78c73fec145379505309d0947153bf567b711c077b899d50a07758e26f.jpg)
+
+![tables](../iclr_results/2471_T1_Tool-integrated_Verification_for_Test-time_Compute_Scaling_in_Small_Language_Models/tables/08147411906e4fbce02be72c82667796a94865c127ee48ab870154bfe0168820.jpg)
+
+![tables](../iclr_results/2471_T1_Tool-integrated_Verification_for_Test-time_Compute_Scaling_in_Small_Language_Models/tables/2052116febaa2a1c5d0fd653be2b8306160bd615678b266d71e5f7c725bc18e3.jpg)
+
+![tables](../iclr_results/2471_T1_Tool-integrated_Verification_for_Test-time_Compute_Scaling_in_Small_Language_Models/tables/33f994560da42e37543749747e053a9de4f5e48dd8b1697479623e2e08cc8f9d.jpg)
+
+![tables](../iclr_results/2471_T1_Tool-integrated_Verification_for_Test-time_Compute_Scaling_in_Small_Language_Models/tables/3ca29f0189df3bae2a223ba3cbd9c6d22e6647cd1636f0124174cde335b4b320.jpg)
+
+![tables](../iclr_results/2471_T1_Tool-integrated_Verification_for_Test-time_Compute_Scaling_in_Small_Language_Models/tables/6be80c57ad3d3aae132a2a3e4c15b7cea26f509c7cb6539ad039f09963a806ef.jpg)
+
+![tables](../iclr_results/2471_T1_Tool-integrated_Verification_for_Test-time_Compute_Scaling_in_Small_Language_Models/tables/6d43e3dba4aa4d9362ba46809904c777c06200a3a4e052e3d1abeb5d098deb02.jpg)
+
+![tables](../iclr_results/2471_T1_Tool-integrated_Verification_for_Test-time_Compute_Scaling_in_Small_Language_Models/tables/84feeac1462a0f89f0188c46545c5aaae905567114b3aa2c82f7cc366003b2da.jpg)
+
+![tables](../iclr_results/2471_T1_Tool-integrated_Verification_for_Test-time_Compute_Scaling_in_Small_Language_Models/tables/9c4826d5d597ab9ea933181adbfad1cea419dfd54af0fde0bae952daf803ee97.jpg)
+
+![tables](../iclr_results/2471_T1_Tool-integrated_Verification_for_Test-time_Compute_Scaling_in_Small_Language_Models/tables/b324f854a6c36ddd14894e4cbfa34369ddddab104cd61d26e0be4ec169711619.jpg)
+
+![tables](../iclr_results/2471_T1_Tool-integrated_Verification_for_Test-time_Compute_Scaling_in_Small_Language_Models/tables/bbd84256879d897a876a8cfaad246fcd5cc03aec0c1f009f7201c5a31137b0f0.jpg)
+
+![tables](../iclr_results/2471_T1_Tool-integrated_Verification_for_Test-time_Compute_Scaling_in_Small_Language_Models/tables/be7b481ca81adc10b53c0d7cfea0516c1426ab4124eb4bb1a29421b7216d929f.jpg)
+
+![tables](../iclr_results/2471_T1_Tool-integrated_Verification_for_Test-time_Compute_Scaling_in_Small_Language_Models/tables/cb23d86863c54b6014cbf2910f4b402a23d6dd3b478557f34fc21c26bffd3561.jpg)
+
+![tables](../iclr_results/2471_T1_Tool-integrated_Verification_for_Test-time_Compute_Scaling_in_Small_Language_Models/tables/cc22273d59ef7aff6a76864483ead1637ad3720c8df34ebac0c3ca69b200259c.jpg)
+
+![tables](../iclr_results/2471_T1_Tool-integrated_Verification_for_Test-time_Compute_Scaling_in_Small_Language_Models/tables/d8954c420dd740388ce95683d2aee6d2bb3b927581b8a5427d3afacc0700b7ff.jpg)
+
+![tables](../iclr_results/2471_T1_Tool-integrated_Verification_for_Test-time_Compute_Scaling_in_Small_Language_Models/tables/db29fe484c4fcf4ba11ef25a501a75677f9e9ab29091a104765f89bfa345a9ec.jpg)
+
+![tables](../iclr_results/2471_T1_Tool-integrated_Verification_for_Test-time_Compute_Scaling_in_Small_Language_Models/tables/dc1c32666108dc335608df38cc9275be7b237554ea33f3d014c0d6a482ae7bce.jpg)
+
+<a id="paper-2472"></a>
+## ATTS: Asynchronous Test-Time Scaling via Conformal Prediction
+
+**Type:** Poster | [OpenReview](https://openreview.net/forum?id=YM3SskmtCE)
+
+### Images
+
+![images](../iclr_results/2472_ATTS_Asynchronous_Test-Time_Scaling_via_Conformal_Prediction/images/16b3fc4939de138faca10c97863756cb5cf300e953f53c9b2854c28c32b3c668.jpg)
+
+![images](../iclr_results/2472_ATTS_Asynchronous_Test-Time_Scaling_via_Conformal_Prediction/images/4500f9cfcdd403b52ff91bdf7aff2ae6ec4c5ec7fd200a9c005d99648cb04026.jpg)
+
+![images](../iclr_results/2472_ATTS_Asynchronous_Test-Time_Scaling_via_Conformal_Prediction/images/5c9b4a94e3bd06fea2f88bd0ecf29fd88f04b3c41569ca82c17e4f578cffdcb9.jpg)
+
+![images](../iclr_results/2472_ATTS_Asynchronous_Test-Time_Scaling_via_Conformal_Prediction/images/68b364c66b1f819387580f1d97564a3185d5fe3853fda0e1359ac6a9fd826e02.jpg)
+
+![images](../iclr_results/2472_ATTS_Asynchronous_Test-Time_Scaling_via_Conformal_Prediction/images/70744e53a66203064d25667741dd5c14560078c82ec1d1ae882461d3cc785abe.jpg)
+
+![images](../iclr_results/2472_ATTS_Asynchronous_Test-Time_Scaling_via_Conformal_Prediction/images/8c410e1c3c0daea7724cd75423560f0ebd1ca43d26bac4dcc059eefc3106b7d7.jpg)
+
+![images](../iclr_results/2472_ATTS_Asynchronous_Test-Time_Scaling_via_Conformal_Prediction/images/8c764967dbe5843c4ecdeef597c40e29a678b9c1e843c5c1b755839d05384afc.jpg)
+
+![images](../iclr_results/2472_ATTS_Asynchronous_Test-Time_Scaling_via_Conformal_Prediction/images/956612633352b2a31fc5935404c4b893f38a8dd20dad275c085b8ebf32a11714.jpg)
+
+![images](../iclr_results/2472_ATTS_Asynchronous_Test-Time_Scaling_via_Conformal_Prediction/images/c0b94f5fe150e58c40024b910f79e2e5322f9267bd18c5584b35ccc9a1d53ea5.jpg)
+
+![images](../iclr_results/2472_ATTS_Asynchronous_Test-Time_Scaling_via_Conformal_Prediction/images/ca25cb4bc9bb3b85b34d7142d80107e8ac228d5b33cc04f4ef01dc6968bca73a.jpg)
+
+![images](../iclr_results/2472_ATTS_Asynchronous_Test-Time_Scaling_via_Conformal_Prediction/images/ca3d86425a358a30efe48aa91e2e8742857c6b5750ee4fa6a05f6deac10025d8.jpg)
+
+![images](../iclr_results/2472_ATTS_Asynchronous_Test-Time_Scaling_via_Conformal_Prediction/images/d777d25acdad5d857671a80dd3f9fb16ced5f5167eb0026af008c4bba9445f73.jpg)
+
+![images](../iclr_results/2472_ATTS_Asynchronous_Test-Time_Scaling_via_Conformal_Prediction/images/d9ffaf4e4b784b96dd8a3410d1ce62bb40811fdf36b6120054cbd7a5415d372e.jpg)
+
+![images](../iclr_results/2472_ATTS_Asynchronous_Test-Time_Scaling_via_Conformal_Prediction/images/de65e1b2a09c63e694d2bf63c8434b346e96aa0aed98924f36072ab2cafd864a.jpg)
+
+### Tables
+
+![tables](../iclr_results/2472_ATTS_Asynchronous_Test-Time_Scaling_via_Conformal_Prediction/tables/684c4a883992af2851fd1d09baa6a44a0e2e96f657a50f40e5e3d4ab9e9ba779.jpg)
+
+![tables](../iclr_results/2472_ATTS_Asynchronous_Test-Time_Scaling_via_Conformal_Prediction/tables/c3f966afbbf03d2cad8c6e1c47ed84f88abb3ff98f8640cc687c900343bcfa44.jpg)
+
+![tables](../iclr_results/2472_ATTS_Asynchronous_Test-Time_Scaling_via_Conformal_Prediction/tables/d870b8201fc119a07d34a0a9d2d97e14aa1c1fdf4b508e9e6f8365a5821cfe2b.jpg)
+
+<a id="paper-2473"></a>
+## Disrupting Hierarchical Reasoning: Adversarial Protection for Geographic Privacy in Multimodal Reasoning Models
+
+**Type:** Poster | [OpenReview](https://openreview.net/forum?id=5S6YTG9dL0)
+
+### Images
+
+![images](../iclr_results/2473_Disrupting_Hierarchical_Reasoning_Adversarial_Protection_for_Geographic_Privacy_in_Multimodal_Reason/images/1028ee01809391dec85375a72632c032876525909eb82b0696843e4f067700d4.jpg)
+
+![images](../iclr_results/2473_Disrupting_Hierarchical_Reasoning_Adversarial_Protection_for_Geographic_Privacy_in_Multimodal_Reason/images/1513d7a8e8ad00510a159d7cba643ad213d3d23795fba2578f88019578c3a6d6.jpg)
+
+![images](../iclr_results/2473_Disrupting_Hierarchical_Reasoning_Adversarial_Protection_for_Geographic_Privacy_in_Multimodal_Reason/images/15d9aa164dca35bcbadf8aaa769d136095862ca16d25cf41c3f61dfb85718d0c.jpg)
+
+![images](../iclr_results/2473_Disrupting_Hierarchical_Reasoning_Adversarial_Protection_for_Geographic_Privacy_in_Multimodal_Reason/images/3bb75ec1e8bd7a78ecc3dbcdb8097f2683967122c70c416d3dfbee982d1a438c.jpg)
+
+![images](../iclr_results/2473_Disrupting_Hierarchical_Reasoning_Adversarial_Protection_for_Geographic_Privacy_in_Multimodal_Reason/images/46917a1f40895483ad9070e130aaabaeb396265165ae630e979d1fe81920f889.jpg)
+
+![images](../iclr_results/2473_Disrupting_Hierarchical_Reasoning_Adversarial_Protection_for_Geographic_Privacy_in_Multimodal_Reason/images/85273905d83ef07ead58ad662bc54ba6cdc2130c7da3ced38283c347c5d26948.jpg)
+
+![images](../iclr_results/2473_Disrupting_Hierarchical_Reasoning_Adversarial_Protection_for_Geographic_Privacy_in_Multimodal_Reason/images/8fb41bdab7f63ea9f0a233fb9f5515c6d7750fc67610f986b97595750ecb6970.jpg)
+
+![images](../iclr_results/2473_Disrupting_Hierarchical_Reasoning_Adversarial_Protection_for_Geographic_Privacy_in_Multimodal_Reason/images/ac4b58a93014023d04405341fe9aa3f100524263fc034da411bb4a1606ad1f9f.jpg)
+
+![images](../iclr_results/2473_Disrupting_Hierarchical_Reasoning_Adversarial_Protection_for_Geographic_Privacy_in_Multimodal_Reason/images/e2b7ed456f5833cbc6288d629bda919396eb380c1fa25c4f94e62805539eb1f5.jpg)
+
+![images](../iclr_results/2473_Disrupting_Hierarchical_Reasoning_Adversarial_Protection_for_Geographic_Privacy_in_Multimodal_Reason/images/ffed04c2446949267d65f9323cdcae44ffffb68f4d54ab9074988b2ae50b13f0.jpg)
+
+### Tables
+
+![tables](../iclr_results/2473_Disrupting_Hierarchical_Reasoning_Adversarial_Protection_for_Geographic_Privacy_in_Multimodal_Reason/tables/3415683ec0af0d5d5e878c7ee9196b6afc710d7fbf1a8c7ce4b442af5c11bc7a.jpg)
+
+![tables](../iclr_results/2473_Disrupting_Hierarchical_Reasoning_Adversarial_Protection_for_Geographic_Privacy_in_Multimodal_Reason/tables/7cd0fe68ec01b6a29a694e0ac59947d298fcf76f03b50b2c95c9e9c5f876a5e0.jpg)
+
+![tables](../iclr_results/2473_Disrupting_Hierarchical_Reasoning_Adversarial_Protection_for_Geographic_Privacy_in_Multimodal_Reason/tables/f0818db485f9a2de1f50d45e5b3b384e7777787d21ebfeaeb7dbb1cf3c35c89b.jpg)
+
+<a id="paper-2474"></a>
+## SlotGCG: Exploiting the Positional Vulnerability in LLMs for Jailbreak Attacks
+
+**Type:** Poster | [OpenReview](https://openreview.net/forum?id=Fn2rSOnpNf)
+
+### Images
+
+![images](../iclr_results/2474_SlotGCG_Exploiting_the_Positional_Vulnerability_in_LLMs_for_Jailbreak_Attacks/images/2c62d51db20ffecde8ed0957293149ac9d01526028ce01ce597ec4bc25d50496.jpg)
+
+![images](../iclr_results/2474_SlotGCG_Exploiting_the_Positional_Vulnerability_in_LLMs_for_Jailbreak_Attacks/images/4378575d7604750e6c8e688c3edd52513fffcf4c9224f7289014eb4c6d7f67fc.jpg)
+
+![images](../iclr_results/2474_SlotGCG_Exploiting_the_Positional_Vulnerability_in_LLMs_for_Jailbreak_Attacks/images/5861d71545fb313a3459e5bdb7ae239133bfd5cc54dcdd80eb291f762e33bffc.jpg)
+
+![images](../iclr_results/2474_SlotGCG_Exploiting_the_Positional_Vulnerability_in_LLMs_for_Jailbreak_Attacks/images/58d923a687b2de6fbe351ed3c55528d429d5c68c0310073934c12d3fe2bb45fb.jpg)
+
+![images](../iclr_results/2474_SlotGCG_Exploiting_the_Positional_Vulnerability_in_LLMs_for_Jailbreak_Attacks/images/5d4ee3fafcf4e903ed6ebffa3e13a398797d8674bab3db5bd88298dbbe990404.jpg)
+
+![images](../iclr_results/2474_SlotGCG_Exploiting_the_Positional_Vulnerability_in_LLMs_for_Jailbreak_Attacks/images/6d08436e6dc655301f954a651a4e2f278226ad6515c5e9d744aa3beb6bb335fc.jpg)
+
+![images](../iclr_results/2474_SlotGCG_Exploiting_the_Positional_Vulnerability_in_LLMs_for_Jailbreak_Attacks/images/9753eca2f1daa213697f96e337eb43867515e0ee314d12637f11316aece29628.jpg)
+
+![images](../iclr_results/2474_SlotGCG_Exploiting_the_Positional_Vulnerability_in_LLMs_for_Jailbreak_Attacks/images/9ac0a120caa950fc4c8e0d20a2faf7db218a923c352b7d1e1816296dd1f0a03d.jpg)
+
+![images](../iclr_results/2474_SlotGCG_Exploiting_the_Positional_Vulnerability_in_LLMs_for_Jailbreak_Attacks/images/c69e5efcb08f0a68c315aafac278d2d7650e2ab1dacfff50ccb89139d858ce92.jpg)
+
+![images](../iclr_results/2474_SlotGCG_Exploiting_the_Positional_Vulnerability_in_LLMs_for_Jailbreak_Attacks/images/d3faefe12c2f486adba1d4cca1d321fc28c387dde9d8eb3e05a98b8bb0dbb3fb.jpg)
+
+![images](../iclr_results/2474_SlotGCG_Exploiting_the_Positional_Vulnerability_in_LLMs_for_Jailbreak_Attacks/images/d6672d05605890727de320ce71772e40c636f94d339227410e5815c64996014c.jpg)
+
+![images](../iclr_results/2474_SlotGCG_Exploiting_the_Positional_Vulnerability_in_LLMs_for_Jailbreak_Attacks/images/e72887ddb4938eed80d3c869ab0171faea10a40f62ef0fd16c6de6ae22e6c263.jpg)
+
+![images](../iclr_results/2474_SlotGCG_Exploiting_the_Positional_Vulnerability_in_LLMs_for_Jailbreak_Attacks/images/ed861d7e05a26e72d6ed82386f8c1294c162d27471e9ba15b1e0a9d5a7f7a4a7.jpg)
+
+### Tables
+
+![tables](../iclr_results/2474_SlotGCG_Exploiting_the_Positional_Vulnerability_in_LLMs_for_Jailbreak_Attacks/tables/035ffea7ba4369e2b4911838b4694bff04150129b43efa2404ac44c9c31037c9.jpg)
+
+![tables](../iclr_results/2474_SlotGCG_Exploiting_the_Positional_Vulnerability_in_LLMs_for_Jailbreak_Attacks/tables/11f7bf0286e5fb615ef4fb097cf5e3bebad63f6285a403331fd63427ff4129b4.jpg)
+
+![tables](../iclr_results/2474_SlotGCG_Exploiting_the_Positional_Vulnerability_in_LLMs_for_Jailbreak_Attacks/tables/29209874be6ad7a5395a60380f544f6e88d3c9b1050d6657895bfd8ea47da39b.jpg)
+
+![tables](../iclr_results/2474_SlotGCG_Exploiting_the_Positional_Vulnerability_in_LLMs_for_Jailbreak_Attacks/tables/5bedd30c7842729c1615a59dd780e050119cf4a6e9550024f0462f646e8c52b1.jpg)
+
+![tables](../iclr_results/2474_SlotGCG_Exploiting_the_Positional_Vulnerability_in_LLMs_for_Jailbreak_Attacks/tables/7d1713ba4c68cd0f383f0e967d7015527076f6d1352dd940107fad3cdbbf4e22.jpg)
+
+![tables](../iclr_results/2474_SlotGCG_Exploiting_the_Positional_Vulnerability_in_LLMs_for_Jailbreak_Attacks/tables/ab68df03cf8630ebec52a7b69db7fecde41e6db9408ecf72b783c2fcb45f3cdb.jpg)
+
+![tables](../iclr_results/2474_SlotGCG_Exploiting_the_Positional_Vulnerability_in_LLMs_for_Jailbreak_Attacks/tables/b19316b8f271bd501af779130b24b76835424c26539b28b7eca35c7d299d6952.jpg)
+
+![tables](../iclr_results/2474_SlotGCG_Exploiting_the_Positional_Vulnerability_in_LLMs_for_Jailbreak_Attacks/tables/b602648908b95319dfe113d652a523b69d606d0d5bb91e42e8358523634acc25.jpg)
+
+![tables](../iclr_results/2474_SlotGCG_Exploiting_the_Positional_Vulnerability_in_LLMs_for_Jailbreak_Attacks/tables/d1d470a6fe97e96778c914786d575ee3a251a9db467da59d97a8cbee1cb095aa.jpg)
+
+![tables](../iclr_results/2474_SlotGCG_Exploiting_the_Positional_Vulnerability_in_LLMs_for_Jailbreak_Attacks/tables/ededa7886ea8b46a4978ac80cca0bc9d10066451e972613c10c0c505e92e1769.jpg)
+
+<a id="paper-2475"></a>
+## Fast Convergence of Natural Gradient Descent for Over-parameterized Physics-Informed Neural Networks
+
+**Type:** Poster | [OpenReview](https://openreview.net/forum?id=KWWfLgkySm)
+
+### Images
+
+![images](../iclr_results/2475_Fast_Convergence_of_Natural_Gradient_Descent_for_Over-parameterized_Physics-Informed_Neural_Networks/images/48549ad432b8533d1123ceddbf3eafac3d11b91f6aaed0a348774928f96abdae.jpg)
+
+![images](../iclr_results/2475_Fast_Convergence_of_Natural_Gradient_Descent_for_Over-parameterized_Physics-Informed_Neural_Networks/images/6fe995b141f767070ce0ed1fc335a690dadfe5c6a42dc9bb3f3bb1b3e3d98a8c.jpg)
+
+![images](../iclr_results/2475_Fast_Convergence_of_Natural_Gradient_Descent_for_Over-parameterized_Physics-Informed_Neural_Networks/images/7e12a38b653c8086ef31d68554e6721497f8acdfcf477b3a92c1246414baf7cb.jpg)
+
+![images](../iclr_results/2475_Fast_Convergence_of_Natural_Gradient_Descent_for_Over-parameterized_Physics-Informed_Neural_Networks/images/8f8c27fb598d041f6d88ee9eff1805a4511a13bd32e2ac08c33ffdf9063f44c4.jpg)
+
+![images](../iclr_results/2475_Fast_Convergence_of_Natural_Gradient_Descent_for_Over-parameterized_Physics-Informed_Neural_Networks/images/9b37c87b429b5e40c9aa159335939ad4b3d303374d51a8abef8ead3d1e1a3962.jpg)
+
+![images](../iclr_results/2475_Fast_Convergence_of_Natural_Gradient_Descent_for_Over-parameterized_Physics-Informed_Neural_Networks/images/a42bf463fbd905311a43e0c8f428d7986e4d6471998ba74ae1431a206c3a3fa7.jpg)
+
+![images](../iclr_results/2475_Fast_Convergence_of_Natural_Gradient_Descent_for_Over-parameterized_Physics-Informed_Neural_Networks/images/ae314a3b5399f016dd470d2af6cab6c2600fc89f3691d012fc2aae6bd5fa4bd5.jpg)
+
+![images](../iclr_results/2475_Fast_Convergence_of_Natural_Gradient_Descent_for_Over-parameterized_Physics-Informed_Neural_Networks/images/be49552a15b90e25fbd8c72fa2a926eef92c6bc04ebe45849f1eaa736251342d.jpg)
+
+![images](../iclr_results/2475_Fast_Convergence_of_Natural_Gradient_Descent_for_Over-parameterized_Physics-Informed_Neural_Networks/images/db7f8e6407d094ecdceb6275a54b9b7b7aa16069da703ded8907ce40f56f05f4.jpg)
+
+![images](../iclr_results/2475_Fast_Convergence_of_Natural_Gradient_Descent_for_Over-parameterized_Physics-Informed_Neural_Networks/images/f4f83573e5717809ecde89a9cf0cf74170fa5837cb22572b3163a67f276e6562.jpg)
+
+### Tables
+
+![tables](../iclr_results/2475_Fast_Convergence_of_Natural_Gradient_Descent_for_Over-parameterized_Physics-Informed_Neural_Networks/tables/1ba6fd0aa5b7b7262e2a2fae8bc4f6ff1c171e28df4d0401c1caac82efca947e.jpg)
+
+![tables](../iclr_results/2475_Fast_Convergence_of_Natural_Gradient_Descent_for_Over-parameterized_Physics-Informed_Neural_Networks/tables/36d5959745e3b4cdb1c7969c17ccd118350168400cb47e952e317d0c958f7da1.jpg)
+
+![tables](../iclr_results/2475_Fast_Convergence_of_Natural_Gradient_Descent_for_Over-parameterized_Physics-Informed_Neural_Networks/tables/46b570af9e21366889c46cf3a29ff5d8b57da1d7fe187828755f36554b40b28d.jpg)
+
+![tables](../iclr_results/2475_Fast_Convergence_of_Natural_Gradient_Descent_for_Over-parameterized_Physics-Informed_Neural_Networks/tables/4bc081347fbae0cd2bfb0276aa2683062235e59a0b522b914187e21dbc2dcbf1.jpg)
+
+![tables](../iclr_results/2475_Fast_Convergence_of_Natural_Gradient_Descent_for_Over-parameterized_Physics-Informed_Neural_Networks/tables/8d47e68edbde669fc31065d9c6c5167a05f8ca2e95404c1854b518bf2dbf2c82.jpg)
+
+![tables](../iclr_results/2475_Fast_Convergence_of_Natural_Gradient_Descent_for_Over-parameterized_Physics-Informed_Neural_Networks/tables/a405f8c18f187298dd61602f8335160598837841e1c36411ace5c5bc4667cf9e.jpg)
+
+![tables](../iclr_results/2475_Fast_Convergence_of_Natural_Gradient_Descent_for_Over-parameterized_Physics-Informed_Neural_Networks/tables/a7ce9f7e89f452b301c710819577b646237894035887d856d2a446cecf489f69.jpg)
+
+![tables](../iclr_results/2475_Fast_Convergence_of_Natural_Gradient_Descent_for_Over-parameterized_Physics-Informed_Neural_Networks/tables/ae844b224904e5c982b95412d2a59ee76db5459953f1d4dccc98788cccdf5578.jpg)
+
+<a id="paper-2476"></a>
+## Universal Multi-Domain Translation via Diffusion Routers
+
+**Type:** Poster | [OpenReview](https://openreview.net/forum?id=KlV5emSjbF)
+
+### Images
+
+![images](../iclr_results/2476_Universal_Multi-Domain_Translation_via_Diffusion_Routers/images/00c44bf9554f23ea16d232cac5762983954d3c884f9040b866e49f5d5d193387.jpg)
+
+![images](../iclr_results/2476_Universal_Multi-Domain_Translation_via_Diffusion_Routers/images/044b7239017a42148b64d6ea74302118de251ea7549da577630b2543f22c3ce7.jpg)
+
+![images](../iclr_results/2476_Universal_Multi-Domain_Translation_via_Diffusion_Routers/images/1a7954363df5476ca9487a1a03e788bdbb263b575b0d468191f401fc65b6696a.jpg)
+
+![images](../iclr_results/2476_Universal_Multi-Domain_Translation_via_Diffusion_Routers/images/26fe774c059cc9db05d5d46384c6cdf451d8a455704ef3827c8fd518ce127cde.jpg)
+
+![images](../iclr_results/2476_Universal_Multi-Domain_Translation_via_Diffusion_Routers/images/4b4884d0e5ac637ef18ae6d2260d4d3cea745bd059bd7089e0c7b3836c9007e8.jpg)
+
+![images](../iclr_results/2476_Universal_Multi-Domain_Translation_via_Diffusion_Routers/images/77e3abca167b8b606b8901c9b89ea2b01016fcbb4eb0b744f0b9b8d214278bf8.jpg)
+
+![images](../iclr_results/2476_Universal_Multi-Domain_Translation_via_Diffusion_Routers/images/894ef7d318392b70b178a24af81ca20a4eaea5dfdf159d93c03f9e2426f530f9.jpg)
+
+![images](../iclr_results/2476_Universal_Multi-Domain_Translation_via_Diffusion_Routers/images/9508b284560e3efaf82e2ab49659344fc581c3a15b6754e5796ff98c6b47d2a1.jpg)
+
+![images](../iclr_results/2476_Universal_Multi-Domain_Translation_via_Diffusion_Routers/images/9fcaa660829d636e6e2e9070d99bd3ae2bfe637c2c2617adf0030b8cc518eba2.jpg)
+
+![images](../iclr_results/2476_Universal_Multi-Domain_Translation_via_Diffusion_Routers/images/ac70c58fdad9d8fbf3045860eebaa9173806f5093c4750d434c9e276e75ac01e.jpg)
+
+![images](../iclr_results/2476_Universal_Multi-Domain_Translation_via_Diffusion_Routers/images/ad6af8b7768597de5f18e9925c760c72ef74d0d21d1145e496933c223a2dbc47.jpg)
+
+![images](../iclr_results/2476_Universal_Multi-Domain_Translation_via_Diffusion_Routers/images/ae01e5c9ff39444076a1554d4295d577ebc8aa7faac3ddfb998e40c4adcaa036.jpg)
+
+![images](../iclr_results/2476_Universal_Multi-Domain_Translation_via_Diffusion_Routers/images/b5154e58c8e2099de5fb5429af3a0fe869cbe7e450d74eaaf1804be82e7b5b65.jpg)
+
+![images](../iclr_results/2476_Universal_Multi-Domain_Translation_via_Diffusion_Routers/images/bba1601d78ec6447915dd404f46f83480bec252e27cd29de4eeaad32f7137c89.jpg)
+
+![images](../iclr_results/2476_Universal_Multi-Domain_Translation_via_Diffusion_Routers/images/c1efd384142dca6c39125ff0c41f7bf0a41c78395695a3b3e2590d600f29834e.jpg)
+
+![images](../iclr_results/2476_Universal_Multi-Domain_Translation_via_Diffusion_Routers/images/cf363d0094628f58824ab4d5fec018dba302192f3cfa417aa8fc3d9bff3404cd.jpg)
+
+![images](../iclr_results/2476_Universal_Multi-Domain_Translation_via_Diffusion_Routers/images/f3c0c03d7d314295e8b6d9db6c8f0143101ebe88a916b35b06b88c5366f8f96f.jpg)
+
+### Tables
+
+![tables](../iclr_results/2476_Universal_Multi-Domain_Translation_via_Diffusion_Routers/tables/11dc390877cbeb74a5aca67012d16bffc235dba69666a1679058a5ebb0f8e085.jpg)
+
+![tables](../iclr_results/2476_Universal_Multi-Domain_Translation_via_Diffusion_Routers/tables/20797143debca6a3856bce8939d2f77b30c75d50261d284e5f6956f73f6e2d1c.jpg)
+
+![tables](../iclr_results/2476_Universal_Multi-Domain_Translation_via_Diffusion_Routers/tables/7443ca9e665835096519e82349dc7c0852992e6c4d7a3216beb319f81fe4e602.jpg)
+
+![tables](../iclr_results/2476_Universal_Multi-Domain_Translation_via_Diffusion_Routers/tables/7a5c59969258540f5443660deca6075ad41c5a1100dde4412ae29f65742b6e41.jpg)
+
+![tables](../iclr_results/2476_Universal_Multi-Domain_Translation_via_Diffusion_Routers/tables/8082e109bea2eece17a884ef56697df870c8587dca411be1bcb606a12e2b0960.jpg)
+
+![tables](../iclr_results/2476_Universal_Multi-Domain_Translation_via_Diffusion_Routers/tables/9693a338a4253396d02c285cbe228f53b1b206ec6f74f458956df806ff4515ea.jpg)
+
+![tables](../iclr_results/2476_Universal_Multi-Domain_Translation_via_Diffusion_Routers/tables/c5065a04fef22ab1e20b96cbf8872ee671c32d77f23da2689a503c594031b0e1.jpg)
+
+![tables](../iclr_results/2476_Universal_Multi-Domain_Translation_via_Diffusion_Routers/tables/ec3d9790b20b2811dc4b977204cc000effcfb1c39b877926dbf567b82fa242ea.jpg)
+
+![tables](../iclr_results/2476_Universal_Multi-Domain_Translation_via_Diffusion_Routers/tables/f0b3d1a1d608414ed720b758eeac358227673cfea000e45cbe9e8ac6fc1bc3c6.jpg)
+
+![tables](../iclr_results/2476_Universal_Multi-Domain_Translation_via_Diffusion_Routers/tables/fb99c9cf0b861ea071481e62981ece5a7e5342a7a81c789b8dcd46a7997104a0.jpg)
+
+<a id="paper-2477"></a>
+## Towards Safe and Optimal Online Bidding: A Modular Look-ahead Lyapunov Framework
+
+**Type:** Poster | [OpenReview](https://openreview.net/forum?id=AtbRCnvcrZ)
+
+### Images
+
+![images](../iclr_results/2477_Towards_Safe_and_Optimal_Online_Bidding_A_Modular_Look-ahead_Lyapunov_Framework/images/48e98f5b45fa990dbb11378ef03c389ff42e48b9ff9b07bea2ce2c5d51278132.jpg)
+
+![images](../iclr_results/2477_Towards_Safe_and_Optimal_Online_Bidding_A_Modular_Look-ahead_Lyapunov_Framework/images/5c9e6ba007cc177ec5d5f3a76ba8ba6a6c7bf7d5758cfc5926706d95781ef86f.jpg)
+
+![images](../iclr_results/2477_Towards_Safe_and_Optimal_Online_Bidding_A_Modular_Look-ahead_Lyapunov_Framework/images/a1913d93c9f081aea0491604605ba3bb1ad1fa59617e762420367dab5fe592f8.jpg)
+
+### Tables
+
+![tables](../iclr_results/2477_Towards_Safe_and_Optimal_Online_Bidding_A_Modular_Look-ahead_Lyapunov_Framework/tables/28df5ac0a729228ec36578fcde6775c79032500d1e1525b7263858322e89cdce.jpg)
+
+![tables](../iclr_results/2477_Towards_Safe_and_Optimal_Online_Bidding_A_Modular_Look-ahead_Lyapunov_Framework/tables/5c5a8070138ecbd163046ee0cdfd1e264f19e5750bc2ec39af7d4f5ea24aa60b.jpg)
+
+![tables](../iclr_results/2477_Towards_Safe_and_Optimal_Online_Bidding_A_Modular_Look-ahead_Lyapunov_Framework/tables/6175ee3da52635c2cf38a9442133222cd377281ea5ae773f345baa304a4d9ea1.jpg)
+
+<a id="paper-2478"></a>
+## Learning Human Habits with Rule-Guided Active Inference
+
+**Type:** Poster | [OpenReview](https://openreview.net/forum?id=FZXwkBH6s7)
+
+### Images
+
+![images](../iclr_results/2478_Learning_Human_Habits_with_Rule-Guided_Active_Inference/images/02e81dcae95f8e50a8936b75b288991c370cac9cc68b089bffb0cf5f40db3d9b.jpg)
+
+![images](../iclr_results/2478_Learning_Human_Habits_with_Rule-Guided_Active_Inference/images/043b1c7dd699b06014355cdec1ba52e228454659cc7a7637b6110fc851d678e9.jpg)
+
+![images](../iclr_results/2478_Learning_Human_Habits_with_Rule-Guided_Active_Inference/images/05bd23bce08e771acc9e4d66aaed511f60a64edcecc74f73301ba194b3933614.jpg)
+
+![images](../iclr_results/2478_Learning_Human_Habits_with_Rule-Guided_Active_Inference/images/0783da0ab697f8fe87abd588c9aa6e733aa3d9b1b3b455d1b64dd507201b297c.jpg)
+
+![images](../iclr_results/2478_Learning_Human_Habits_with_Rule-Guided_Active_Inference/images/1e6702bf37090f0e2eee2aa2edbad22f8a4661b9a3c748dc63fa99fbcd56d0ea.jpg)
+
+![images](../iclr_results/2478_Learning_Human_Habits_with_Rule-Guided_Active_Inference/images/3ab09d02a4f1f14f9f6b09951d45d805942bbdcb76c8dbb771f7f2d1ecc3617e.jpg)
+
+![images](../iclr_results/2478_Learning_Human_Habits_with_Rule-Guided_Active_Inference/images/40751b71a7385fe9ff9967afeecec6339992f5e2c830eb71fcf7eafc91921e62.jpg)
+
+![images](../iclr_results/2478_Learning_Human_Habits_with_Rule-Guided_Active_Inference/images/7269903697324300be35b9bc736e476b3ee29a1f8feca2cedd238501d73f1a23.jpg)
+
+![images](../iclr_results/2478_Learning_Human_Habits_with_Rule-Guided_Active_Inference/images/7ac120a8d216e9a5788ebc5f839bf2decbc62e8501b8db101a74d93e23a17c44.jpg)
+
+![images](../iclr_results/2478_Learning_Human_Habits_with_Rule-Guided_Active_Inference/images/7ff90744fc9e80c89a1717cf0defee7099ed9da62f968762ef6377efafd5f225.jpg)
+
+![images](../iclr_results/2478_Learning_Human_Habits_with_Rule-Guided_Active_Inference/images/91ab968b980b61342a1626dc4c8879059da4f5774f0c1db4a0ac4e45cdd3abfa.jpg)
+
+![images](../iclr_results/2478_Learning_Human_Habits_with_Rule-Guided_Active_Inference/images/9370eb9bc85e1e4389455e6e31f33a9b0900544046d38924adcfba4a4a55c667.jpg)
+
+![images](../iclr_results/2478_Learning_Human_Habits_with_Rule-Guided_Active_Inference/images/a2407bc9fa4c69075e85e97ba7ae7315af8decbd2e759c11bed9c29acb1631ca.jpg)
+
+![images](../iclr_results/2478_Learning_Human_Habits_with_Rule-Guided_Active_Inference/images/a9d54f24d3778712edd7bffbab7cba41ed95816de6086d5b4eeb75e122f06370.jpg)
+
+![images](../iclr_results/2478_Learning_Human_Habits_with_Rule-Guided_Active_Inference/images/cd41b7d4c118c4fcf536617fc6c540e89ede015938bf5ca408a2ccaec7c55114.jpg)
+
+![images](../iclr_results/2478_Learning_Human_Habits_with_Rule-Guided_Active_Inference/images/d71e5cc1c074d5557df14a56556ae19aeb4b6c5ad5ff4d98659a0a70ebf4f91b.jpg)
+
+![images](../iclr_results/2478_Learning_Human_Habits_with_Rule-Guided_Active_Inference/images/e29086d9894a349e4f5140e7fbec73bf45d89414876a55231d0c0d9f68255218.jpg)
+
+![images](../iclr_results/2478_Learning_Human_Habits_with_Rule-Guided_Active_Inference/images/fdd64a8a6a5e7cdf57c39f7763344afe55077bc51df49550a2f7f50d5530499b.jpg)
+
+![images](../iclr_results/2478_Learning_Human_Habits_with_Rule-Guided_Active_Inference/images/fe11a3a739fe71735ae7297de8a99435128712911db9cea57c2e154e02702c1e.jpg)
+
+### Tables
+
+![tables](../iclr_results/2478_Learning_Human_Habits_with_Rule-Guided_Active_Inference/tables/08c36eb901976eab9c176a9763bdad6460a2f69faac560bbb89baaea1e457707.jpg)
+
+![tables](../iclr_results/2478_Learning_Human_Habits_with_Rule-Guided_Active_Inference/tables/1a474e28ea14d91d94708b5a73fe8abdc455b117b14d42c66aad0fa6f511d826.jpg)
+
+![tables](../iclr_results/2478_Learning_Human_Habits_with_Rule-Guided_Active_Inference/tables/96847ced3363562b52047c20735914a7ab16494960ce49ea63094bd20cf0c00a.jpg)
+
+![tables](../iclr_results/2478_Learning_Human_Habits_with_Rule-Guided_Active_Inference/tables/9e0ad190e149b86788fbbfc2ffdb5ae32ef057bb9b8e6bf17edc52da2f78145a.jpg)
+
+![tables](../iclr_results/2478_Learning_Human_Habits_with_Rule-Guided_Active_Inference/tables/ca58f60b092e2f469fed546f6143e626a2a7a975c53447dd312fe9febadf4a69.jpg)
+
+![tables](../iclr_results/2478_Learning_Human_Habits_with_Rule-Guided_Active_Inference/tables/dec6467febeef8fa063bfcda1c8e1b781dc6df768588d6067bd163d27f675c04.jpg)
+
+![tables](../iclr_results/2478_Learning_Human_Habits_with_Rule-Guided_Active_Inference/tables/edb25a591b0d7a55c8f5054ed5c5602850022aef1f651c95e15457ff3ac1713c.jpg)
+
+<a id="paper-2479"></a>
+## Learning to summarize user information for personalized reinforcement learning from human feedback
+
+**Type:** Poster | [OpenReview](https://openreview.net/forum?id=Ar078WR3um)
+
+### Images
+
+![images](../iclr_results/2479_Learning_to_summarize_user_information_for_personalized_reinforcement_learning_from_human_feedback/images/006fb7a2a79d2f9e9119a993e448de19b9bda027923b783feaf31172a2b61e63.jpg)
+
+![images](../iclr_results/2479_Learning_to_summarize_user_information_for_personalized_reinforcement_learning_from_human_feedback/images/1ce412fdd0a6d33f19763eac3e01f3f75ef5e526dd55395b1cb400ab5286bd0a.jpg)
+
+![images](../iclr_results/2479_Learning_to_summarize_user_information_for_personalized_reinforcement_learning_from_human_feedback/images/e2a2dd5bfaecfe8ff876ee6bc15ea85e07faf862437a762f0cfeab2b2c1b02b0.jpg)
+
+![images](../iclr_results/2479_Learning_to_summarize_user_information_for_personalized_reinforcement_learning_from_human_feedback/images/e65a4c14f0f903c4b82d1ab03704485517cde43f9f1983c1e79fa15e8f1e829a.jpg)
+
+### Tables
+
+![tables](../iclr_results/2479_Learning_to_summarize_user_information_for_personalized_reinforcement_learning_from_human_feedback/tables/1b6d72696bff76a42ed8d9d800722e83639e82b03dd9d81cd6068e39f9097fa7.jpg)
+
+![tables](../iclr_results/2479_Learning_to_summarize_user_information_for_personalized_reinforcement_learning_from_human_feedback/tables/23c2eee0c5ce5556e15595a1b18d12c1d98dd4ea1fd081858a688a33eaa0a900.jpg)
+
+![tables](../iclr_results/2479_Learning_to_summarize_user_information_for_personalized_reinforcement_learning_from_human_feedback/tables/410b94d7c6feedc3c5006cb948c9f1cbd89ff121629c1ebba3c4748158420048.jpg)
+
+![tables](../iclr_results/2479_Learning_to_summarize_user_information_for_personalized_reinforcement_learning_from_human_feedback/tables/55ecabe57e2deca405439e4f55139909e38754245b10bb06f620eae9ab49432d.jpg)
+
+![tables](../iclr_results/2479_Learning_to_summarize_user_information_for_personalized_reinforcement_learning_from_human_feedback/tables/644e3075f10a3914f1699e1e26c4c247c4ef62621d5693232e4a80f5ba136d55.jpg)
+
+![tables](../iclr_results/2479_Learning_to_summarize_user_information_for_personalized_reinforcement_learning_from_human_feedback/tables/6539494325fa8c012d87afc484b3276598c17275420f1172a3b52b6d98e1c05c.jpg)
+
+![tables](../iclr_results/2479_Learning_to_summarize_user_information_for_personalized_reinforcement_learning_from_human_feedback/tables/7a81918911275902bdbc7e99db8ef8e1abef2e9fea7c2e7ca23154580ba64a77.jpg)
+
+![tables](../iclr_results/2479_Learning_to_summarize_user_information_for_personalized_reinforcement_learning_from_human_feedback/tables/7f3906d14e77362abfa73b75bf126906aa0eb5f79f173071635de3dcf244d879.jpg)
+
+![tables](../iclr_results/2479_Learning_to_summarize_user_information_for_personalized_reinforcement_learning_from_human_feedback/tables/8fd459c41e76cc196cb322a59d3df95e4e750ce28ebe8f4cb103951e3a16aef9.jpg)
+
+![tables](../iclr_results/2479_Learning_to_summarize_user_information_for_personalized_reinforcement_learning_from_human_feedback/tables/9949431d36391a61a7e3e4cad82828aa612241f5371e693a23364c6503946dd0.jpg)
+
+![tables](../iclr_results/2479_Learning_to_summarize_user_information_for_personalized_reinforcement_learning_from_human_feedback/tables/bb01638ec3b1808d916829d836b2f8103f85f844513fdda19917199048211090.jpg)
+
+![tables](../iclr_results/2479_Learning_to_summarize_user_information_for_personalized_reinforcement_learning_from_human_feedback/tables/c784c1605f5e8848c1334fc33779ebb275a5981a217fa51eb386a326555d9f7c.jpg)
+
+![tables](../iclr_results/2479_Learning_to_summarize_user_information_for_personalized_reinforcement_learning_from_human_feedback/tables/d4d0ecaa65959a38bdb633a08ea03ccbe8c3391082f6a9469b38f4f6b6089ea1.jpg)
+
+![tables](../iclr_results/2479_Learning_to_summarize_user_information_for_personalized_reinforcement_learning_from_human_feedback/tables/e9f152625fe636e1509c99dc14273fac5643f0c1ab1ce175aa4f2db2a9a00e17.jpg)
+
+![tables](../iclr_results/2479_Learning_to_summarize_user_information_for_personalized_reinforcement_learning_from_human_feedback/tables/ee229db11259e4a8c50e32ea3d1f778ad779213f6f19e916d5fafcc03901c2ff.jpg)
+
+<a id="paper-2480"></a>
+## Contextual and Seasonal LSTMs for Time Series Anomaly Detection
+
+**Type:** Poster | [OpenReview](https://openreview.net/forum?id=2VtveTkmzW)
+
+### Images
+
+![images](../iclr_results/2480_Contextual_and_Seasonal_LSTMs_for_Time_Series_Anomaly_Detection/images/1ee05c40120d2c6f6d967f19291187d85faea23357a79016ad12fc8712d9e8c6.jpg)
+
+![images](../iclr_results/2480_Contextual_and_Seasonal_LSTMs_for_Time_Series_Anomaly_Detection/images/298be415413396534bb327a700eaa138040267a306015aaf28f21bfbcd968553.jpg)
+
+![images](../iclr_results/2480_Contextual_and_Seasonal_LSTMs_for_Time_Series_Anomaly_Detection/images/30c0d74dd0ff9780d998ddf8aeece5445aa5327c121443db3159a6d5c3f56b7c.jpg)
+
+![images](../iclr_results/2480_Contextual_and_Seasonal_LSTMs_for_Time_Series_Anomaly_Detection/images/44f0abc89115316d09a5df68a03fc20bc934f69097aec06e939ac2ec466e9e10.jpg)
+
+![images](../iclr_results/2480_Contextual_and_Seasonal_LSTMs_for_Time_Series_Anomaly_Detection/images/62576e2cbb7f0b1a227c424b2fb4daef35c285f00481624d51153848a34982cd.jpg)
+
+![images](../iclr_results/2480_Contextual_and_Seasonal_LSTMs_for_Time_Series_Anomaly_Detection/images/78df0439feaa0cc6d424b14f34b887e162f647578ee65ccaa9d0958a47768be9.jpg)
+
+![images](../iclr_results/2480_Contextual_and_Seasonal_LSTMs_for_Time_Series_Anomaly_Detection/images/89ae00abf4b6888cd2022e2ff4e1ac86143805fd25ce8686da2e023a9a70ebb1.jpg)
+
+![images](../iclr_results/2480_Contextual_and_Seasonal_LSTMs_for_Time_Series_Anomaly_Detection/images/b6ab3a942f0fb271dcd92329f8c2e8f7f2039aba24857488c50c6b6b66cc418b.jpg)
+
+![images](../iclr_results/2480_Contextual_and_Seasonal_LSTMs_for_Time_Series_Anomaly_Detection/images/d201532cc2bd10a91bd0076a44ced059c1c5bbd9dbc1f9fe3b22c9584f5500ee.jpg)
+
+![images](../iclr_results/2480_Contextual_and_Seasonal_LSTMs_for_Time_Series_Anomaly_Detection/images/e39921240ec6a550a45bba6de5ba265050746164fef2e65ea297e4d873d76666.jpg)
+
+### Tables
+
+![tables](../iclr_results/2480_Contextual_and_Seasonal_LSTMs_for_Time_Series_Anomaly_Detection/tables/085b2e0a0dc7273eac5ce6213c3e0b416f5ff6830ffbcf537078c9e8c8a1f1af.jpg)
+
+![tables](../iclr_results/2480_Contextual_and_Seasonal_LSTMs_for_Time_Series_Anomaly_Detection/tables/0e328165421eea82fee6584b389b840c0984bd75e6f50767eda4a6e23d6766f5.jpg)
+
+![tables](../iclr_results/2480_Contextual_and_Seasonal_LSTMs_for_Time_Series_Anomaly_Detection/tables/145ed479e6097f5f082acbd0d8e169c0fbfecf33ab43cbe3bc4035b7ff987f6a.jpg)
+
+![tables](../iclr_results/2480_Contextual_and_Seasonal_LSTMs_for_Time_Series_Anomaly_Detection/tables/14fd40b50468ce334670e81aa6aa943960fe7436f4c21ac614ab90fd7b5f4963.jpg)
+
+![tables](../iclr_results/2480_Contextual_and_Seasonal_LSTMs_for_Time_Series_Anomaly_Detection/tables/16824ab97ec81d163b18563e5e9d16f87f2c523f8d8834d8f27ba7e5062def1a.jpg)
+
+![tables](../iclr_results/2480_Contextual_and_Seasonal_LSTMs_for_Time_Series_Anomaly_Detection/tables/334dea409fd0a2a69dfb947360fe881ebd707c018c61cda204c053db895d8c4d.jpg)
+
+![tables](../iclr_results/2480_Contextual_and_Seasonal_LSTMs_for_Time_Series_Anomaly_Detection/tables/3e5a41808129b553a3fb6b90d8b3b2e5a437705cd3d6cb14256f9bd7925c7826.jpg)
+
+![tables](../iclr_results/2480_Contextual_and_Seasonal_LSTMs_for_Time_Series_Anomaly_Detection/tables/5c124257047399df177890c5746b0a85da1d4f7fdfb307b1fe4c1144d3477467.jpg)
+
+![tables](../iclr_results/2480_Contextual_and_Seasonal_LSTMs_for_Time_Series_Anomaly_Detection/tables/9a0ee7e0754f3f287ed7033c44b5f715bb89152fee2fd9218e04db3b5f5d21fd.jpg)
+
+![tables](../iclr_results/2480_Contextual_and_Seasonal_LSTMs_for_Time_Series_Anomaly_Detection/tables/a30c7f33d4b8b46ab78dceb8d34ab60f41617fd870f70a0734e6a58fd5f076b8.jpg)
+
+![tables](../iclr_results/2480_Contextual_and_Seasonal_LSTMs_for_Time_Series_Anomaly_Detection/tables/d7f5967e316d1bfb679662332b65dffe5ded9c7fb9cc4279293ed8923ba43feb.jpg)
+
+![tables](../iclr_results/2480_Contextual_and_Seasonal_LSTMs_for_Time_Series_Anomaly_Detection/tables/f394b0d8c4a71519be43747f73d70d80a2228f85373050c3bc471d6fc2444ae5.jpg)
+
+<a id="paper-2481"></a>
+## STAR: Similarity-guided Teacher-Assisted Refinement for Super-Tiny Function Calling Models
+
+**Type:** Poster | [OpenReview](https://openreview.net/forum?id=uU96luC4dp)
+
+### Images
+
+![images](../iclr_results/2481_STAR_Similarity-guided_Teacher-Assisted_Refinement_for_Super-Tiny_Function_Calling_Models/images/75e80db740a3054b33214a67e41beb7b7b479cb32be511feec2bf5dacb5c2220.jpg)
+
+![images](../iclr_results/2481_STAR_Similarity-guided_Teacher-Assisted_Refinement_for_Super-Tiny_Function_Calling_Models/images/7b9917dec2049d012946b802fbee7aa0861be80c5152be9ca8d1ae35adeea791.jpg)
+
+![images](../iclr_results/2481_STAR_Similarity-guided_Teacher-Assisted_Refinement_for_Super-Tiny_Function_Calling_Models/images/9ff1e3303d704af47ede65f8b4e031a3aa094fa5aad3a7672a6dc7a8c8f9c38e.jpg)
+
+![images](../iclr_results/2481_STAR_Similarity-guided_Teacher-Assisted_Refinement_for_Super-Tiny_Function_Calling_Models/images/cf2464a54c3da1e23f4a0885a331933c779c6e36344f83e5f1aa85fbd3544573.jpg)
+
+![images](../iclr_results/2481_STAR_Similarity-guided_Teacher-Assisted_Refinement_for_Super-Tiny_Function_Calling_Models/images/edba16fbd5b2f7d0977a9eb98c6cc187d254d7609db562d3b5ea9fad385a3df1.jpg)
+
+### Tables
+
+![tables](../iclr_results/2481_STAR_Similarity-guided_Teacher-Assisted_Refinement_for_Super-Tiny_Function_Calling_Models/tables/00b6dd65260279eeff06d9f6502a4eb2795e33deece10b665ad914c6e4e53c34.jpg)
+
+![tables](../iclr_results/2481_STAR_Similarity-guided_Teacher-Assisted_Refinement_for_Super-Tiny_Function_Calling_Models/tables/2b8764374f2e499b5f1c740c1597d29be1d34cf2a98ef056c42cff7071e4f47b.jpg)
+
+![tables](../iclr_results/2481_STAR_Similarity-guided_Teacher-Assisted_Refinement_for_Super-Tiny_Function_Calling_Models/tables/65b2e2d6e3e7c301169653e264345a194d03137993aa700b201227851ae387f4.jpg)
+
+![tables](../iclr_results/2481_STAR_Similarity-guided_Teacher-Assisted_Refinement_for_Super-Tiny_Function_Calling_Models/tables/6a38d8a6d148b75db67e3c94364be8f2e67d47ee988b58ab2d8ebcdf6fbba5ed.jpg)
+
+![tables](../iclr_results/2481_STAR_Similarity-guided_Teacher-Assisted_Refinement_for_Super-Tiny_Function_Calling_Models/tables/7308f2723ffac2b68988a3fd6d6c7d657998b55aff648534e7e8fcab5fd7677c.jpg)
+
+![tables](../iclr_results/2481_STAR_Similarity-guided_Teacher-Assisted_Refinement_for_Super-Tiny_Function_Calling_Models/tables/8875fadcca902028362a01406afe9adf387f757a8c33e5929d54cc49c30bed79.jpg)
+
+![tables](../iclr_results/2481_STAR_Similarity-guided_Teacher-Assisted_Refinement_for_Super-Tiny_Function_Calling_Models/tables/8af5f31a5ea1cf6d12091cc2fc035d0037f4d0fd51cc20283e052114cf223887.jpg)
+
+![tables](../iclr_results/2481_STAR_Similarity-guided_Teacher-Assisted_Refinement_for_Super-Tiny_Function_Calling_Models/tables/8ba37448e70799f8eb7030ec1a01e72edcec921acdb4ae78fc9d41812ea0a5c9.jpg)
+
+![tables](../iclr_results/2481_STAR_Similarity-guided_Teacher-Assisted_Refinement_for_Super-Tiny_Function_Calling_Models/tables/ac75a7197579fb346f42879e38050363fd8eea3c09ca95b308c02d8a7c5e92df.jpg)
+
+![tables](../iclr_results/2481_STAR_Similarity-guided_Teacher-Assisted_Refinement_for_Super-Tiny_Function_Calling_Models/tables/c3b9b0d44d773e063ee6b2fe14809ca1c1e8b7f03f4b35c755eff281735fff26.jpg)
+
+![tables](../iclr_results/2481_STAR_Similarity-guided_Teacher-Assisted_Refinement_for_Super-Tiny_Function_Calling_Models/tables/c919c4db065dbf118a1eca3e5d730771bc8ecbcf1d18c5c8e1bdeae38c6079bf.jpg)
+
+![tables](../iclr_results/2481_STAR_Similarity-guided_Teacher-Assisted_Refinement_for_Super-Tiny_Function_Calling_Models/tables/d786307034cd179d86e09df905a7008bc03fa0376425d0ef57da5ec6cd9fe1e3.jpg)
+
+![tables](../iclr_results/2481_STAR_Similarity-guided_Teacher-Assisted_Refinement_for_Super-Tiny_Function_Calling_Models/tables/ed393d8f93dc87f7741770d3263466036a806602debd08c72067433ecc3f53ab.jpg)
+
+![tables](../iclr_results/2481_STAR_Similarity-guided_Teacher-Assisted_Refinement_for_Super-Tiny_Function_Calling_Models/tables/f03d414666ecdc77b787d05e7f35250b874909b64043916955968820faa6138a.jpg)
+
+![tables](../iclr_results/2481_STAR_Similarity-guided_Teacher-Assisted_Refinement_for_Super-Tiny_Function_Calling_Models/tables/fbb663175f5d0582e7485299a9bdb66b9c3c4b2e91e56bc4a5c59b29ffa59f33.jpg)
+
+<a id="paper-2482"></a>
+## Uniform Discrete Diffusion with Metric Path for Video Generation
+
+**Type:** Poster | [OpenReview](https://openreview.net/forum?id=GFU5yCbILk)
+
+### Images
+
+![images](../iclr_results/2482_Uniform_Discrete_Diffusion_with_Metric_Path_for_Video_Generation/images/0459da8727682db937f48c47b0d15c9b16568b732f41920d95bc6b9aae421a60.jpg)
+
+![images](../iclr_results/2482_Uniform_Discrete_Diffusion_with_Metric_Path_for_Video_Generation/images/3790e2fb05c0d1309346514f816292c134fae21282e65c37dc50f4502975efcb.jpg)
+
+![images](../iclr_results/2482_Uniform_Discrete_Diffusion_with_Metric_Path_for_Video_Generation/images/73c9a65c0c1488c1cf38485c2dd728dd8a368f62b17998481f643666198e74eb.jpg)
+
+![images](../iclr_results/2482_Uniform_Discrete_Diffusion_with_Metric_Path_for_Video_Generation/images/90d9d6a8f2eda6ee560f19f01fac3af14afd0729c97528074350d7e4fe8981ea.jpg)
+
+![images](../iclr_results/2482_Uniform_Discrete_Diffusion_with_Metric_Path_for_Video_Generation/images/940e17ab5adc0ed367afef1a4f042abe67bd33058f20a1de5b71609c1a6eba15.jpg)
+
+![images](../iclr_results/2482_Uniform_Discrete_Diffusion_with_Metric_Path_for_Video_Generation/images/b9ff3a1e0d985ea82a08712cd04205e8d62e57caef0f44c3945c27f5b69acf40.jpg)
+
+![images](../iclr_results/2482_Uniform_Discrete_Diffusion_with_Metric_Path_for_Video_Generation/images/ecfc3d63137756752a47af4d0ccfa5fa4500b049c827455af76a103948df1f39.jpg)
+
+### Tables
+
+![tables](../iclr_results/2482_Uniform_Discrete_Diffusion_with_Metric_Path_for_Video_Generation/tables/15b12d9c20bd0907a70eb51084acc2d193b8e8ab2d6bc43c23b53dbb48f71388.jpg)
+
+![tables](../iclr_results/2482_Uniform_Discrete_Diffusion_with_Metric_Path_for_Video_Generation/tables/2fca4a88ad2d333b299b0999b851b1b225668252293596e588513f1f27cd81b3.jpg)
+
+![tables](../iclr_results/2482_Uniform_Discrete_Diffusion_with_Metric_Path_for_Video_Generation/tables/e7f748e3c5e91730b1bcc31764ce30a47aeb167c911c2567207f26325b86bda2.jpg)
+
+<a id="paper-2483"></a>
+## EnvSocial-Diff: A Diffusion-Based Crowd Simulation Model with Environmental Conditioning and Individual-Group Interaction
+
+**Type:** Poster | [OpenReview](https://openreview.net/forum?id=2XBAm3Dbnt)
+
+### Images
+
+![images](../iclr_results/2483_EnvSocial-Diff_A_Diffusion-Based_Crowd_Simulation_Model_with_Environmental_Conditioning_and_Individu/images/267339de49efa6604a0268987fe4a1bd88a48956a22423aea909808dfa68b4ce.jpg)
+
+![images](../iclr_results/2483_EnvSocial-Diff_A_Diffusion-Based_Crowd_Simulation_Model_with_Environmental_Conditioning_and_Individu/images/4317893483175261300ec5ab461f2cd585cc0590ae060d9204ccce0458ca02a2.jpg)
+
+![images](../iclr_results/2483_EnvSocial-Diff_A_Diffusion-Based_Crowd_Simulation_Model_with_Environmental_Conditioning_and_Individu/images/8010186d5bdfa2e2b3d4ed5c347c82973557f40dda0a2c9e32c580218148b25d.jpg)
+
+![images](../iclr_results/2483_EnvSocial-Diff_A_Diffusion-Based_Crowd_Simulation_Model_with_Environmental_Conditioning_and_Individu/images/813e16bfc5f54e607a0d338d92bf4839a1232002f016e46628ab0b7e0ebc4ca2.jpg)
+
+![images](../iclr_results/2483_EnvSocial-Diff_A_Diffusion-Based_Crowd_Simulation_Model_with_Environmental_Conditioning_and_Individu/images/9570f6e438f90be049e6d3ed23b44f614809dec90e7a0b290d5007c1fab41152.jpg)
+
+![images](../iclr_results/2483_EnvSocial-Diff_A_Diffusion-Based_Crowd_Simulation_Model_with_Environmental_Conditioning_and_Individu/images/c1db9358a958715d370eaad7b803fd231a9b92b914d3dc5f1aa6277efb645cb8.jpg)
+
+![images](../iclr_results/2483_EnvSocial-Diff_A_Diffusion-Based_Crowd_Simulation_Model_with_Environmental_Conditioning_and_Individu/images/f47d6cce5045b5b6d67b9d7f50bc49c4456793a817fea31778b33babbfad86de.jpg)
+
+### Tables
+
+![tables](../iclr_results/2483_EnvSocial-Diff_A_Diffusion-Based_Crowd_Simulation_Model_with_Environmental_Conditioning_and_Individu/tables/164bf1f90afb36ab9e01151cb465a295e1a01d0225e33b563fdbd14cc98d1fea.jpg)
+
+![tables](../iclr_results/2483_EnvSocial-Diff_A_Diffusion-Based_Crowd_Simulation_Model_with_Environmental_Conditioning_and_Individu/tables/2525cc56f9b512f2affcaecf5a15ae9918bc957b53606d69cf19821144ea7381.jpg)
+
+![tables](../iclr_results/2483_EnvSocial-Diff_A_Diffusion-Based_Crowd_Simulation_Model_with_Environmental_Conditioning_and_Individu/tables/30d813fd0bab5ff1a02821e37634595d5feb77ec166c7b9c8bca0d5a6381699c.jpg)
+
+![tables](../iclr_results/2483_EnvSocial-Diff_A_Diffusion-Based_Crowd_Simulation_Model_with_Environmental_Conditioning_and_Individu/tables/42bdbb90f60180721a272ddd5b76226cf7be2a110d76d1689826c042317daa7e.jpg)
+
+![tables](../iclr_results/2483_EnvSocial-Diff_A_Diffusion-Based_Crowd_Simulation_Model_with_Environmental_Conditioning_and_Individu/tables/4edae4f51a66ea4b4f7aa117ceb310a4156f42b535aee50df40d83b280eb89fe.jpg)
+
+![tables](../iclr_results/2483_EnvSocial-Diff_A_Diffusion-Based_Crowd_Simulation_Model_with_Environmental_Conditioning_and_Individu/tables/6e8224433ad3df7719bf0f0cd1a4489e072981a5c44b49b1393a1b517e122c85.jpg)
+
+![tables](../iclr_results/2483_EnvSocial-Diff_A_Diffusion-Based_Crowd_Simulation_Model_with_Environmental_Conditioning_and_Individu/tables/7adaf17fb7abb35eba72602d71aa1662cc070048e73be02f95eb39897b0bc42c.jpg)
+
+![tables](../iclr_results/2483_EnvSocial-Diff_A_Diffusion-Based_Crowd_Simulation_Model_with_Environmental_Conditioning_and_Individu/tables/7b3a2e5e77decfb1aa3d887d4a00432667fe15a1174e14edf9e78a528abdbf8c.jpg)
+
+![tables](../iclr_results/2483_EnvSocial-Diff_A_Diffusion-Based_Crowd_Simulation_Model_with_Environmental_Conditioning_and_Individu/tables/7eb987cae22a49a22cb99a6015f800e54f72f1779868840e4c40febcff896c4f.jpg)
+
+![tables](../iclr_results/2483_EnvSocial-Diff_A_Diffusion-Based_Crowd_Simulation_Model_with_Environmental_Conditioning_and_Individu/tables/9127b07e11e76ad4eeb57e202c3b494ba36ae938063304294c779827b3b22581.jpg)
+
+![tables](../iclr_results/2483_EnvSocial-Diff_A_Diffusion-Based_Crowd_Simulation_Model_with_Environmental_Conditioning_and_Individu/tables/ac98ee9dfbb83b2fb329fd7f667c17b667b2cae54292c123a7ac1d453c378698.jpg)
+
+![tables](../iclr_results/2483_EnvSocial-Diff_A_Diffusion-Based_Crowd_Simulation_Model_with_Environmental_Conditioning_and_Individu/tables/b5b15025bb16136b3e2c13dd0092fff082d67ff0872b991dce1b5d070405a043.jpg)
+
+![tables](../iclr_results/2483_EnvSocial-Diff_A_Diffusion-Based_Crowd_Simulation_Model_with_Environmental_Conditioning_and_Individu/tables/b6e547a21f6465dc0ea5d4a8157e8c25ae4641f0ccb9a3352573cb649d6ff713.jpg)
+
+![tables](../iclr_results/2483_EnvSocial-Diff_A_Diffusion-Based_Crowd_Simulation_Model_with_Environmental_Conditioning_and_Individu/tables/e1d90ce7970e8ed4855f527253675dbfe66ca198ea0c9a766d9bddd64a1c50cb.jpg)
+
+![tables](../iclr_results/2483_EnvSocial-Diff_A_Diffusion-Based_Crowd_Simulation_Model_with_Environmental_Conditioning_and_Individu/tables/e2cefefe685e46c686ca9259b9eff4faf4ee88a9af1ded95d6e818e49b1c517b.jpg)
+
+![tables](../iclr_results/2483_EnvSocial-Diff_A_Diffusion-Based_Crowd_Simulation_Model_with_Environmental_Conditioning_and_Individu/tables/f894d9118d97ad5c09218be3a01fdb8659123e44bbc7a688b7b976be5550c7da.jpg)
+
+<a id="paper-2484"></a>
+## Enhancing Sparse Event Detection in Healthcare Time-Series via Adaptive Gate of Context–Detail Interaction
+
+**Type:** Poster | [OpenReview](https://openreview.net/forum?id=DulnZ7Dv82)
+
+### Images
+
+![images](../iclr_results/2484_Enhancing_Sparse_Event_Detection_in_Healthcare_Time-Series_via_Adaptive_Gate_of_Context_Detail_Inter/images/2552cf120ae11024977e30f3e70c73cb22fe9b237634362b134f739bbc579ebd.jpg)
+
+![images](../iclr_results/2484_Enhancing_Sparse_Event_Detection_in_Healthcare_Time-Series_via_Adaptive_Gate_of_Context_Detail_Inter/images/2dbe2e78fafae663ae485f5ac20b0d3affad54472c64d3860393e2c6121af72c.jpg)
+
+![images](../iclr_results/2484_Enhancing_Sparse_Event_Detection_in_Healthcare_Time-Series_via_Adaptive_Gate_of_Context_Detail_Inter/images/34eb0e12456e37f53af33965e92059b682be3ed56307a3fe96c8ac8065848fcf.jpg)
+
+![images](../iclr_results/2484_Enhancing_Sparse_Event_Detection_in_Healthcare_Time-Series_via_Adaptive_Gate_of_Context_Detail_Inter/images/5022b650f67bb756b20f0972f3a3f8b14d1638a09033149168a8fa1a07665b5a.jpg)
+
+![images](../iclr_results/2484_Enhancing_Sparse_Event_Detection_in_Healthcare_Time-Series_via_Adaptive_Gate_of_Context_Detail_Inter/images/6d0c358bc4c31fc25ec3d07f3ae115b018d120d358baeb02db8f2c40436710fb.jpg)
+
+![images](../iclr_results/2484_Enhancing_Sparse_Event_Detection_in_Healthcare_Time-Series_via_Adaptive_Gate_of_Context_Detail_Inter/images/7088a5c54a8783d05c925634fc2b5fd4960eae1c80b297a7ae050df28bd869b2.jpg)
+
+![images](../iclr_results/2484_Enhancing_Sparse_Event_Detection_in_Healthcare_Time-Series_via_Adaptive_Gate_of_Context_Detail_Inter/images/7400df87295835515c77386fb15ed08f5afefea4f84f54f8e0ec493eed80a9f8.jpg)
+
+![images](../iclr_results/2484_Enhancing_Sparse_Event_Detection_in_Healthcare_Time-Series_via_Adaptive_Gate_of_Context_Detail_Inter/images/8039549e8e3a0c5069636897f172700103ab95be442a64309a7db708cbeed071.jpg)
+
+![images](../iclr_results/2484_Enhancing_Sparse_Event_Detection_in_Healthcare_Time-Series_via_Adaptive_Gate_of_Context_Detail_Inter/images/90cd806ecc198e847027b5747b0eac8276e69be340ede203490a38f688fd0051.jpg)
+
+![images](../iclr_results/2484_Enhancing_Sparse_Event_Detection_in_Healthcare_Time-Series_via_Adaptive_Gate_of_Context_Detail_Inter/images/94510f6654879fb1549820e7e9ad47661d71ee97012cbad15ee68198eba2c923.jpg)
+
+![images](../iclr_results/2484_Enhancing_Sparse_Event_Detection_in_Healthcare_Time-Series_via_Adaptive_Gate_of_Context_Detail_Inter/images/afe2889fb932a492cda181cafd0ee5e92c48026d108215a17afda394634434a8.jpg)
+
+![images](../iclr_results/2484_Enhancing_Sparse_Event_Detection_in_Healthcare_Time-Series_via_Adaptive_Gate_of_Context_Detail_Inter/images/b8dc2779dab6fe1dab1ec094e2e535c5f3f15300fdf3806f5c4cdd9e7467fa84.jpg)
+
+![images](../iclr_results/2484_Enhancing_Sparse_Event_Detection_in_Healthcare_Time-Series_via_Adaptive_Gate_of_Context_Detail_Inter/images/fd7718dfd508f10ecb1d00cb7b5c9eb10bfb6fe8f4cfeb9f2829f957aeee409a.jpg)
+
+### Tables
+
+![tables](../iclr_results/2484_Enhancing_Sparse_Event_Detection_in_Healthcare_Time-Series_via_Adaptive_Gate_of_Context_Detail_Inter/tables/0c6bb09329dc10f7cbcf4c0a3d1fc3064e913aaeda9c1329c0fabb2f73867da6.jpg)
+
+![tables](../iclr_results/2484_Enhancing_Sparse_Event_Detection_in_Healthcare_Time-Series_via_Adaptive_Gate_of_Context_Detail_Inter/tables/2213c7d2da4e42425a26cdc7d23c7b63e7357cfe859c2b5fb8b15f5cd15f551d.jpg)
+
+![tables](../iclr_results/2484_Enhancing_Sparse_Event_Detection_in_Healthcare_Time-Series_via_Adaptive_Gate_of_Context_Detail_Inter/tables/2cfc4814a2d472cbceeacb87ec21e686dd0c9b615c4829566878bf483fac3c39.jpg)
+
+![tables](../iclr_results/2484_Enhancing_Sparse_Event_Detection_in_Healthcare_Time-Series_via_Adaptive_Gate_of_Context_Detail_Inter/tables/30b6ab5892a74fc51cd6ddc638d286eed1b43efdd348bea876e6eb37364bf8d3.jpg)
+
+![tables](../iclr_results/2484_Enhancing_Sparse_Event_Detection_in_Healthcare_Time-Series_via_Adaptive_Gate_of_Context_Detail_Inter/tables/3bade46bcabccf0a0ae3ea7939f68d20020f3f695f06099ef17231a305b115d0.jpg)
+
+![tables](../iclr_results/2484_Enhancing_Sparse_Event_Detection_in_Healthcare_Time-Series_via_Adaptive_Gate_of_Context_Detail_Inter/tables/5e5f9bd9d8a8bea104dc324de4263f48a60c1355b4d118d8c72bc2a947a5e4a8.jpg)
+
+![tables](../iclr_results/2484_Enhancing_Sparse_Event_Detection_in_Healthcare_Time-Series_via_Adaptive_Gate_of_Context_Detail_Inter/tables/7f5db36bbc5dc10a8ec24d3d2c1a73733655b27021dc45c606be7e9f6535eb3c.jpg)
+
+![tables](../iclr_results/2484_Enhancing_Sparse_Event_Detection_in_Healthcare_Time-Series_via_Adaptive_Gate_of_Context_Detail_Inter/tables/85a933c224116ac48b52c7fd46939a7c921d972e43aa195a20811718c6a57822.jpg)
+
+![tables](../iclr_results/2484_Enhancing_Sparse_Event_Detection_in_Healthcare_Time-Series_via_Adaptive_Gate_of_Context_Detail_Inter/tables/9585ea9ff266d276febfa1afa114ec1cd26ee81ee2f589d7096b4c468e2b358a.jpg)
+
+![tables](../iclr_results/2484_Enhancing_Sparse_Event_Detection_in_Healthcare_Time-Series_via_Adaptive_Gate_of_Context_Detail_Inter/tables/99fd29d38de693377186f5a843c5ff45c316a43d67b54e5671ecc953ca517e65.jpg)
+
+![tables](../iclr_results/2484_Enhancing_Sparse_Event_Detection_in_Healthcare_Time-Series_via_Adaptive_Gate_of_Context_Detail_Inter/tables/9ff751251f4c43cee1682f3bdc14df2c60341cd0df081d1db79eec6a27ec7278.jpg)
+
+![tables](../iclr_results/2484_Enhancing_Sparse_Event_Detection_in_Healthcare_Time-Series_via_Adaptive_Gate_of_Context_Detail_Inter/tables/a3c65ed97f39700006a6236e6b395acd34f9fa109055982b1a42daf2edf10121.jpg)
+
+![tables](../iclr_results/2484_Enhancing_Sparse_Event_Detection_in_Healthcare_Time-Series_via_Adaptive_Gate_of_Context_Detail_Inter/tables/ac7ddf7be9e5fc9ea617c7bd43c110f033dfa88b9afef4c95d8c6d76adb4ddae.jpg)
+
+![tables](../iclr_results/2484_Enhancing_Sparse_Event_Detection_in_Healthcare_Time-Series_via_Adaptive_Gate_of_Context_Detail_Inter/tables/b8b62b4569a529594559347822f5845deca120ce000a73120e0b65edb17c57a5.jpg)
+
+![tables](../iclr_results/2484_Enhancing_Sparse_Event_Detection_in_Healthcare_Time-Series_via_Adaptive_Gate_of_Context_Detail_Inter/tables/bb766653956a41d4651e3403bd5d8f077baac421707b744f6f0fb9b560891e85.jpg)
+
+![tables](../iclr_results/2484_Enhancing_Sparse_Event_Detection_in_Healthcare_Time-Series_via_Adaptive_Gate_of_Context_Detail_Inter/tables/cceae2645f21f3af92452b642a5adcef30e8e04696afc5b5e648bd799641640a.jpg)
+
+![tables](../iclr_results/2484_Enhancing_Sparse_Event_Detection_in_Healthcare_Time-Series_via_Adaptive_Gate_of_Context_Detail_Inter/tables/cd6572a8cfc14b820d62c60895fd92cacb2f17cace0b44e54f202cbad40913fc.jpg)
+
+![tables](../iclr_results/2484_Enhancing_Sparse_Event_Detection_in_Healthcare_Time-Series_via_Adaptive_Gate_of_Context_Detail_Inter/tables/d126e54e328de03dd95daa9502b25fb7b931e50226384dd422529639ba28113f.jpg)
+
+![tables](../iclr_results/2484_Enhancing_Sparse_Event_Detection_in_Healthcare_Time-Series_via_Adaptive_Gate_of_Context_Detail_Inter/tables/d7941c0e74aaf0de10110270788747753593ed374fb7629958d77e0d6497415d.jpg)
+
+<a id="paper-2485"></a>
+## FMIP: Joint Continuous-Integer Flow For Mixed-Integer Linear Programming
+
+**Type:** Poster | [OpenReview](https://openreview.net/forum?id=kyvW6S0u3z)
+
+### Images
+
+![images](../iclr_results/2485_FMIP_Joint_Continuous-Integer_Flow_For_Mixed-Integer_Linear_Programming/images/0151574c1690ecbc5ebddd30e35e3af6ff4bc5acb05c810770ad5c9ece79fa0b.jpg)
+
+![images](../iclr_results/2485_FMIP_Joint_Continuous-Integer_Flow_For_Mixed-Integer_Linear_Programming/images/355b504e4a320802cbd5b958c97940828bce654087b15ce7d49a89f6958517bc.jpg)
+
+![images](../iclr_results/2485_FMIP_Joint_Continuous-Integer_Flow_For_Mixed-Integer_Linear_Programming/images/9945b6e0f8f457c6461b987a8aec72b8086d3c525238d7f2a5d76dba42e4ed2e.jpg)
+
+![images](../iclr_results/2485_FMIP_Joint_Continuous-Integer_Flow_For_Mixed-Integer_Linear_Programming/images/bf8e243ba94a3d73d7add52ba784ddc1ce5b7a321ae22c854982159e9800068f.jpg)
+
+### Tables
+
+![tables](../iclr_results/2485_FMIP_Joint_Continuous-Integer_Flow_For_Mixed-Integer_Linear_Programming/tables/0a81a141d982c5048266850d465332ebeeb9337cf6d040a2725521f4bcf976ac.jpg)
+
+![tables](../iclr_results/2485_FMIP_Joint_Continuous-Integer_Flow_For_Mixed-Integer_Linear_Programming/tables/250c63ccc7288102b74b5ad63d2e9eac069ba5a736f50963aced661d29f49ec5.jpg)
+
+![tables](../iclr_results/2485_FMIP_Joint_Continuous-Integer_Flow_For_Mixed-Integer_Linear_Programming/tables/29453f3aca3df4c5a7b635e8889dad1ae3854cf41867015631ba9f044a5a8fab.jpg)
+
+![tables](../iclr_results/2485_FMIP_Joint_Continuous-Integer_Flow_For_Mixed-Integer_Linear_Programming/tables/6470939079d5dda9009b05e8b8cbe76c761c04ef45fdb0a9dd81766464345d73.jpg)
+
+![tables](../iclr_results/2485_FMIP_Joint_Continuous-Integer_Flow_For_Mixed-Integer_Linear_Programming/tables/7f959e9084db28294527eec474353cb7f0bf6030c14043490079e281f683859a.jpg)
+
+![tables](../iclr_results/2485_FMIP_Joint_Continuous-Integer_Flow_For_Mixed-Integer_Linear_Programming/tables/82253af3cf2eff8e8c662759089f0fe46baf2889e5932ef41d931b113e3eea45.jpg)
+
+![tables](../iclr_results/2485_FMIP_Joint_Continuous-Integer_Flow_For_Mixed-Integer_Linear_Programming/tables/e321f22da5b94a048b43d898d92d230c123ab633c929f95ae5ee9b5a505e7525.jpg)
+
+![tables](../iclr_results/2485_FMIP_Joint_Continuous-Integer_Flow_For_Mixed-Integer_Linear_Programming/tables/f3971ecdfa744c4f3623f9761e63184848752067cd0a7df9268112df8551f808.jpg)
+
+![tables](../iclr_results/2485_FMIP_Joint_Continuous-Integer_Flow_For_Mixed-Integer_Linear_Programming/tables/f60ede5e0f4a6bef34516a9d5564fcc712a67a18200d61ffabf43378ca0ed7df.jpg)
+
+<a id="paper-2486"></a>
+## PhysLLM: Harnessing Large Language Models for Cross-Modal Remote Physiological Sensing
+
+**Type:** Poster | [OpenReview](https://openreview.net/forum?id=aR43t8OEeW)
+
+### Images
+
+![images](../iclr_results/2486_PhysLLM_Harnessing_Large_Language_Models_for_Cross-Modal_Remote_Physiological_Sensing/images/11f32f337b8d06e9566cc8291990cecf53443eea0fe5b894e85865707902ebaa.jpg)
+
+![images](../iclr_results/2486_PhysLLM_Harnessing_Large_Language_Models_for_Cross-Modal_Remote_Physiological_Sensing/images/49cc6ad488e152ef4e8535c12e5b29c6ba803252318c0641e55240a4f9e5ec8d.jpg)
+
+![images](../iclr_results/2486_PhysLLM_Harnessing_Large_Language_Models_for_Cross-Modal_Remote_Physiological_Sensing/images/5f96d92496d26aa48259af6a8e5c0458330b23500711e88b406dbdfb25d68335.jpg)
+
+![images](../iclr_results/2486_PhysLLM_Harnessing_Large_Language_Models_for_Cross-Modal_Remote_Physiological_Sensing/images/7748d5dc761a3b365d7f41afd1df235cd3ec8e55993de4a03ef6aa49f40557a4.jpg)
+
+![images](../iclr_results/2486_PhysLLM_Harnessing_Large_Language_Models_for_Cross-Modal_Remote_Physiological_Sensing/images/86df69c3ea882f0c8c8ab88028bfd50c71d4c91e79908d391d010514cad369dd.jpg)
+
+![images](../iclr_results/2486_PhysLLM_Harnessing_Large_Language_Models_for_Cross-Modal_Remote_Physiological_Sensing/images/992d52fef4f1a36d721c3dfe0dc35a33407f3bfca89eb2742a1a8562b44a5110.jpg)
+
+![images](../iclr_results/2486_PhysLLM_Harnessing_Large_Language_Models_for_Cross-Modal_Remote_Physiological_Sensing/images/a6ec0f13d2aa41195a6d1189b8df357e7888bd00ad5b31ea4390ee1bd9039081.jpg)
+
+![images](../iclr_results/2486_PhysLLM_Harnessing_Large_Language_Models_for_Cross-Modal_Remote_Physiological_Sensing/images/bdacf0a3650f04744878c4be1d13868e280aa4aee3e41fb9080ad875dad93d1d.jpg)
+
+![images](../iclr_results/2486_PhysLLM_Harnessing_Large_Language_Models_for_Cross-Modal_Remote_Physiological_Sensing/images/ea3319fe6b16911a5e2107d78af1fa4923c4bd633320fbbc608debbaa0f7012a.jpg)
+
+![images](../iclr_results/2486_PhysLLM_Harnessing_Large_Language_Models_for_Cross-Modal_Remote_Physiological_Sensing/images/f0ca40b760c4bf5ad10349fa7657ae455f45b4e6585dcac9bec737b24f9e3697.jpg)
+
+![images](../iclr_results/2486_PhysLLM_Harnessing_Large_Language_Models_for_Cross-Modal_Remote_Physiological_Sensing/images/f28e161f2bb14c67059a40e2802547d8337cee26db5e8d643a750f6325a97915.jpg)
+
+### Tables
+
+![tables](../iclr_results/2486_PhysLLM_Harnessing_Large_Language_Models_for_Cross-Modal_Remote_Physiological_Sensing/tables/1462345303bf3614ac11387c01c5abb5b3a6e74e37192780b9bf5f7a721a8da5.jpg)
+
+![tables](../iclr_results/2486_PhysLLM_Harnessing_Large_Language_Models_for_Cross-Modal_Remote_Physiological_Sensing/tables/317e4774fa7dcaf66177fd410b647fb7c17c321b229623caa979678a654ca54f.jpg)
+
+![tables](../iclr_results/2486_PhysLLM_Harnessing_Large_Language_Models_for_Cross-Modal_Remote_Physiological_Sensing/tables/5c8cd2438f0349e8b86888c829fbefb504879f18ae9317770937d52d8b7d2e30.jpg)
+
+![tables](../iclr_results/2486_PhysLLM_Harnessing_Large_Language_Models_for_Cross-Modal_Remote_Physiological_Sensing/tables/669b89600287a8c239f3d451fa522187a11ce189217d5e4e93fe652ce5f64da0.jpg)
+
+![tables](../iclr_results/2486_PhysLLM_Harnessing_Large_Language_Models_for_Cross-Modal_Remote_Physiological_Sensing/tables/9be6685008b2ac5aab36326487b140ba6e2db977a8e3f7e404831c21cb2c8b22.jpg)
+
+![tables](../iclr_results/2486_PhysLLM_Harnessing_Large_Language_Models_for_Cross-Modal_Remote_Physiological_Sensing/tables/ab768e771f88fae4cb7edc1a70feb21cabd4acd94a9c715e58ff7b99a38c11cf.jpg)
+
+![tables](../iclr_results/2486_PhysLLM_Harnessing_Large_Language_Models_for_Cross-Modal_Remote_Physiological_Sensing/tables/ae98f7591d7c6391daccd88484ddda0e8b6cbda19bdc1cc094ddb31d7b8b5878.jpg)
+
+![tables](../iclr_results/2486_PhysLLM_Harnessing_Large_Language_Models_for_Cross-Modal_Remote_Physiological_Sensing/tables/c93cb40d51bf1fe18218a6cd7b12598f4b647860e4541e3746b580674974e84a.jpg)
+
+![tables](../iclr_results/2486_PhysLLM_Harnessing_Large_Language_Models_for_Cross-Modal_Remote_Physiological_Sensing/tables/f0d5f78226e0deccad27a3c7417d6a291408b26f3c8e8a6795f6157e10a0a2b2.jpg)

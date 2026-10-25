@@ -1,0 +1,29 @@
+{
+  "status": "complete",
+  "openreview_id": "MPWIM6rxxU",
+  "pdf_sha256": "9c3e1aa997dae60cbca9bd1ce933efa29ece3beaf45dcbf2c4eb8514984ca532",
+  "images": [
+    {
+      "name": "8acf4ac0e7cdfc5805bfd218935879720fae8ed53d76e22e603c700e689e41e3.jpg",
+      "sha256": "5e4010247c186eb44a27f1d15f62130957f9f0a6bce698409333061d59e903e3"
+    },
+    {
+      "name": "157efc2ed883642d31f6ac2ea44c0dbd1e90b1505910e3eaacc80b130f1d92b5.jpg",
+      "sha256": "ad5ac87191a1f30cd6eb8b176fd2f8ef2aba7b5b25f2091d724bd3d34261a3f3"
+    },
+    {
+      "name": "1350e1417d340a949f667a9749b212437c2ca2f829be90e0c795ab2334a41c6d.jpg",
+      "sha256": "9bca375e2720b1d3cfa5faf295a84531361f2cee71c2745fe62ed5050799b966"
+    },
+    {
+      "name": "accea2b77b4b10d031ec073ce88175f43930645c5aa54a2c185362d4fdb60e53.jpg",
+      "sha256": "6752fa7a32fc8e9c536c129088c65486eab420131bda7f52b325943dc2769ba0"
+    },
+    {
+      "name": "69cf92d718ab6b0159a45435bdf07ab9b8aa28a215354a772940cad996da7456.jpg",
+      "sha256": "9c1ab47d5009bc5493b0cd02ae888a00a5f01724d082949a834897f60ea3db5b"
+    }
+  ],
+  "tables": [],
+  "equations_filtered": 220
+}

@@ -1,0 +1,26 @@
+{
+  "status": "complete",
+  "openreview_id": "Ssevs8KCsU",
+  "pdf_sha256": "b425ad8ecc6dcd6e9f0a3d2b8dd18e6c92b5dc1669e1778dfd706eef7f8efeee",
+  "images": [
+    {
+      "name": "130ac6dd900dd1ba3ec1d303a9f72fc1f753d026ca1f63d86041b63535fda530.jpg",
+      "sha256": "f9f967c45f8e8b25b4428121041305445a861be1dcd0663d0f4486f262c5d896"
+    },
+    {
+      "name": "772e51ba4609716e08304b3c5f2d3db4714ca28127854be446a4263583f0b5a7.jpg",
+      "sha256": "a42170e158fe16dba76d8d2825d1b82059e2982f40081f4bbe43c3325c71ce56"
+    }
+  ],
+  "tables": [
+    {
+      "name": "03fd752ac9ef4256b00b6cfd90bd0aeb415ca2b405c420fa97d1564a668c9c8a.jpg",
+      "sha256": "c9790950994181c002d74c8064e1c9afe1ed72280e4f708cc5db6441ed913863"
+    },
+    {
+      "name": "78d2868630f41e2ad6efc8e15fbc23783f2333a39eed7092367379cf6818afa3.jpg",
+      "sha256": "e9901f9586376c104bab92318f997aa38944f9c1ccd30ad287422a99bd92c2b2"
+    }
+  ],
+  "equations_filtered": 97
+}

@@ -1,0 +1,50 @@
+{
+  "status": "complete",
+  "openreview_id": "wdhruVcRx1",
+  "pdf_sha256": "7cf14312588aa4c891a697d8fe7994c6ebf07214888abbe44ff2c19c9b2bc489",
+  "images": [
+    {
+      "name": "6b59c430e7b2b0cf92a99806a5b235dbd0acdf734db3b919f21651df9dfb7fbd.jpg",
+      "sha256": "0a503eee00a0e452996d1ec5a4f4c1e8a1771b183f6a52023f2b46510bd03d9b"
+    },
+    {
+      "name": "7185502e65149cd23f1c9e7866e615c726b866359e655650967aba9a5ebc9203.jpg",
+      "sha256": "defadbfb6f05e3ec7d6afce8315df79169b7fd830bbf48548758bf56f591471c"
+    },
+    {
+      "name": "d2ea9840fdb365d2a24f3c1f976e770968804ea32494055326593352545a9e3b.jpg",
+      "sha256": "870c162ec7f5fe3e8994f3c50c4b5973df569578e32a22b962850d09185c25ae"
+    },
+    {
+      "name": "bbfdf9f96069fa8b76bd4fb2e0089e97b388683041581bcdfa9ebb0831d126fb.jpg",
+      "sha256": "ce7108fb9010e69631b6e5e5d8bdffc5845d97263174b8d33395410e1b118c90"
+    },
+    {
+      "name": "fbcd8c9e946cb716066406858d9619aaa480e5e42b42f793aa7b896b1ffb3eeb.jpg",
+      "sha256": "e966f49a7cbf61352e547d164639a505e0188dcd3c995d20946249d43f40d20b"
+    }
+  ],
+  "tables": [
+    {
+      "name": "31e1c1ca11de7248208be1c1cdf872b7e9560aaf56bc69279f6c49de782f92c8.jpg",
+      "sha256": "417f6138f224e44fd024a6d0c191aa69a78bdc9cdc8dc4506a1c71addaf28c81"
+    },
+    {
+      "name": "23f5d1c00dfd7ceb6750b820b3f7b957938dbce7cb903ac9e9b9792adda9e2c5.jpg",
+      "sha256": "46fba5a4e96e64db0c0c9603bbde081fcc90e10e044e7567edeb1ff09c7bfb96"
+    },
+    {
+      "name": "60b0992cd36a42b6def4b00af14310defb01dacadfef068838f5724ba64a6a11.jpg",
+      "sha256": "443566c143df393c9eb480d5af862b98f9251d84f11e03b361e3e6f6b91c5745"
+    },
+    {
+      "name": "c12dd9fba7c041bf9321335ee9915fbd853072bc3b8bc8da4cbc0a951037b330.jpg",
+      "sha256": "b9ce1b223c78c32109cae8e3085e9c755b5701e6f144e2d9330d978e26b98c8f"
+    },
+    {
+      "name": "e5dfddd3f8863701b885af57f5b469f08197e08f8b48eb08f0fc310630587db5.jpg",
+      "sha256": "76a1a2f40310aa03ab31ecb62e0015e320b4c015a433e7ec3ce4b40c7589b186"
+    }
+  ],
+  "equations_filtered": 37
+}

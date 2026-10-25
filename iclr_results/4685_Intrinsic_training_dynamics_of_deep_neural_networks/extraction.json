@@ -1,0 +1,13 @@
+{
+  "status": "complete",
+  "openreview_id": "IlyesljaNb",
+  "pdf_sha256": "6861657dd1194a4b000d7f54a3c414b990c3642fc99917eee72793fda170d20f",
+  "images": [],
+  "tables": [
+    {
+      "name": "25d1afb873cc2cce544bbdc45a712546d3535a3a327e360dabf948905a92203d.jpg",
+      "sha256": "aef771249846631c86df15643effeedde9c30ed34a2c0133f01ae98c9e04a484"
+    }
+  ],
+  "equations_filtered": 198
+}

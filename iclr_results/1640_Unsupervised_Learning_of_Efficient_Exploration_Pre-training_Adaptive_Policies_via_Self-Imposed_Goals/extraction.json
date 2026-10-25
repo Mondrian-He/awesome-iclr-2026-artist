@@ -1,0 +1,38 @@
+{
+  "status": "complete",
+  "openreview_id": "UmxTIxHWkl",
+  "pdf_sha256": "cc40584f5e04d3e2c1d4153c903320872fc672d1f51cb3c1311b80ac2b037ecf",
+  "images": [
+    {
+      "name": "9eb9cfa8e3b7dc37237b87b2ae72020f031b67a9124d2855736c7cc20530450e.jpg",
+      "sha256": "bed676b7e50fc98baa1c8421f94e1e45bbd94397e76eebda3759fd254d07137b"
+    },
+    {
+      "name": "5ff37e4abc1b3e22eca567c8de70245f60e3a81ec95048616ce198d7864a76ef.jpg",
+      "sha256": "e110aa24c334fd22836f658a91b658511b1b1e137f11a1e428059404f9250461"
+    },
+    {
+      "name": "cde28eb5cbfe6e3d67c597dceaef33933427bc052c17e647957a8f3767529af8.jpg",
+      "sha256": "5559ce7b3b6b4ded34c10a73e1d914ed72ba484a5360a7c8e58400aa0238e351"
+    },
+    {
+      "name": "ab9a315bd70e5833b1a65b1b9f25fc27bdcd640e8420c09434e0828d895644fe.jpg",
+      "sha256": "7dab4756cfddd0adaca889e898950809e47fb1c06101f43cc3658cd3b7ca5786"
+    },
+    {
+      "name": "250911d40db6e6c245a7a949b1e6263411ea19e68f2e64c8ba7909b010b463e9.jpg",
+      "sha256": "dcbfd1c1a23ead269550b7fb9cf95ff769a7b938de5786d307402866db319052"
+    }
+  ],
+  "tables": [
+    {
+      "name": "3542f7f5990ee7c3a0c003546f464bc5f80578ae9379b7cbbc1189ddc466437b.jpg",
+      "sha256": "bb52c98db05f4073e6131ba1566a145ecf5ae86a8b7558e654229643f0f33870"
+    },
+    {
+      "name": "c3060e0e9fa7cc39e8c3c874e2dd0c00cffe3157fed839d8bef72b627fa36c4a.jpg",
+      "sha256": "1896262545ed9c93cc651c82d2db06969aea977cf35471890442690c65a8a6ab"
+    }
+  ],
+  "equations_filtered": 5
+}

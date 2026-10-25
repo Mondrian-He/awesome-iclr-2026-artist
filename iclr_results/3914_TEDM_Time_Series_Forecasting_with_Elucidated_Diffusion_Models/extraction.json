@@ -1,0 +1,86 @@
+{
+  "status": "complete",
+  "openreview_id": "kQee8MObMc",
+  "pdf_sha256": "31d30c7f8c46b3fb7cc28af129b401a51ede549c1a37e4e482b362856cc697c6",
+  "images": [
+    {
+      "name": "063939f43c70707a55ba5e4a864fdb9dad119db49aba5576f6fb8fddc3d10af7.jpg",
+      "sha256": "b698550263683dc45b380a4f56fd0d09b52ad6dae67a8f0c758d606bcb03b799"
+    },
+    {
+      "name": "e2dd2f00a4f24564c41449277cd0ed2cb698e2178427fc52ce73807289e56b4d.jpg",
+      "sha256": "2637c2e853f909de1cbe10278f76a5c20231a63e57e1ee9ba321c590ff8141a5"
+    },
+    {
+      "name": "884ce4f59da8d656d2c6add28852c00fbdb779420c3784beb439d2c659bab186.jpg",
+      "sha256": "38ca024c786ab385746b3fee628d666d055cb46a5a75c53f6c4224ab4e7f913b"
+    },
+    {
+      "name": "1154c1d342664780cd8ab687cb0cf5aa7489126c197c7adee6cc134d0e3fbcb3.jpg",
+      "sha256": "892f521cd03b1228611afc1910a145e4415175645b7ef45a1fcca7bb4c1adb59"
+    },
+    {
+      "name": "de61b48b3b25bc5a5c9f61d8cc705f6af8173674921f114b8d466de59dd5747f.jpg",
+      "sha256": "47e0709719c397901217d7cc6dadbed2cddc5734afcc1920b23cc5349b249921"
+    },
+    {
+      "name": "e4dcceb0781b83b07d78f50a46b8fb9a8b7d5808483a96a366319fc959bbf4e1.jpg",
+      "sha256": "e69ca41c8d6caa0ff1943080e410f82ee39442b64e4bf09617a135026422cf30"
+    },
+    {
+      "name": "7f10fb47d15dabf839e4a85b0604eca6b2c0c586901372ef80e4d900eb2f77b9.jpg",
+      "sha256": "2b4a6afd2d5d9f0c6b8b1ae5ca04be170e7e53f5a5342a1fc8bcdba1cc8d4fed"
+    },
+    {
+      "name": "e802b690155ca6492b65667e5790ab303222d0894a0ac60b80b2f3515634f518.jpg",
+      "sha256": "1280b3700e3caff0764d3d92a73f60a43bfe2655b649d4972a18335efcb69af7"
+    }
+  ],
+  "tables": [
+    {
+      "name": "80843aeb4eab8064a7110aa973cec5f6bc66309cded2ac06dfcee350ca01f521.jpg",
+      "sha256": "a9adaadfdd79c0aaa574251bc63b372cae2151c09d392eed0f288d555501afae"
+    },
+    {
+      "name": "567f2c691ff8ef582154fd6cd17ca962eab28a5a28f2fa7fe02377c59cd59d7f.jpg",
+      "sha256": "5d3be4227464ff577e211acf84c5a07c0e348faa5da74513290159cab6d89326"
+    },
+    {
+      "name": "5295fe578d2a0da529f01b72067a0d7f65fa4eafb6e279786b26891d73245ade.jpg",
+      "sha256": "468b1a1696963910eef03b645d7c6bbf6c52ad90f3ff80e49b589eb3789645b1"
+    },
+    {
+      "name": "28ada82986f3d63be10adac16162f67a35fb4396306e882eb9065ef174ff5b0b.jpg",
+      "sha256": "9b5861bc2fc38678e8dffb8453977f44ec2a5c50aac2cee81db24d3b05330ce6"
+    },
+    {
+      "name": "e4f9aebd95b494ba7447cd8a33bcb5f3d3169e2b88d92db3bfbcbe39eda16f5a.jpg",
+      "sha256": "05ddf22abfcaac8ef7e58906467cff6bba089a23243458d47ffbff9b832fa676"
+    },
+    {
+      "name": "54e6d56785cdfb33afcc16fd365f9d823fa6f6ac5ebc35335d880b4192348d95.jpg",
+      "sha256": "3ed750b0114c13ba7d9fa5357418e3a1403b353b73363b6dbc7bca3d78673d2d"
+    },
+    {
+      "name": "e6f5822c85556955b86359c4517d51ece951802b6ff84df3f2970cf81c05c68c.jpg",
+      "sha256": "02ee6c7f092236ee1938996a3dfc7c6887fc8448175ab85ea97d990ec9059592"
+    },
+    {
+      "name": "10c5cd9a27e878854bf9aed2852e300eed6d527781a67de82eff8c9b08312e75.jpg",
+      "sha256": "35030df73152b4adac4b581435a2e31e92ecddce14e08593e4f471e624add599"
+    },
+    {
+      "name": "d2d98237827388b54e6b3d51585eb1f1a5fac0f849ed1a1867a378b7e940b039.jpg",
+      "sha256": "e2ceaaa6d370b7ea25ba94d855734922623b45c904722fdbc8d85b7aafaa19d2"
+    },
+    {
+      "name": "fe0097fe5fbe84efafb0733552fab3ae2ae5c2ae1a4281a12688104fff5560f8.jpg",
+      "sha256": "cc6d00119d6129b73502f3c49d16483eb78e432841b5de447e607e754e6d8fe6"
+    },
+    {
+      "name": "320da90743a7ac2d490d5d937025187c1e99e67120466790142a4b22cca4b039.jpg",
+      "sha256": "32961f23cafa3c44ea912e2df3f3bde37ff8769e7cab8ad0ce230dfa616e85b7"
+    }
+  ],
+  "equations_filtered": 117
+}

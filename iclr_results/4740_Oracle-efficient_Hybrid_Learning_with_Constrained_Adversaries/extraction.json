@@ -1,0 +1,13 @@
+{
+  "status": "complete",
+  "openreview_id": "AKUSUkWj6p",
+  "pdf_sha256": "6e9070e9b9c8f9a309e7d36476f83d85c4849ee7e56d6c57e06333bd23e38df8",
+  "images": [],
+  "tables": [
+    {
+      "name": "f2beb9e0cae50e3182c56c06e88730f5da08344a55ad4b22b3374667c5a22d99.jpg",
+      "sha256": "ad3cfd6d5e856cd83f6cc7b360863642b3124b623d7aa8a5e21fd8f9012f3dd4"
+    }
+  ],
+  "equations_filtered": 23
+}

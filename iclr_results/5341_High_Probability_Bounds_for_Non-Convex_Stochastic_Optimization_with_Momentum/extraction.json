@@ -1,0 +1,22 @@
+{
+  "status": "complete",
+  "openreview_id": "KirKWFPYJA",
+  "pdf_sha256": "0ee6a258a20968bf6104059b002b73f19fdd98e3ff670a0b7f92eaf71a6b2129",
+  "images": [
+    {
+      "name": "9d06a5ca0c285cdc9a3dc3d5a6d9e3165c407dd20774c19e68e26b801d233c8e.jpg",
+      "sha256": "65d9cf71a71287ccb0317d06dd128ece845c3e068f5ab0b0384420499da07426"
+    },
+    {
+      "name": "c47801d05c8b6017753d83678efda2b980ce6f71e4fbabe80b05f52844618f5b.jpg",
+      "sha256": "82cd633eb9dbcdd7bb6dedc761a98b6fc238bbf4793a995334387a0620c2776b"
+    }
+  ],
+  "tables": [
+    {
+      "name": "c7b67154855fdba57d68ff692226de7124da2929a2f187d350181a94bd0cf496.jpg",
+      "sha256": "27547644a9df72396600e9315a0141d32a00ba5823c99e52ea7b72f254d5816e"
+    }
+  ],
+  "equations_filtered": 159
+}

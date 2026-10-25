@@ -1,0 +1,25 @@
+{
+  "status": "complete",
+  "openreview_id": "BAQNrsr987",
+  "pdf_sha256": "088f0fbdb95f5768c094127a23462f8fb50d0925fbe7b55aee6a152a9898a88f",
+  "images": [
+    {
+      "name": "4c71e14d88792fe739279d64c25a163c491cabd7ece663521f4c702c29e46588.jpg",
+      "sha256": "79916f62b60b185f82abf87bcf4952d60397b088d3db6dd6e563fa733584323f"
+    },
+    {
+      "name": "83ea76a95f97ae8be50214e3ec04eadb69705c41be3243c14862041e9a5d7cc0.jpg",
+      "sha256": "96cb40f693de194a0777674ddf916741e72032b88871166f32068fe54ed1f762"
+    },
+    {
+      "name": "c5d85b84bb48c2d21dfb4eb8bb9599d0869b91555cf7b74520995b064124ddbe.jpg",
+      "sha256": "f78b7c5b9cd1c904a078d007faf73f532c7676ed4f63c3ade34b65ab90bbf560"
+    },
+    {
+      "name": "037b93de98d7f4f366c0d84f5bf7a8664d198cd28090af6ec5b07622328b531b.jpg",
+      "sha256": "63acccfb84d02e8a33e8117b2043a57f06d3916bb928d89eff048a8975f8d8d7"
+    }
+  ],
+  "tables": [],
+  "equations_filtered": 0
+}

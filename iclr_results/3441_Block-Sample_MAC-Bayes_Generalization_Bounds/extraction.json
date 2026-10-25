@@ -1,0 +1,18 @@
+{
+  "status": "complete",
+  "openreview_id": "pelxC06W8U",
+  "pdf_sha256": "7a7eafda26d36b6946abc15f08b7e7bea1944598a75e5ab68d3fac6704ce0ccc",
+  "images": [
+    {
+      "name": "4c629b61daba2fa9531b7acaf8e25a9eecc4dda4c8df18132a0637b9413f47d0.jpg",
+      "sha256": "b8fbf025efb2e8b2770a26258c337b74d064f1869c21b80a87e26dcdfa532ea0"
+    }
+  ],
+  "tables": [
+    {
+      "name": "96e15b67fb7a90283b86c066077dfa631f82a3039d74f8a2df5fc65cc6aa39c1.jpg",
+      "sha256": "7a3e0c46fc9a82d0bdc62e52359ab2e71d64cdcc8bcb77ad90195a864011abb9"
+    }
+  ],
+  "equations_filtered": 68
+}

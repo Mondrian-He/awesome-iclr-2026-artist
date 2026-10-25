@@ -1,0 +1,13 @@
+{
+  "status": "complete",
+  "openreview_id": "rAjHUNXybH",
+  "pdf_sha256": "6da8cc26ba2dcdb49b11ae21d5bd79881fed21f246efd5299bfd7c411d73c301",
+  "images": [
+    {
+      "name": "593b208b5e34d86cff9f66055aac600c5aa9c84997154f185eaab8ae840ed806.jpg",
+      "sha256": "ccd9beb5d9138f450dd397145eba116865a32115ec4937cc12622437c5d1380c"
+    }
+  ],
+  "tables": [],
+  "equations_filtered": 278
+}
