@@ -1,0 +1,26 @@
+{
+  "status": "complete",
+  "openreview_id": "ziP9zetlLp",
+  "pdf_sha256": "ce61921c0aa9a37e088de8d903aa239a379bade24231b7e8c11ed9b708775b6e",
+  "images": [
+    {
+      "name": "db9a7f13bcca483118a7f0c049bfd55da452d33e663e5ed6517c571bb544ffba.jpg",
+      "sha256": "90adc0b4fd96f68baca67c5b56505c2afe30eb569da8e0340f0db7a31368c07c"
+    },
+    {
+      "name": "fc74ef049f281885a2bc714f36f691e6ecaa8f8edaa8532d3dcbda4b0a48dbac.jpg",
+      "sha256": "746869c0342d47589d49709f915f6fe8d4aaef9db99966612ffda4b719f7db44"
+    },
+    {
+      "name": "29d66ae73bd91728aaeefd678b79af390f2a766d1c45c1c340d7dcc21ee08455.jpg",
+      "sha256": "bff92285ab6c4e6929bcbdf2aeda6a19aa75a7394d1e695a62c32a030d2af27c"
+    }
+  ],
+  "tables": [
+    {
+      "name": "be82e02c4f3e499b50479fbd7f1b0fab6a922844444d676022e7d27ed50167bf.jpg",
+      "sha256": "c2346250e02fd2efd839c5a851f3a6f4a18ac8e56a5ee39df0f0a7b85d5d5b28"
+    }
+  ],
+  "equations_filtered": 7
+}

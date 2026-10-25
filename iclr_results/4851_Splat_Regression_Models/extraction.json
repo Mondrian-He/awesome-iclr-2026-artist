@@ -1,0 +1,34 @@
+{
+  "status": "complete",
+  "openreview_id": "rubeJmT1XM",
+  "pdf_sha256": "e2fa132ad9baec73e15c1f09e63fe9b02820afea9ee01324068244c6567871ef",
+  "images": [
+    {
+      "name": "65d1367ffad7d0d4a83cc6637cee6c5a52a6ae3a126b26bdc6948d452cf33d45.jpg",
+      "sha256": "5607e603a23b2380b940b55e755e07262869b23409fc43b2c1c0c79595cd4f8a"
+    },
+    {
+      "name": "e1e668bbd7963476587dcd3f18130afa2316cd16eff4e094529bda15eca31b16.jpg",
+      "sha256": "1b136bf55930cf3236b65e0c2d0dee081f43b687bd5cf6c3948f91d678ecfee4"
+    },
+    {
+      "name": "a604fc2ad5380e874ee80cc6c881af33f0edf18ef2d8088e39621c50fd696b50.jpg",
+      "sha256": "cccd47b032d3af60af038a134d8412d5fca4a1b14ea51e0b5b9a6a7f557f39d8"
+    },
+    {
+      "name": "9ce7c9d864d354c3bb30c92da4a14ee05aaadc706a0b7baf117f5f51b34c2fc8.jpg",
+      "sha256": "6ac4187388c36071037e5cc426c6916922d365155586ff9b129ceccd848d3ebe"
+    },
+    {
+      "name": "e04077c4ed044fa60add0e0f955d67f772e27cfc167716a43d2fd0624ba13104.jpg",
+      "sha256": "5d9baedaaef6ca6b634e022d49cfbb5fbcac97c2610a8facd7ca12021b4735fe"
+    }
+  ],
+  "tables": [
+    {
+      "name": "e3f2a7224ec62d3a938e12bd41a6e49aa19cd4af63b4064e66690458b0f14f09.jpg",
+      "sha256": "e5e044894abfb67674cb33d2baf710fe10960a58bc2f1dd018aa687edfebb8ab"
+    }
+  ],
+  "equations_filtered": 79
+}
