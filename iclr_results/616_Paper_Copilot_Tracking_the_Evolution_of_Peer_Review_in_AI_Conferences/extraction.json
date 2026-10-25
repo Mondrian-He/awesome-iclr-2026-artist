@@ -1,0 +1,21 @@
+{
+  "status": "complete",
+  "openreview_id": "CyKVrhNABo",
+  "pdf_sha256": "005204af6fe6014da913f2f224700ed397fb3ef6b35a838301677061ef0690be",
+  "images": [
+    {
+      "name": "09832c565e98296c0a6b146c73966634741220344962d008052af0edb1d1129e.jpg",
+      "sha256": "b516a9df46ab419348c8ff0b0a87a13e433b0773fee3ed459ac10181ec361045"
+    },
+    {
+      "name": "3ca2fd0f6daa85188e699c9bce08e1cb962deae192b597b49efdc480c3839e01.jpg",
+      "sha256": "8094e2ffc4a0b87a81518017dcc40fef3c1a9ffac32717604e213045d33bc777"
+    },
+    {
+      "name": "0f4422b15d3593ec7b21753822d7ca79201b266f7964cb926d856653865a5036.jpg",
+      "sha256": "fa07dc07708432bb6e43e989324c39265c706200620d1b65f55e6e70518baf54"
+    }
+  ],
+  "tables": [],
+  "equations_filtered": 4
+}
