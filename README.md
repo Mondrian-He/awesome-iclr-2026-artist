@@ -10,9 +10,17 @@
 
 > [!NOTE]
 >
-> This repository collects framework diagrams, experimental figures, and tables from ICLR 2026 main conference papers to study their visual presentation techniques. The accepted-paper list contains **5351 papers**, organized as **Oral → Spotlight → Poster**. Visual extraction is complete for **5347 papers**; **4 papers remain pending**. To keep the visual collection browsable, it is split into **199 Markdown parts**, with approximately 27 papers per part. Hope we can make progress together! 😁
+> This repository collects framework diagrams, experimental figures, and tables from ICLR 2026 main conference papers to study their visual presentation techniques. The accepted-paper list contains **5351 papers**, organized as **Oral → Poster (Regular)**. Visual extraction is complete for **5347 papers**; **4 papers remain pending**. To keep the visual collection browsable, it is split into **199 Markdown parts**, with approximately 27 papers per part. Hope we can make progress together! 😁
 
 ---
+
+> [!IMPORTANT]
+>
+> **Papers 1 to 224 are Oral.**  
+> **Papers 225 to 5351 are Poster (Regular).**  
+> **No papers are labeled Spotlight in the current OpenReview metadata.**
+>
+> Paper numbers refer to the index below.
 
 ## 📚 Complete Paper Index
 
