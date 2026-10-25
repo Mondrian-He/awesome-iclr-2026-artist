@@ -1,0 +1,21 @@
+{
+  "status": "complete",
+  "openreview_id": "ucM3915OxX",
+  "pdf_sha256": "c9449018712c29819168918eaf4e2df8812a0a560db10fa8e49b56b2eb87949e",
+  "images": [
+    {
+      "name": "bcb86b0837f6495c26052c5fda76a4c4fd390dd73c11002d46e1297c6ff88a30.jpg",
+      "sha256": "d63f74e212babdd9d2b9f1b305066c83492f4d383aaba91fe5358eeeb6b156c0"
+    },
+    {
+      "name": "0e85c0b12ddd27f2cde3807317d3bc7b7d1313745f6c6f735d4c75860e5fcc57.jpg",
+      "sha256": "8ab52d902752a919b6acb1f48348dcd30404418c9a6b9d73f822e7d8f7ff0b67"
+    },
+    {
+      "name": "18bdd0c399ac9504372f3b4b2e6b00bb6b1c1a26fbc02bb0c45aea7566a5f0ef.jpg",
+      "sha256": "9cf1092b74baeedf493529161132cd5476656ae9b1381c902bfabf0441b604c1"
+    }
+  ],
+  "tables": [],
+  "equations_filtered": 13
+}
