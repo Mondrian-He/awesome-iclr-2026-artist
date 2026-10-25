@@ -1,0 +1,46 @@
+{
+  "status": "complete",
+  "openreview_id": "GVOLiaENgU",
+  "pdf_sha256": "f61e0e38d164ac1ae4fc9435572f13caf1105334226520ad261be9305beaab0a",
+  "images": [
+    {
+      "name": "eae7eecae8e42081a0320a472cb1442324aaacd3b54bd88ca9bf18e251b33f45.jpg",
+      "sha256": "edcb670c6b793b19c8a1a93bad2e88126ac1a05f9a4683801f4465dd2f5a01c9"
+    },
+    {
+      "name": "2b1ca8abe6590b5d27031a8d78dfd5836aa69daebdcb47b9e76c77d8afbd1853.jpg",
+      "sha256": "fb183a1861cca5b4235992b0b1019f81460335a5a97622a396f3a468a330b0cf"
+    },
+    {
+      "name": "cd849b3962a374cb43703207d1ae10444d3c71f53f9b3caf8657125eb8ced67e.jpg",
+      "sha256": "7cb6feb2b9f95a27e4ff68361c241b4bed0a4ecc287e985d6e9355877a08dadf"
+    },
+    {
+      "name": "206a4451df40365f22f42c7320fc573e04e8bfdd0c4d2681dbc75fd1c67570ef.jpg",
+      "sha256": "fe7728c2daaf83a6edd26d242e0d3f4ee10ebf0412458c5c2dde6b77aa576de2"
+    },
+    {
+      "name": "5b2fa21adbe6ebcd689e0976a9a7827dcd6415c18e441181f46d27645c49bf90.jpg",
+      "sha256": "c146a8e0eb7dc1d3129eb54b4d7cea877a164c44836636740921f63022a11763"
+    }
+  ],
+  "tables": [
+    {
+      "name": "38666750cd4cd25526b463b841043fe89e8e9637860ae386a5286bb81cf65956.jpg",
+      "sha256": "9a2a7a25c800a44629981d468f63644549b58e6507b360d9b2605e5c8d5386c4"
+    },
+    {
+      "name": "df68bbc4f6ab3286a60ae9e2f2eb79042fbf92d21824860e8a66f4b29c348085.jpg",
+      "sha256": "bcc16aa96cf50ad709a2d7d50e0eb391042280b9c75c36cb9dbedb48913e2785"
+    },
+    {
+      "name": "24a8846a1bda12c9364e1bd3fdc8617db388bca5b491ac82fb7049e67829551e.jpg",
+      "sha256": "c40824115aa4379a923d5df0442780d1cc6ac9d1b1ff0ed2321f2826a87e2ef0"
+    },
+    {
+      "name": "30e960b7b79877b93dd4729d12e827926e22e14c40b0307722685dc7a1e699a9.jpg",
+      "sha256": "b733a94b1274cd3fe545445ab1ddd51fdafe1d8369d8ff098e23ec3c7d997cae"
+    }
+  ],
+  "equations_filtered": 19
+}
