@@ -1,0 +1,13 @@
+{
+  "status": "complete",
+  "openreview_id": "MpYSoTK65s",
+  "pdf_sha256": "3e85bc6a08e57000b327f90ca10ea9bc184af703e7a9856f548329886d119230",
+  "images": [
+    {
+      "name": "d23fcdac438fb87ecdc05a82339dd599c0566249e8646e5b6119af76de4771fc.jpg",
+      "sha256": "84989370fd26373f77dcf7283797914db6c69433c99bb4e2bd75b50591e696a1"
+    }
+  ],
+  "tables": [],
+  "equations_filtered": 34
+}
