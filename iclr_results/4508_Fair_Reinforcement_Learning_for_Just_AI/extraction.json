@@ -1,0 +1,18 @@
+{
+  "status": "complete",
+  "openreview_id": "XNNDODynCl",
+  "pdf_sha256": "506acd63a5081a7e3f005c48fadcfbbee91be0b0381f98d83bd328d61b8daba4",
+  "images": [
+    {
+      "name": "55f36ad49856121c6b0a8cf85e197de216f542428e79af8a03c9066d86a84615.jpg",
+      "sha256": "6840361d318d4d896ceec8edd639aa9ca9ac556368f5fc227ba2102e68b77b47"
+    }
+  ],
+  "tables": [
+    {
+      "name": "327b74ea215b402dc088b2707b817785efd72344838817c4915bee64a58fbcd2.jpg",
+      "sha256": "0c68f7b328d04fcc8b4560fd7c4894b83d450e32a5cd61ca45b719f2bb98c2bd"
+    }
+  ],
+  "equations_filtered": 14
+}

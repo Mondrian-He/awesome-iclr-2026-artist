@@ -1,0 +1,17 @@
+{
+  "status": "complete",
+  "openreview_id": "PSmakC4sw5",
+  "pdf_sha256": "b9abbc0675712360d4a1e821cf88a374430d93d5908afd577cb003603ab9580b",
+  "images": [
+    {
+      "name": "518b60b31faf9b5566469388abe0a31dfe20311acc6c3bdd340d3698520eabd4.jpg",
+      "sha256": "0878632b49819a4df8c056d34bfe0398b43dfdaa7c4e925c3d3702d48ba64838"
+    },
+    {
+      "name": "a061c4cf1e9607d2f8a5b0a4095b30c50af0d963823ca4cb91ef5b71f14953da.jpg",
+      "sha256": "6b430d2c07fadee60eaed8292edaf35602b15d69b4bbdbd95d3ac4ab86027793"
+    }
+  ],
+  "tables": [],
+  "equations_filtered": 156
+}

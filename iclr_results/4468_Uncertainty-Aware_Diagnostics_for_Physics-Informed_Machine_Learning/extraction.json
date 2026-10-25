@@ -1,0 +1,25 @@
+{
+  "status": "complete",
+  "openreview_id": "7PORoDlSS4",
+  "pdf_sha256": "2fff639fe754584d06c8ccceb910935a55acf66dc19682c1d8a121199efe0f97",
+  "images": [
+    {
+      "name": "2cc2c61b60d08d1fa89eb78c96ef81180ffcca922a3e7b0c5f9b6df0f4f52601.jpg",
+      "sha256": "a39a7696f90c6b0b1068a37e8ca7e54e36361ecc6404d4a01d4268f41671ee17"
+    },
+    {
+      "name": "26dbc192d8ea0ec9e59bc85a3fb2b53fe24dd80aca15c07828dbec8c2f0b2509.jpg",
+      "sha256": "716292af5a9790194918c227c7953ea72353e1f0dfe8210e9cd8af3ecb30e3be"
+    },
+    {
+      "name": "e6e88ac239ee5c6e51c9be70ef0f9831cda8f2aeba4fdeb95e9804554f73288a.jpg",
+      "sha256": "1dac5b5ea51a9879d215a5e61e9f3010bd2d96bbf13c86ccd1e7cbad062d0ef3"
+    },
+    {
+      "name": "ec9c3453ef800ef23cab659d93d12a806e02c19b1d6408052ca2d4bae95240c2.jpg",
+      "sha256": "f414207a308cf4bfe3e18add59c56af3392cc6403dfe93700f06027ba951ebe6"
+    }
+  ],
+  "tables": [],
+  "equations_filtered": 46
+}
