@@ -1,0 +1,38 @@
+{
+  "status": "complete",
+  "openreview_id": "Vit5M0G5Gb",
+  "pdf_sha256": "88d1808c3ecc9db766099bb400066df27c7f64a9b3635b81c966655794428d75",
+  "images": [
+    {
+      "name": "f3e28ee716ab25b4d0e8827e8b66ac35adcf82dbf519056b11dc3f78993c6b70.jpg",
+      "sha256": "7cbb497048563c5e595bd9560cbf8a81e4bace6d6a3eb1b473a2a67bc3e5c47c"
+    },
+    {
+      "name": "fbaf03b192adb78fd991dbe4571e25aa92f3d4190a2c994715729f1c42df4630.jpg",
+      "sha256": "fb0f5c08fd7d00e8ce397dce1b0bfc48e098ef28844f6c6a06553813d0bc7dd0"
+    },
+    {
+      "name": "caacd1d4f8caa1ec67ad2dcef4ce283144c6edf5f87963f5e144892849bb3ba9.jpg",
+      "sha256": "89f5f72f39bcdb24fbdea7992f219e2797720dd48b56b8d09125f7f9303348c5"
+    },
+    {
+      "name": "9330c0a256c06dd18da34c9c25cb771ff581ed1f03f7607e738983313c54db3f.jpg",
+      "sha256": "f12fe0a255098840a7b1747cb360a0fb3786c988bceb5bb11fda95d89026b6fe"
+    },
+    {
+      "name": "e0f231ef2deb34cfddd5e416149d93426c75dc11c21c61c1b1e8a66fd17d5b8d.jpg",
+      "sha256": "d9705001ddf8ed2895520018b620389253f264b5f3984e60b6349bc2469264c5"
+    },
+    {
+      "name": "c7f633ef7485ade0be4ebe8e6e17888351aee81bf9de18cf3af86673435bda4c.jpg",
+      "sha256": "504046e2ba2349548372e89aa62c305323de461708fd6c0d9d04e9cbcd9d8a93"
+    }
+  ],
+  "tables": [
+    {
+      "name": "074d0a2a00a3284554d8af8a42b9165884994383cf6ceccf1ab9112e81b114a9.jpg",
+      "sha256": "106f1b0e822d8fa3368c020c6fd819bb3072aee6bc94e63083a0e199fb42bd99"
+    }
+  ],
+  "equations_filtered": 112
+}

@@ -1,0 +1,46 @@
+{
+  "status": "complete",
+  "openreview_id": "Hude2v2AEX",
+  "pdf_sha256": "fc604c321cc9cd3c99d585bf6c619766fae9c258c0edfcc24f22ed230913ee2f",
+  "images": [
+    {
+      "name": "f91ce8410810a9d9fa59bffc9525e116eb9998de89796170ddd4dabf0e384f15.jpg",
+      "sha256": "d8831dde0f7efcd57c68b717e69885600bf9fceb1a9deb97fa9fb672dfabe83c"
+    },
+    {
+      "name": "92bba52d316e90c2c9dae22c69f182edc2019e98923480df122580504599a3be.jpg",
+      "sha256": "b827c1b7779d12c52d2c718682c7facd3ba464869a11d31ec9adc34c425ec5e0"
+    },
+    {
+      "name": "16085871c17de8d55943971d479bb2b30014fed3662224803a97e1a2ace4bf4e.jpg",
+      "sha256": "566d239fb213267f1149005e4c78cb6e6c7ffe8569d3ae7bf71ce68ef3dd87ef"
+    }
+  ],
+  "tables": [
+    {
+      "name": "b3b74a349f551fbc576cde550dbd1670485e77a732b7f1309e37d86151683674.jpg",
+      "sha256": "bcd96c133312be4eda99a4c05ba0cbaded35e706be7b890c2457a74146cfc83e"
+    },
+    {
+      "name": "58087aae3db89268a6bfe5b5dc71fc32bfe531bfbb5acc8293df7efb0582b06c.jpg",
+      "sha256": "456cfe6df3ed58c244bd6cc10b343e54c12972896e618d7e086928726934b123"
+    },
+    {
+      "name": "0b3bda4af94d3cc5117602fbed3f5390dec8733435b8c829686bc2a5f9b0b052.jpg",
+      "sha256": "bd92dae4ef88f1a74a12ed2e124f8ae2aa41b83d95e1b06cd3ac0917bfd6e576"
+    },
+    {
+      "name": "69f7dee93dbea9861daec4c10ed32934ab349032ba4ebd27ff08775b499b77b4.jpg",
+      "sha256": "eb9e3b2e3a14805d474d33a89a452d11e47e3cb58e84ae76fc40c31797b6c2dd"
+    },
+    {
+      "name": "4f705f088a52425dcd754b55cf82a172fcc81412fc02db532b09bbfc8e212465.jpg",
+      "sha256": "6b005578101dc302fdd815c51fdde325f61695da2280ead0d7afa7a9f49b0669"
+    },
+    {
+      "name": "69f81a5b980ec35cc44cbacaf79e46f017b3b312c2080c0a5b9922f42db99b3f.jpg",
+      "sha256": "88377635c7f211919c8467a17cbdda8d64d167335b8a9cbb189058455b55c97e"
+    }
+  ],
+  "equations_filtered": 64
+}
